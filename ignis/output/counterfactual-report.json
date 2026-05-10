@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.329Z",
+  "project": "call-of-doodie",
+  "summary": "Graded 3 top action(s) across do/delay/opposite scenarios — 3 do · 0 delay · 0 opposite.",
+  "gradings": [
+    {
+      "actionId": "synth-feedback-policy",
+      "actionTitle": "Feed founder feedback directly into ranking and escalation policy",
+      "recommended": "do",
+      "branches": [
+        {
+          "label": "do",
+          "expectedDirection": "up",
+          "score": 1,
+          "rationale": "expected upside 89% at 97% confidence, evidence depth 78%, regret risk 12%, historical do-now 50%",
+          "regretRisk": 0.12,
+          "confidence": 0.855
+        },
+        {
+          "label": "delay",
+          "expectedDirection": "down",
+          "score": 0.25,
+          "rationale": "urgency 88% (cost of delay is high), no open contradictions against this action, historical delay 50%",
+          "regretRisk": 0.054,
+          "confidence": 0.752
+        },
+        {
+          "label": "opposite",
+          "expectedDirection": "down",
+          "score": 0,
+          "rationale": "evidence depth 78% and hit rate 100% favor the default action; historical opposite 50%",
+          "regretRisk": 0.94,
+          "confidence": 0.2
+        }
+      ],
+      "verdict": "Execute now — expected upside 89% at 97% confidence, evidence depth 78%, regret risk 12%, historical do-now 50% (75% margin over best alternative). Historical prior: do 50% · delay 50% · opposite 50%."
+    },
+    {
+      "actionId": "synth-allocation-engine",
+      "actionTitle": "Turn leverage modeling into a regime-aware studio allocation engine",
+      "recommended": "do",
+      "branches": [
+        {
+          "label": "do",
+          "expectedDirection": "up",
+          "score": 0.966,
+          "rationale": "expected upside 84% at 89% confidence, evidence depth 74%, regret risk 9%, historical do-now 50%",
+          "regretRisk": 0.09,
+          "confidence": 0.79
+        },
+        {
+          "label": "delay",
+          "expectedDirection": "down",
+          "score": 0.316,
+          "rationale": "urgency 74% (cost of delay is high), no open contradictions against this action, historical delay 50%",
+          "regretRisk": 0.041,
+          "confidence": 0.69
+        },
+        {
+          "label": "opposite",
+          "expectedDirection": "down",
+          "score": 0,
+          "rationale": "evidence depth 74% and hit rate 100% favor the default action; historical opposite 50%",
+          "regretRisk": 0.955,
+          "confidence": 0.2
+        }
+      ],
+      "verdict": "Execute now — expected upside 84% at 89% confidence, evidence depth 74%, regret risk 9%, historical do-now 50% (65% margin over best alternative). Historical prior: do 50% · delay 50% · opposite 50%."
+    },
+    {
+      "actionId": "synth-operator-inheritance",
+      "actionTitle": "Push dashboard and hub summaries onto the operator rendering spine",
+      "recommended": "do",
+      "branches": [
+        {
+          "label": "do",
+          "expectedDirection": "up",
+          "score": 0.98,
+          "rationale": "expected upside 80% at 94% confidence, evidence depth 76%, regret risk 7%, historical do-now 50%",
+          "regretRisk": 0.07,
+          "confidence": 0.836
+        },
+        {
+          "label": "delay",
+          "expectedDirection": "down",
+          "score": 0.29,
+          "rationale": "urgency 75% (cost of delay is high), no open contradictions against this action, historical delay 50%",
+          "regretRisk": 0.032,
+          "confidence": 0.735
+        },
+        {
+          "label": "opposite",
+          "expectedDirection": "down",
+          "score": 0,
+          "rationale": "evidence depth 76% and hit rate 100% favor the default action; historical opposite 50%",
+          "regretRisk": 0.965,
+          "confidence": 0.2
+        }
+      ],
+      "verdict": "Execute now — expected upside 80% at 94% confidence, evidence depth 76%, regret risk 7%, historical do-now 50% (69% margin over best alternative). Historical prior: do 50% · delay 50% · opposite 50%."
+    }
+  ],
+  "headline": "Counterfactual verdict on top action: DO — Execute now — expected upside 89% at 97% confidence, evidence depth 78%, regret risk 12%, historical do-now 50% (75% margin over best alternative). Historical prior: do 50% · delay 50% · opposite 50%."
+}

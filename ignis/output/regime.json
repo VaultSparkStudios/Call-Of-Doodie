@@ -1,0 +1,12 @@
+{
+  "id": "post-launch",
+  "label": "Post-Launch",
+  "confidence": 0.72,
+  "rationale": "call-of-doodie is showing live/deploy signals, so the operating priority shifts toward signal quality and follow-through.",
+  "cues": [
+    "trend 3977/cycle",
+    "volatility 7109",
+    "coverage 65%",
+    "1 contradiction(s)"
+  ]
+}

@@ -143,5 +143,34 @@
       "curiosity": 0.5,
       "satisfaction": 0.5
     }
+  },
+  {
+    "timestamp": "2026-04-25T22:03:23.018Z",
+    "session": 6,
+    "iqScore": 48422,
+    "tier": "FORGE",
+    "pillarScores": {
+      "perception": 5503.2,
+      "trajectory": 3955.14,
+      "execution": 4431.55,
+      "vitality": 6186.62,
+      "synthesis": 4065.54,
+      "cognition": 4876.06,
+      "foresight": 4406.62,
+      "creativity": 3288.82,
+      "expression": 4917.94,
+      "potential": 5373.32
+    },
+    "emotionalState": {
+      "burnout": 0,
+      "excitement": 0,
+      "frustration": 0,
+      "stagnation": 0,
+      "momentum": 0.9999999992996913,
+      "anxiety": 0,
+      "confidence": 0.5,
+      "curiosity": 0.5,
+      "satisfaction": 0.5
+    }
   }
 ]

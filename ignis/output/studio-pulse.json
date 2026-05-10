@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.383Z",
+  "project": "call-of-doodie",
+  "portfolioHealthScore": 0.8875,
+  "totalProjects": 28,
+  "projectsAtRisk": [
+    "vaultspark-studio-hub",
+    "mindframe"
+  ],
+  "contagionRiskLevel": "low",
+  "avgSilScore": 639.9,
+  "studioAwarenessNote": "Portfolio health: 89% across 28 projects. 2 project(s) are carrying blockers. Truth conflicts: status local=active registry=live.",
+  "healthDistribution": {
+    "green": 6,
+    "yellow": 2
+  },
+  "contagionTargets": [
+    "voidfall",
+    "voidfall-companion"
+  ]
+}

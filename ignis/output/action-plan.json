@@ -1,0 +1,885 @@
+{
+  "plan": {
+    "generatedAt": "2026-04-25T22:03:23.321Z",
+    "project": "call-of-doodie",
+    "topActions": [
+      {
+        "id": "synth-feedback-policy",
+        "title": "Feed founder feedback directly into ranking and escalation policy",
+        "category": "feedback",
+        "rationale": "Founder feedback now carries 37.5% linkage and 38% escalation pressure; ranking should respond to that behavior directly.",
+        "expectedUpside": 0.89,
+        "confidence": 0.966,
+        "effort": 0.32,
+        "reversibility": 0.95,
+        "urgency": 0.88,
+        "unblockPotential": 0.86,
+        "firstStep": "Map explicit approve/defer/reject/edit feedback signals into recommendation weighting and queue escalation posture.",
+        "successMetric": "Top actions and approval pressure adapt to founder behavior instead of just reporting it.",
+        "relatedPillars": [
+          "execution",
+          "cognition",
+          "expression"
+        ],
+        "evidenceRefs": [
+          "ignis/output/founder-feedback.json"
+        ],
+        "blockers": [],
+        "regimeFit": "all",
+        "evidenceDepth": 0.78,
+        "expectedValue": 0.84,
+        "regretRisk": 0.12,
+        "uncertainty": 0.15501500772997748,
+        "score": 0.965,
+        "evidenceProvenance": [
+          {
+            "ref": "ignis/output/founder-feedback.json",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          }
+        ],
+        "skepticReview": {
+          "counterargument": "This action is well-supported but high-stakes. Confirm that the first step (\"Map explicit approve/defer/reject/edit feedback signals into recommendation weig...\") is achievable with current resources before approving.",
+          "assumptions": [
+            "Core assumptions appear well-grounded given current evidence depth and uncertainty."
+          ],
+          "preConditions": [
+            "Verify success metric: \"Top actions and approval pressure adapt to founder behavior instead of just reporting it.\" is measurable before proceeding."
+          ],
+          "confidenceCap": 0.85,
+          "adversaryFindings": [
+            {
+              "kind": "stale-evidence",
+              "severity": "high",
+              "summary": "Supporting evidence averages 0% freshness. A refresh may overturn the recommendation."
+            },
+            {
+              "kind": "overfitting",
+              "severity": "high",
+              "summary": "Only 0 evidence node(s) back this recommendation across 1 ref(s); a single new contradicting signal could flip the ranking."
+            }
+          ]
+        },
+        "experimentContract": {
+          "interventionId": "candidate:synth-feedback-policy",
+          "horizon": "short",
+          "expectedDirection": "up",
+          "expectedMetric": "Top actions and approval pressure adapt to founder behavior instead of just reporting it.",
+          "status": "open",
+          "completeness": 0.4
+        }
+      },
+      {
+        "id": "synth-allocation-engine",
+        "title": "Turn leverage modeling into a regime-aware studio allocation engine",
+        "category": "strategy",
+        "rationale": "Leverage scoring is useful, but studio-wide decisions require a recommended split of founder, engineering, and creative attention tied to regime and dependency pressure.",
+        "expectedUpside": 0.84,
+        "confidence": 0.886,
+        "effort": 0.34,
+        "reversibility": 0.94,
+        "urgency": 0.74,
+        "unblockPotential": 0.8,
+        "firstStep": "Attach explicit founder/engineering/creative allocation recommendations to the top leverage targets and summarize the best current studio-wide allocation move.",
+        "successMetric": "Portfolio leverage outputs name both the project and the recommended time split for acting on it.",
+        "relatedPillars": [
+          "trajectory",
+          "execution",
+          "potential"
+        ],
+        "evidenceRefs": [
+          "portfolio-leverage",
+          "regime"
+        ],
+        "blockers": [],
+        "regimeFit": "all",
+        "evidenceDepth": 0.74,
+        "expectedValue": 0.78,
+        "regretRisk": 0.09,
+        "uncertainty": 0.16830200839254697,
+        "score": 0.902,
+        "evidenceProvenance": [
+          {
+            "ref": "portfolio-leverage",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          },
+          {
+            "ref": "regime",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          }
+        ],
+        "experimentContract": {
+          "interventionId": "candidate:synth-allocation-engine",
+          "horizon": "short",
+          "expectedDirection": "up",
+          "expectedMetric": "Portfolio leverage outputs name both the project and the recommended time split for acting on it.",
+          "status": "open",
+          "completeness": 0.4
+        }
+      },
+      {
+        "id": "synth-operator-inheritance",
+        "title": "Push dashboard and hub summaries onto the operator rendering spine",
+        "category": "platform",
+        "rationale": "Startup already inherits operator posture; dashboard and hub views should stop maintaining parallel summary logic before drift reappears.",
+        "expectedUpside": 0.8,
+        "confidence": 0.943,
+        "effort": 0.24,
+        "reversibility": 0.97,
+        "urgency": 0.75,
+        "unblockPotential": 0.73,
+        "firstStep": "Route dashboard and hub-facing summaries through the operator command center so posture, trust movement, and unlock status share one runtime source.",
+        "successMetric": "Dashboard, startup, founder, and hub-facing outputs all describe the same evidence gaps, trust shifts, and unlock posture.",
+        "relatedPillars": [
+          "expression",
+          "execution",
+          "synthesis"
+        ],
+        "evidenceRefs": [
+          "operator-command-center",
+          "docs/STARTUP_BRIEF.md"
+        ],
+        "blockers": [],
+        "regimeFit": "all",
+        "evidenceDepth": 0.76,
+        "expectedValue": 0.77,
+        "regretRisk": 0.07,
+        "uncertainty": 0.1660875082821187,
+        "score": 0.895,
+        "evidenceProvenance": [
+          {
+            "ref": "operator-command-center",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          },
+          {
+            "ref": "docs/STARTUP_BRIEF.md",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          }
+        ],
+        "skepticReview": {
+          "counterargument": "This action is well-supported but high-stakes. Confirm that the first step (\"Route dashboard and hub-facing summaries through the operator command center so ...\") is achievable with current resources before approving.",
+          "assumptions": [
+            "Core assumptions appear well-grounded given current evidence depth and uncertainty."
+          ],
+          "preConditions": [
+            "Verify success metric: \"Dashboard, startup, founder, and hub-facing outputs all describe the same evidence gaps, trust shifts, and unlock posture.\" is measurable before proceeding."
+          ],
+          "confidenceCap": 0.85,
+          "adversaryFindings": [
+            {
+              "kind": "stale-evidence",
+              "severity": "high",
+              "summary": "Supporting evidence averages 0% freshness. A refresh may overturn the recommendation."
+            },
+            {
+              "kind": "overfitting",
+              "severity": "high",
+              "summary": "Only 0 evidence node(s) back this recommendation across 2 ref(s); a single new contradicting signal could flip the ranking."
+            }
+          ]
+        },
+        "experimentContract": {
+          "interventionId": "candidate:synth-operator-inheritance",
+          "horizon": "short",
+          "expectedDirection": "up",
+          "expectedMetric": "Dashboard, startup, founder, and hub-facing outputs all describe the same evidence gaps, trust shifts, and unlock posture.",
+          "status": "open",
+          "completeness": 0.4
+        }
+      },
+      {
+        "id": "synth-evidence-provenance",
+        "title": "Expand evidence provenance and contradiction tracing",
+        "category": "data",
+        "rationale": "Evidence density is 3.55 with 0% stale nodes; provenance and contradiction edges should drive trust explicitly.",
+        "expectedUpside": 0.89,
+        "confidence": 0.92,
+        "effort": 0.48,
+        "reversibility": 0.92,
+        "urgency": 0.9,
+        "unblockPotential": 0.84,
+        "firstStep": "Persist provenance metadata, contradiction edges, and citation-like source links in the evidence graph.",
+        "successMetric": "Every major recommendation can show evidence depth, freshness, and contradiction pressure.",
+        "relatedPillars": [
+          "perception",
+          "synthesis",
+          "cognition"
+        ],
+        "evidenceRefs": [
+          "event:*",
+          "prediction:*"
+        ],
+        "blockers": [],
+        "regimeFit": "post-launch",
+        "evidenceDepth": 0.81,
+        "expectedValue": 0.76,
+        "regretRisk": 0.18,
+        "uncertainty": 0.15501500772997748,
+        "score": 0.894,
+        "evidenceProvenance": [
+          {
+            "ref": "event:*",
+            "matchedNodeIds": [
+              "event:social-dashboard-call-of-doodie-5dfa3e023f2e129f",
+              "event:studio-hub-call-of-doodie-d2c15a448d902b00",
+              "event:pr-reviews-call-of-doodie-8ad583fdd27d1edc",
+              "event:founder-approvals-call-of-doodie-e21cb621e065def7",
+              "event:revenue-call-of-doodie-f13892bc897f8fad",
+              "event:incidents-call-of-doodie-3cda17d778385651"
+            ],
+            "adapters": [
+              "social-dashboard",
+              "studio-hub",
+              "pr-reviews",
+              "founder-approvals",
+              "revenue",
+              "incidents",
+              "analytics",
+              "deploys",
+              "nerve-canon",
+              "nerve-docs",
+              "nerve-tasks",
+              "nerve-ci"
+            ],
+            "avgFreshness": 1,
+            "avgConfidence": 0.763,
+            "latestTimestamp": "2026-04-25T22:03:23.017Z",
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          },
+          {
+            "ref": "prediction:*",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          }
+        ],
+        "experimentContract": {
+          "interventionId": "candidate:synth-evidence-provenance",
+          "horizon": "short",
+          "expectedDirection": "up",
+          "expectedMetric": "Every major recommendation can show evidence depth, freshness, and contradiction pressure.",
+          "status": "open",
+          "completeness": 0.4
+        }
+      },
+      {
+        "id": "synth-feed-validator",
+        "title": "Harden shared external feed validation",
+        "category": "data",
+        "rationale": "The external feed seam now carries decision-grade adapters, so manifest-level validation and downgrade rules need to be stricter than generic feed-valid/feed-invalid tagging.",
+        "expectedUpside": 0.9,
+        "confidence": 0.989,
+        "effort": 0.28,
+        "reversibility": 0.95,
+        "urgency": 0.88,
+        "unblockPotential": 0.91,
+        "firstStep": "Add adapter manifests, required-signal validation, and invalid-feed downgrade receipts for each high-risk external adapter.",
+        "successMetric": "Signal coverage receipts explain why an adapter is trusted, invalid, or still shadow-only instead of showing generic feed status only.",
+        "relatedPillars": [
+          "perception",
+          "execution",
+          "cognition"
+        ],
+        "evidenceRefs": [
+          "signal-coverage",
+          "ignis/input/*.json"
+        ],
+        "blockers": [],
+        "regimeFit": "all",
+        "evidenceDepth": 0.82,
+        "expectedValue": 0.86,
+        "regretRisk": 0.08,
+        "uncertainty": 0.13729900684655147,
+        "score": 0.886,
+        "evidenceProvenance": [
+          {
+            "ref": "signal-coverage",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          },
+          {
+            "ref": "ignis/input/*.json",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          }
+        ],
+        "experimentContract": {
+          "interventionId": "candidate:synth-feed-validator",
+          "baselineIq": 48422,
+          "baselineContradictionCount": 0,
+          "horizon": "short",
+          "expectedDirection": "up",
+          "expectedMetric": "Signal coverage receipts explain why an adapter is trusted, invalid, or still shadow-only instead of showing generic feed status only.",
+          "status": "open",
+          "completeness": 0.75
+        }
+      },
+      {
+        "id": "synth-outcome-ledger",
+        "title": "Deepen outcome learning and regret tracking",
+        "category": "feedback",
+        "rationale": "Recommendation quality should improve from measured results, not narrative confidence; hit rate is 100% and regret is 0.25.",
+        "expectedUpside": 0.91,
+        "confidence": 0.943,
+        "effort": 0.38,
+        "reversibility": 0.96,
+        "urgency": 0.82,
+        "unblockPotential": 0.9,
+        "firstStep": "Convert open hypotheses into intervention IDs with baselines, horizons, and later-session observations, then let regret directly demote weak strategies and actions.",
+        "successMetric": "Top actions show improving hit rate, stronger experiment coverage, and decreasing regret over time.",
+        "relatedPillars": [
+          "cognition",
+          "foresight",
+          "execution"
+        ],
+        "evidenceRefs": [
+          "ignis/output/outcome-ledger.json"
+        ],
+        "blockers": [],
+        "regimeFit": "all",
+        "evidenceDepth": 0.74,
+        "expectedValue": 0.83,
+        "regretRisk": 0.12,
+        "uncertainty": 0.17716000883425997,
+        "score": 0.882,
+        "evidenceProvenance": [
+          {
+            "ref": "ignis/output/outcome-ledger.json",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          }
+        ],
+        "experimentContract": {
+          "interventionId": "candidate:synth-outcome-ledger",
+          "horizon": "short",
+          "expectedDirection": "up",
+          "expectedMetric": "Top actions show improving hit rate, stronger experiment coverage, and decreasing regret over time.",
+          "status": "open",
+          "completeness": 0.4
+        }
+      },
+      {
+        "id": "synth-signal-connectors",
+        "title": "Increase external evidence connector coverage",
+        "category": "platform",
+        "rationale": "Coverage is 65%; higher autonomy is unjustified until external evidence replaces local proxies.",
+        "expectedUpside": 0.93,
+        "confidence": 0.966,
+        "effort": 0.5,
+        "reversibility": 0.9,
+        "urgency": 0.9,
+        "unblockPotential": 0.86,
+        "firstStep": "Add real GitHub/review/deploy/proposal/founder-override evidence sources and rank them by expected decision lift.",
+        "successMetric": "Signal coverage exceeds 90% and the top missing adapters are no longer core governance inputs.",
+        "relatedPillars": [
+          "perception",
+          "execution",
+          "potential"
+        ],
+        "evidenceRefs": [
+          "signal-coverage"
+        ],
+        "blockers": [],
+        "regimeFit": "pre-launch",
+        "evidenceDepth": 0.69,
+        "expectedValue": 0.85,
+        "regretRisk": 0.14,
+        "uncertainty": 0.1660875082821187,
+        "score": 0.861,
+        "evidenceProvenance": [
+          {
+            "ref": "signal-coverage",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          }
+        ],
+        "skepticReview": {
+          "counterargument": "This action is well-supported but high-stakes. Confirm that the first step (\"Add real GitHub/review/deploy/proposal/founder-override evidence sources and ran...\") is achievable with current resources before approving.",
+          "assumptions": [
+            "Assumes 69% evidence depth is sufficient to act; a deeper evidence pass may reverse this recommendation."
+          ],
+          "preConditions": [
+            "Significant effort (50%) required — confirm scope is achievable before approving.",
+            "Verify success metric: \"Signal coverage exceeds 90% and the top missing adapters are no longer core governance inputs.\" is measurable before proceeding."
+          ],
+          "confidenceCap": 0.85,
+          "adversaryFindings": [
+            {
+              "kind": "stale-evidence",
+              "severity": "high",
+              "summary": "Supporting evidence averages 0% freshness. A refresh may overturn the recommendation."
+            },
+            {
+              "kind": "overfitting",
+              "severity": "high",
+              "summary": "Only 0 evidence node(s) back this recommendation across 1 ref(s); a single new contradicting signal could flip the ranking."
+            }
+          ]
+        },
+        "experimentContract": {
+          "interventionId": "candidate:synth-signal-connectors",
+          "horizon": "short",
+          "expectedDirection": "up",
+          "expectedMetric": "Signal coverage exceeds 90% and the top missing adapters are no longer core governance inputs.",
+          "status": "open",
+          "completeness": 0.4
+        }
+      },
+      {
+        "id": "synth-counterfactual",
+        "title": "Grade top recommendations against do, delay, and opposite counterfactuals",
+        "category": "strategy",
+        "rationale": "Recommendation authority remains soft until IGNIS compares the selected path against plausible alternatives and resolves those differences over time.",
+        "expectedUpside": 0.86,
+        "confidence": 0.874,
+        "effort": 0.36,
+        "reversibility": 0.95,
+        "urgency": 0.72,
+        "unblockPotential": 0.68,
+        "firstStep": "Attach compact do/delay/opposite scenarios to the top actions so later outcomes can grade whether the chosen path was actually superior.",
+        "successMetric": "Top actions carry explicit alternative-path expectations that can be checked in later sessions.",
+        "relatedPillars": [
+          "foresight",
+          "cognition",
+          "execution"
+        ],
+        "evidenceRefs": [
+          "action-plan",
+          "outcome-ledger"
+        ],
+        "blockers": [],
+        "regimeFit": "all",
+        "evidenceDepth": 0.71,
+        "expectedValue": 0.79,
+        "regretRisk": 0.11,
+        "uncertainty": 0.17716000883425997,
+        "score": 0.859,
+        "evidenceProvenance": [
+          {
+            "ref": "action-plan",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          },
+          {
+            "ref": "outcome-ledger",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          }
+        ],
+        "experimentContract": {
+          "interventionId": "candidate:synth-counterfactual",
+          "horizon": "short",
+          "expectedDirection": "up",
+          "expectedMetric": "Top actions carry explicit alternative-path expectations that can be checked in later sessions.",
+          "status": "open",
+          "completeness": 0.4
+        }
+      },
+      {
+        "id": "synth-execution-unlock",
+        "title": "Replace global execution gating with adapter-specific unlock ladders",
+        "category": "platform",
+        "rationale": "Execution honesty improves when deploy, review, hub, and social adapters each expose their own blocked/shadow/dry-run/live-ready state instead of one global gate.",
+        "expectedUpside": 0.88,
+        "confidence": 0.943,
+        "effort": 0.31,
+        "reversibility": 0.95,
+        "urgency": 0.86,
+        "unblockPotential": 0.89,
+        "firstStep": "Compute unlock stage per high-risk adapter from trust, validation state, and source class; surface the next unlock condition everywhere.",
+        "successMetric": "Execution posture names which adapters are blocked, which are shadow-only, and which are ready for dry-run or live work.",
+        "relatedPillars": [
+          "execution",
+          "foresight",
+          "expression"
+        ],
+        "evidenceRefs": [
+          "execution-queue",
+          "signal-coverage"
+        ],
+        "blockers": [],
+        "regimeFit": "all",
+        "evidenceDepth": 0.8,
+        "expectedValue": 0.84,
+        "regretRisk": 0.1,
+        "uncertainty": 0.150586007509121,
+        "score": 0.85,
+        "evidenceProvenance": [
+          {
+            "ref": "execution-queue",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          },
+          {
+            "ref": "signal-coverage",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          }
+        ],
+        "skepticReview": {
+          "counterargument": "This action is well-supported but high-stakes. Confirm that the first step (\"Compute unlock stage per high-risk adapter from trust, validation state, and sou...\") is achievable with current resources before approving.",
+          "assumptions": [
+            "Core assumptions appear well-grounded given current evidence depth and uncertainty."
+          ],
+          "preConditions": [
+            "Verify success metric: \"Execution posture names which adapters are blocked, which are shadow-only, and which are ready for dry-run or live work.\" is measurable before proceeding."
+          ],
+          "confidenceCap": 0.85,
+          "adversaryFindings": [
+            {
+              "kind": "stale-evidence",
+              "severity": "high",
+              "summary": "Supporting evidence averages 0% freshness. A refresh may overturn the recommendation."
+            },
+            {
+              "kind": "overfitting",
+              "severity": "high",
+              "summary": "Only 0 evidence node(s) back this recommendation across 2 ref(s); a single new contradicting signal could flip the ranking."
+            }
+          ]
+        },
+        "experimentContract": {
+          "interventionId": "candidate:synth-execution-unlock",
+          "baselineIq": 48422,
+          "baselineContradictionCount": 0,
+          "horizon": "short",
+          "expectedDirection": "up",
+          "expectedMetric": "Execution posture names which adapters are blocked, which are shadow-only, and which are ready for dry-run or live work.",
+          "status": "open",
+          "completeness": 0.75
+        }
+      },
+      {
+        "id": "synth-gap-creativity",
+        "title": "Repair the weakest pillar: creativity",
+        "category": "execution",
+        "rationale": "The current bottleneck is creativity; a live plan should concentrate effort where score lift is most constrained.",
+        "expectedUpside": 0.9,
+        "confidence": 0.966,
+        "effort": 0.42,
+        "reversibility": 0.9,
+        "urgency": 0.87,
+        "unblockPotential": 0.82,
+        "firstStep": "Trace the lowest-confidence factors under creativity and convert them into explicit evidence-backed work items.",
+        "successMetric": "creativity improves without weakening the strongest pillar on the next two score cycles.",
+        "relatedPillars": [
+          "execution",
+          "trajectory",
+          "creativity"
+        ],
+        "evidenceRefs": [
+          "pillar:creativity"
+        ],
+        "blockers": [],
+        "regimeFit": "post-launch",
+        "evidenceDepth": 0.62,
+        "expectedValue": 0.79,
+        "regretRisk": 0.22,
+        "uncertainty": 0.22145001104282497,
+        "score": 0.847,
+        "evidenceProvenance": [
+          {
+            "ref": "pillar:creativity",
+            "matchedNodeIds": [
+              "pillar:creativity"
+            ],
+            "adapters": [],
+            "avgFreshness": 1,
+            "avgConfidence": 0.75,
+            "contradictionCount": 1,
+            "contradictionSeverity": 0
+          }
+        ],
+        "skepticReview": {
+          "counterargument": "Evidence depth is only 62%. The recommendation may be correct, but the supporting evidence is thin. A single contradicting data point could reverse the ranking.",
+          "assumptions": [
+            "Assumes 62% evidence depth is sufficient to act; a deeper evidence pass may reverse this recommendation."
+          ],
+          "preConditions": [
+            "Verify success metric: \"creativity improves without weakening the strongest pillar on the next two score cycles.\" is measurable before proceeding."
+          ],
+          "confidenceCap": 0.85,
+          "adversaryFindings": [
+            {
+              "kind": "overfitting",
+              "severity": "medium",
+              "summary": "Only 1 evidence node(s) back this recommendation across 1 ref(s); a single new contradicting signal could flip the ranking."
+            }
+          ]
+        },
+        "experimentContract": {
+          "interventionId": "candidate:synth-gap-creativity",
+          "horizon": "short",
+          "expectedDirection": "up",
+          "expectedMetric": "creativity improves without weakening the strongest pillar on the next two score cycles.",
+          "status": "open",
+          "completeness": 0.4
+        }
+      },
+      {
+        "id": "synth-personality-policy",
+        "title": "Evolve personality into an uncertainty-aware policy layer",
+        "category": "personality",
+        "rationale": "Personality should be earned from regime, evidence quality, and outcome learning instead of sounding dynamic while staying static underneath.",
+        "expectedUpside": 0.74,
+        "confidence": 0.92,
+        "effort": 0.33,
+        "reversibility": 0.94,
+        "urgency": 0.62,
+        "unblockPotential": 0.56,
+        "firstStep": "Let regime, contradiction pressure, and confidence budget directly control assertiveness and narrative mode.",
+        "successMetric": "Tone and certainty now move with evidence quality, hit rate, and contradiction load.",
+        "relatedPillars": [
+          "expression",
+          "cognition",
+          "vitality"
+        ],
+        "evidenceRefs": [
+          "dynamic-personality"
+        ],
+        "blockers": [],
+        "regimeFit": "all",
+        "evidenceDepth": 0.58,
+        "expectedValue": 0.63,
+        "regretRisk": 0.11,
+        "uncertainty": 0.19930500993854247,
+        "score": 0.776,
+        "evidenceProvenance": [
+          {
+            "ref": "dynamic-personality",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          }
+        ],
+        "experimentContract": {
+          "interventionId": "candidate:synth-personality-policy",
+          "horizon": "medium",
+          "expectedDirection": "up",
+          "expectedMetric": "Tone and certainty now move with evidence quality, hit rate, and contradiction load.",
+          "status": "open",
+          "completeness": 0.4
+        }
+      },
+      {
+        "id": "synth-dynamic-execution",
+        "title": "Upgrade execution from canned queue to dynamic plan execution",
+        "category": "platform",
+        "rationale": "The winning strategy is growth-max; execution should operate on the live top actions rather than a fixed queue.",
+        "expectedUpside": 0.86,
+        "confidence": 0.886,
+        "effort": 0.52,
+        "reversibility": 0.83,
+        "urgency": 0.78,
+        "unblockPotential": 0.88,
+        "firstStep": "Generate guarded actions from the current action plan, including command hints, rollback notes, and verification criteria.",
+        "successMetric": "Queue items correspond to live top actions and record observed outcomes after execution.",
+        "relatedPillars": [
+          "execution",
+          "expression",
+          "potential"
+        ],
+        "evidenceRefs": [
+          "Ship action intelligence and write-capable MCP tools",
+          "Push cross-project contagion modeling"
+        ],
+        "blockers": [],
+        "regimeFit": "post-launch",
+        "evidenceDepth": 0.66,
+        "expectedValue": 0.74,
+        "regretRisk": 0.28,
+        "uncertainty": 0.22145001104282497,
+        "score": 0.765,
+        "evidenceProvenance": [
+          {
+            "ref": "Ship action intelligence and write-capable MCP tools",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          },
+          {
+            "ref": "Push cross-project contagion modeling",
+            "matchedNodeIds": [],
+            "adapters": [],
+            "avgFreshness": 0,
+            "avgConfidence": 0,
+            "contradictionCount": 0,
+            "contradictionSeverity": 0
+          }
+        ],
+        "skepticReview": {
+          "counterargument": "This action carries meaningful regret risk (28%). If the evidence environment shifts or the contradiction load increases, delaying may produce better outcomes. Consider the delay counterfactual.",
+          "assumptions": [
+            "Assumes regret risk of 28% is acceptable given current evidence quality.",
+            "Assumes 66% evidence depth is sufficient to act; a deeper evidence pass may reverse this recommendation."
+          ],
+          "preConditions": [
+            "Significant effort (52%) required — confirm scope is achievable before approving.",
+            "Reversibility is only 83% — have a concrete rollback plan before execution.",
+            "Verify success metric: \"Queue items correspond to live top actions and record observed outcomes after execution.\" is measurable before proceeding."
+          ],
+          "confidenceCap": 0.7789999999999999,
+          "adversaryFindings": [
+            {
+              "kind": "stale-evidence",
+              "severity": "high",
+              "summary": "Supporting evidence averages 0% freshness. A refresh may overturn the recommendation."
+            },
+            {
+              "kind": "overfitting",
+              "severity": "high",
+              "summary": "Only 0 evidence node(s) back this recommendation across 2 ref(s); a single new contradicting signal could flip the ranking."
+            }
+          ]
+        },
+        "experimentContract": {
+          "interventionId": "candidate:synth-dynamic-execution",
+          "horizon": "short",
+          "expectedDirection": "up",
+          "expectedMetric": "Queue items correspond to live top actions and record observed outcomes after execution.",
+          "status": "open",
+          "completeness": 0.4
+        }
+      }
+    ]
+  },
+  "market": {
+    "generatedAt": "2026-04-25T22:03:23.258Z",
+    "project": "call-of-doodie",
+    "entries": [
+      {
+        "strategy": "growth-max",
+        "summary": "Use VITALITY momentum to expand studio reach",
+        "actions": [
+          "Ship action intelligence and write-capable MCP tools",
+          "Push cross-project contagion modeling"
+        ],
+        "confidence": 0.97,
+        "authority": 0.5,
+        "alignment": 0.824,
+        "rationale": "VITALITY is carrying enough momentum that controlled expansion can compound current gains."
+      },
+      {
+        "strategy": "contrarian",
+        "summary": "Stop adding pillars and make decisions measurable",
+        "actions": [
+          "Grade recommendations against outcomes",
+          "Demote uncalibrated heuristics automatically"
+        ],
+        "confidence": 0.633,
+        "authority": 0.5,
+        "alignment": 0.797,
+        "rationale": "IGNIS already has enough systems; the leverage now comes from proving which ones actually work."
+      },
+      {
+        "strategy": "debt-first",
+        "summary": "Stabilize truth fidelity before expanding scope",
+        "actions": [
+          "Persist evidence graph",
+          "Turn contradictions into first-class blocking signals"
+        ],
+        "confidence": 0.618,
+        "authority": 0.5,
+        "alignment": 0.845,
+        "rationale": "The downside of adding more surface area before truth fidelity is stronger is still high."
+      },
+      {
+        "strategy": "launch-first",
+        "summary": "Focus on founder-facing command compression",
+        "actions": [
+          "Produce one-command startup action stack",
+          "Expose concise executive summaries and approvals"
+        ],
+        "confidence": 0.605,
+        "authority": 0.5,
+        "alignment": 0.747,
+        "rationale": "Founder usability is the bottleneck between current intelligence and real studio leverage."
+      },
+      {
+        "strategy": "conservative",
+        "summary": "Reduce model overreach and firm up CREATIVITY",
+        "actions": [
+          "Strengthen evidence quality around CREATIVITY",
+          "Instrument calibration before major scoring changes"
+        ],
+        "confidence": 0.591,
+        "authority": 0.5,
+        "alignment": 0.813,
+        "rationale": "CREATIVITY remains fragile enough that uncalibrated expansion could outrun truth quality."
+      }
+    ],
+    "consensus": [
+      "Ship action intelligence and write-capable MCP tools",
+      "Push cross-project contagion modeling",
+      "Grade recommendations against outcomes",
+      "Demote uncalibrated heuristics automatically"
+    ],
+    "winner": "growth-max"
+  }
+}

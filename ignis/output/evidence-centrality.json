@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.239Z",
+  "project": "call-of-doodie",
+  "nodeCount": 540,
+  "edgeCount": 519,
+  "topAuthority": [
+    {
+      "nodeId": "pillar:creativity",
+      "nodeLabel": "CREATIVITY",
+      "nodeType": "pillar",
+      "pageRankScore": 1,
+      "expectedAuthority": 0.247,
+      "surpriseScore": 4.05,
+      "isSurprise": true,
+      "inDegree": 15,
+      "outDegree": 0,
+      "supportEdges": 10,
+      "contradictEdges": 1
+    },
+    {
+      "nodeId": "pillar:execution",
+      "nodeLabel": "EXECUTION",
+      "nodeType": "pillar",
+      "pageRankScore": 0.92,
+      "expectedAuthority": 0.332,
+      "surpriseScore": 2.77,
+      "isSurprise": true,
+      "inDegree": 11,
+      "outDegree": 0,
+      "supportEdges": 10,
+      "contradictEdges": 1
+    },
+    {
+      "nodeId": "pillar:synthesis",
+      "nodeLabel": "SYNTHESIS",
+      "nodeType": "pillar",
+      "pageRankScore": 0.908,
+      "expectedAuthority": 0.305,
+      "surpriseScore": 2.98,
+      "isSurprise": true,
+      "inDegree": 11,
+      "outDegree": 0,
+      "supportEdges": 11,
+      "contradictEdges": 0
+    },
+    {
+      "nodeId": "pillar:perception",
+      "nodeLabel": "PERCEPTION",
+      "nodeType": "pillar",
+      "pageRankScore": 0.9,
+      "expectedAuthority": 0.413,
+      "surpriseScore": 2.18,
+      "isSurprise": true,
+      "inDegree": 10,
+      "outDegree": 0,
+      "supportEdges": 10,
+      "contradictEdges": 0
+    },
+    {
+      "nodeId": "pillar:trajectory",
+      "nodeLabel": "TRAJECTORY",
+      "nodeType": "pillar",
+      "pageRankScore": 0.9,
+      "expectedAuthority": 0.297,
+      "surpriseScore": 3.03,
+      "isSurprise": true,
+      "inDegree": 10,
+      "outDegree": 0,
+      "supportEdges": 10,
+      "contradictEdges": 0
+    }
+  ],
+  "surprises": [
+    {
+      "nodeId": "pillar:creativity",
+      "nodeLabel": "CREATIVITY",
+      "nodeType": "pillar",
+      "pageRankScore": 1,
+      "expectedAuthority": 0.247,
+      "surpriseScore": 4.05,
+      "isSurprise": true,
+      "inDegree": 15,
+      "outDegree": 0,
+      "supportEdges": 10,
+      "contradictEdges": 1
+    },
+    {
+      "nodeId": "pillar:trajectory",
+      "nodeLabel": "TRAJECTORY",
+      "nodeType": "pillar",
+      "pageRankScore": 0.9,
+      "expectedAuthority": 0.297,
+      "surpriseScore": 3.03,
+      "isSurprise": true,
+      "inDegree": 10,
+      "outDegree": 0,
+      "supportEdges": 10,
+      "contradictEdges": 0
+    },
+    {
+      "nodeId": "pillar:synthesis",
+      "nodeLabel": "SYNTHESIS",
+      "nodeType": "pillar",
+      "pageRankScore": 0.908,
+      "expectedAuthority": 0.305,
+      "surpriseScore": 2.98,
+      "isSurprise": true,
+      "inDegree": 11,
+      "outDegree": 0,
+      "supportEdges": 11,
+      "contradictEdges": 0
+    }
+  ],
+  "summary": "Top authority: \"CREATIVITY\" (PageRank 1.000). 3 outlier signal(s): \"CREATIVITY\" (4.05× expected), \"TRAJECTORY\" (3.03× expected), \"SYNTHESIS\" (2.98× expected)."
+}

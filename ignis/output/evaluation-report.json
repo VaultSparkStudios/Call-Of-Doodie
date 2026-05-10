@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.340Z",
+  "project": "call-of-doodie",
+  "summary": "Evaluation discipline is 68/100 across evidence, contradiction handling, learning, and regret control.",
+  "dimensions": [
+    {
+      "name": "Evidence Grounding",
+      "score": 65,
+      "note": "Weighted signal trust is 65%; highest-risk gaps are proposals, sil, registry, git. External adapters: 0; proxy adapters: 14."
+    },
+    {
+      "name": "Contradiction Discipline",
+      "score": 82,
+      "note": "1 contradiction(s) are active and should influence certainty."
+    },
+    {
+      "name": "Outcome Learning",
+      "score": 90,
+      "note": "Observed recommendation hit rate is 100%; signal trust is 65%."
+    },
+    {
+      "name": "Regret Control",
+      "score": 75,
+      "note": "Average regret is 0.25; lower is better."
+    },
+    {
+      "name": "Counterfactual Discipline",
+      "score": 30,
+      "note": "Counterfactual hit rate is 0%; opposite-branch wins are 0%."
+    },
+    {
+      "name": "Experiment Depth",
+      "score": 66,
+      "note": "Outcome/feedback tracking is only as good as intervention shape and observation quality."
+    },
+    {
+      "name": "Feedback Loop Health",
+      "score": 45,
+      "note": "Feedback loop strength is driven by direct intervention while execution follow-through remains the main limiter; reliability is 45% with founder truth 59%."
+    },
+    {
+      "name": "Recommendation Precision",
+      "score": 100,
+      "note": "3/3 resolved outcomes were wins (100%). Precision is acceptable."
+    },
+    {
+      "name": "False Certainty",
+      "score": 60,
+      "note": "Platt calibration needs ≥4 resolved outcomes. False certainty unverifiable."
+    },
+    {
+      "name": "Rollback Quality",
+      "score": 70,
+      "note": "No execution receipts yet — rollback quality unverifiable."
+    },
+    {
+      "name": "Contradiction Recall",
+      "score": 62,
+      "note": "1 active contradiction(s). No resolutions detected yet."
+    },
+    {
+      "name": "Execution Success",
+      "score": 65,
+      "note": "No execution-linked resolved outcomes yet."
+    }
+  ],
+  "recommendations": [
+    "Increase external evidence coverage before trusting higher-autonomy execution.",
+    "Keep outcome observations resolving every score cycle so strategy authority remains earned.",
+    "Promote intervention-grade experiments over generic open hypotheses.",
+    "Use contradiction pressure, regret, and counterfactual misses together to cap certainty and assertiveness.",
+    "Capture founder approvals, defers, and overrides as first-class feedback signals.",
+    "Monitor Recommendation Precision and Execution Success to gate live execution widening.",
+    "Platt calibration (False Certainty) should reach ECE < 0.05 before IGNIS claims high confidence."
+  ]
+}

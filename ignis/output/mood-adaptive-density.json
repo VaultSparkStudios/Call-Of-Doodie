@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.429Z",
+  "density": "full",
+  "sessionEnergy": "low",
+  "rationale": "Low session energy (velocity:1 gap:0d trend:rising) — expand output with full context rebuild.",
+  "compressionHints": {
+    "omitLeverageDetails": false,
+    "omitDecisionMemory": false,
+    "omitSignalCoverageDetails": false,
+    "omitEvidenceGaps": false,
+    "compressContradictions": false,
+    "useOneLinerStrategy": false
+  },
+  "expansionHints": {
+    "expandExplainability": true,
+    "showAllAdversaryFindings": true,
+    "includeRollbackDetails": true,
+    "showRegimeHistory": true
+  }
+}

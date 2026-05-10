@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.337Z",
+  "project": "call-of-doodie",
+  "summary": "Retrieved 5 memories anchored to the current contradiction, action, strategy, posture, and outcome loop.",
+  "queries": [
+    "Harden shared external feed validation",
+    "intent-outcome: 2 sessions marked intent as achieved/exceeded",
+    "conservative",
+    "assertive",
+    "outcome loop"
+  ],
+  "entries": [
+    {
+      "id": "sem-ee2ece99982a3cda",
+      "type": "semantic",
+      "summary": "Top contradiction: intent-outcome: 2 sessions marked intent as achieved/exceeded",
+      "strength": 0.628,
+      "relevance": 0.4,
+      "source": "semantic-memory"
+    },
+    {
+      "id": "sem-58c49a750083c0da",
+      "type": "semantic",
+      "summary": "Outcome loop: hit rate 100% with regret 0.25 and experiment coverage 66%",
+      "strength": 0.616,
+      "relevance": 0.4,
+      "source": "semantic-memory"
+    },
+    {
+      "id": "sem-553fe15f3ee2a7da",
+      "type": "semantic",
+      "summary": "Top action: Harden shared external feed validation",
+      "strength": 0.62,
+      "relevance": 0.2,
+      "source": "semantic-memory"
+    },
+    {
+      "id": "sem-df414d1ff982a767",
+      "type": "semantic",
+      "summary": "Strategy leader: conservative",
+      "strength": 0.612,
+      "relevance": 0.2,
+      "source": "semantic-memory"
+    },
+    {
+      "id": "sem-f492c6285539313a",
+      "type": "semantic",
+      "summary": "Narrative posture: assertive/directive",
+      "strength": 0.596,
+      "relevance": 0.2,
+      "source": "semantic-memory"
+    }
+  ]
+}

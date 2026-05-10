@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.289Z",
+  "project": "call-of-doodie",
+  "summary": "Outcome learning is live: 3 intervention-shaped observations, 100% hit rate, regret 0.25, counterfactual 0%, experiment coverage 66%.",
+  "hitRate": 1,
+  "regretAverage": 0.25,
+  "openCount": 4,
+  "observedCount": 3,
+  "experimentCoverage": 0.657,
+  "counterfactualHitRate": 0,
+  "adversarialWinRate": 0,
+  "entries": [
+    {
+      "id": "intent-grade:2026-04-14T00:00:00Z",
+      "kind": "feedback",
+      "interventionId": "intent-grade:2026-04-14T00:00:00Z",
+      "openedAt": "2026-04-14T00:00:00Z",
+      "project": "call-of-doodie",
+      "title": "Session intent: achieved",
+      "hypothesis": "Session claimed intent was \"achieved\" — verifying against IQ delta",
+      "expectedMetric": "Positive IQ delta when intent is achieved/exceeded",
+      "horizon": "short",
+      "confidence": 0.7,
+      "owner": "ignis",
+      "expectedDirection": "up",
+      "status": "observed",
+      "observedAt": "2026-04-14T00:00:00Z",
+      "observedIq": 44792,
+      "observationSource": "session-intent-grade:auto",
+      "observedMetric": "iq_delta=10461; claimed=achieved; actual=positive",
+      "outcomeScore": 0.75,
+      "regretScore": 0.25,
+      "outcomeLabel": "win",
+      "learningValue": 0.6,
+      "evidenceRefs": []
+    },
+    {
+      "id": "intent-grade:2026-04-21T00:00:00Z",
+      "kind": "feedback",
+      "interventionId": "intent-grade:2026-04-21T00:00:00Z",
+      "openedAt": "2026-04-21T00:00:00Z",
+      "project": "call-of-doodie",
+      "title": "Session intent: achieved",
+      "hypothesis": "Session claimed intent was \"achieved\" — verifying against IQ delta",
+      "expectedMetric": "Positive IQ delta when intent is achieved/exceeded",
+      "horizon": "short",
+      "confidence": 0.7,
+      "owner": "ignis",
+      "expectedDirection": "up",
+      "status": "observed",
+      "observedAt": "2026-04-21T00:00:00Z",
+      "observedIq": 48422,
+      "observationSource": "session-intent-grade:auto",
+      "observedMetric": "iq_delta=2977; claimed=achieved; actual=positive",
+      "outcomeScore": 0.75,
+      "regretScore": 0.25,
+      "outcomeLabel": "win",
+      "learningValue": 0.6,
+      "evidenceRefs": []
+    },
+    {
+      "id": "intent-grade:2026-04-22T00:00:00Z",
+      "kind": "feedback",
+      "interventionId": "intent-grade:2026-04-22T00:00:00Z",
+      "openedAt": "2026-04-22T00:00:00Z",
+      "project": "call-of-doodie",
+      "title": "Session intent: achieved",
+      "hypothesis": "Session claimed intent was \"achieved\" — verifying against IQ delta",
+      "expectedMetric": "Positive IQ delta when intent is achieved/exceeded",
+      "horizon": "short",
+      "confidence": 0.7,
+      "owner": "ignis",
+      "expectedDirection": "up",
+      "status": "observed",
+      "observedAt": "2026-04-22T00:00:00Z",
+      "observedIq": 48422,
+      "observationSource": "session-intent-grade:auto",
+      "observedMetric": "iq_delta=2977; claimed=achieved; actual=positive",
+      "outcomeScore": 0.75,
+      "regretScore": 0.25,
+      "outcomeLabel": "win",
+      "learningValue": 0.6,
+      "evidenceRefs": []
+    },
+    {
+      "id": "action:harden-shared-external-feed-validation",
+      "kind": "action",
+      "interventionId": "action:harden-shared-external-feed-validation",
+      "openedAt": "2026-04-25T22:03:23.018Z",
+      "project": "call-of-doodie",
+      "title": "Harden shared external feed validation",
+      "hypothesis": "",
+      "expectedMetric": "Signal coverage receipts explain why an adapter is trusted, invalid, or still shadow-only instead of showing generic feed status only.",
+      "horizon": "short",
+      "confidence": 0.97,
+      "owner": "ignis",
+      "baselineIq": 48422,
+      "baselineContradictionCount": 0,
+      "executionLinked": true,
+      "learningValue": 0.92,
+      "expectedDirection": "up",
+      "status": "open",
+      "evidenceRefs": [
+        "2 sessions marked intent as achieved/exceeded"
+      ]
+    },
+    {
+      "id": "strategy:growth-max:2026-04-25T22:03:23.018Z",
+      "kind": "strategy",
+      "interventionId": "strategy:growth-max",
+      "openedAt": "2026-04-25T22:03:23.018Z",
+      "project": "call-of-doodie",
+      "title": "Strategy winner: growth-max",
+      "hypothesis": "VITALITY is carrying enough momentum that controlled expansion can compound current gains.",
+      "expectedMetric": "Improve subsequent IQ trajectory without increasing contradiction load.",
+      "horizon": "medium",
+      "confidence": 0.97,
+      "owner": "ignis",
+      "baselineIq": 48422,
+      "baselineContradictionCount": 0,
+      "learningValue": 0.85,
+      "expectedDirection": "up",
+      "status": "open",
+      "evidenceRefs": [
+        "Ship action intelligence and write-capable MCP tools",
+        "Push cross-project contagion modeling",
+        "Grade recommendations against outcomes"
+      ]
+    },
+    {
+      "id": "candidate:synth-feed-validator:2026-04-25T22:03:23.018Z",
+      "kind": "feedback",
+      "interventionId": "candidate:synth-feed-validator",
+      "openedAt": "2026-04-25T22:03:23.018Z",
+      "project": "call-of-doodie",
+      "title": "Harden shared external feed validation",
+      "hypothesis": "The external feed seam now carries decision-grade adapters, so manifest-level validation and downgrade rules need to be stricter than generic feed-valid/feed-invalid tagging.",
+      "expectedMetric": "Signal coverage receipts explain why an adapter is trusted, invalid, or still shadow-only instead of showing generic feed status only.",
+      "horizon": "short",
+      "confidence": 0.86,
+      "owner": "ignis",
+      "baselineIq": 48422,
+      "baselineContradictionCount": 0,
+      "executionLinked": false,
+      "learningValue": 0.947,
+      "expectedDirection": "up",
+      "status": "open",
+      "counterfactuals": [
+        {
+          "label": "do-now",
+          "expectedDirection": "up",
+          "confidence": 0.86,
+          "summary": "Execute Harden shared external feed validation now with the current evidence posture."
+        },
+        {
+          "label": "delay",
+          "expectedDirection": "stable",
+          "confidence": 0.74,
+          "summary": "Delay Harden shared external feed validation until trust and evidence improve."
+        },
+        {
+          "label": "opposite",
+          "expectedDirection": "down",
+          "confidence": 0.28,
+          "summary": "Take the opposite path if the contradiction sentinel worsens."
+        }
+      ],
+      "evidenceRefs": [
+        "signal-coverage",
+        "ignis/input/*.json"
+      ]
+    },
+    {
+      "id": "candidate:synth-execution-unlock:2026-04-25T22:03:23.018Z",
+      "kind": "feedback",
+      "interventionId": "candidate:synth-execution-unlock",
+      "openedAt": "2026-04-25T22:03:23.018Z",
+      "project": "call-of-doodie",
+      "title": "Replace global execution gating with adapter-specific unlock ladders",
+      "hypothesis": "Execution honesty improves when deploy, review, hub, and social adapters each expose their own blocked/shadow/dry-run/live-ready state instead of one global gate.",
+      "expectedMetric": "Execution posture names which adapters are blocked, which are shadow-only, and which are ready for dry-run or live work.",
+      "horizon": "short",
+      "confidence": 0.82,
+      "owner": "ignis",
+      "baselineIq": 48422,
+      "baselineContradictionCount": 0,
+      "executionLinked": true,
+      "learningValue": 0.938,
+      "expectedDirection": "up",
+      "status": "open",
+      "counterfactuals": [
+        {
+          "label": "do-now",
+          "expectedDirection": "up",
+          "confidence": 0.82,
+          "summary": "Execute Replace global execution gating with adapter-specific unlock ladders now with the current evidence posture."
+        },
+        {
+          "label": "delay",
+          "expectedDirection": "stable",
+          "confidence": 0.7,
+          "summary": "Delay Replace global execution gating with adapter-specific unlock ladders until trust and evidence improve."
+        },
+        {
+          "label": "opposite",
+          "expectedDirection": "down",
+          "confidence": 0.28,
+          "summary": "Take the opposite path if the contradiction sentinel worsens."
+        }
+      ],
+      "evidenceRefs": [
+        "execution-queue",
+        "signal-coverage"
+      ]
+    }
+  ]
+}

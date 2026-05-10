@@ -1,0 +1,1220 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.255Z",
+  "project": "call-of-doodie",
+  "coverageScore": 0.653,
+  "adapterCoverageScore": 0.824,
+  "weightedCoverageScore": 0.653,
+  "trustScore": 0.652,
+  "externalAdapterCount": 0,
+  "proxyAdapterCount": 14,
+  "presentAdapters": [
+    "analytics",
+    "canon",
+    "ci",
+    "deploys",
+    "docs",
+    "founder-approvals",
+    "git",
+    "incidents",
+    "pr-reviews",
+    "revenue",
+    "sessions",
+    "social-dashboard",
+    "studio-hub",
+    "tasks"
+  ],
+  "missingAdapters": [
+    "registry",
+    "proposals",
+    "sil"
+  ],
+  "highestRiskGaps": [
+    "proposals",
+    "sil",
+    "registry",
+    "git",
+    "deploys",
+    "pr-reviews"
+  ],
+  "summary": "Weighted signal trust is 65%; highest-risk gaps are proposals, sil, registry, git.",
+  "manifestVersion": "2.0",
+  "adapterDetails": [
+    {
+      "adapter": "sessions",
+      "present": true,
+      "eventCount": 7,
+      "freshnessScore": 0.8,
+      "qualityScore": 0.824,
+      "trustWeight": 0.826,
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "decisionWeight": 0.8,
+      "manifest": {
+        "id": "sessions",
+        "feedPath": "ignis/input/sessions.json",
+        "owner": "core",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "session.audit"
+        ],
+        "primaryDecisionAreas": [
+          "continuity",
+          "velocity"
+        ]
+      },
+      "executionUnlockStage": "dry-run",
+      "validationNotes": [],
+      "summary": "7 event(s); proxy source (valid) for continuity, velocity with quality 0.82, freshness 0.80, unlock dry-run.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "git",
+      "present": true,
+      "eventCount": 200,
+      "freshnessScore": 1,
+      "qualityScore": 0.651,
+      "trustWeight": 0.698,
+      "sourceClass": "proxy",
+      "validationState": "incomplete",
+      "decisionWeight": 1,
+      "manifest": {
+        "id": "git",
+        "feedPath": "ignis/input/git.json",
+        "owner": "core",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "commit_count"
+        ],
+        "primaryDecisionAreas": [
+          "build truth",
+          "activity"
+        ]
+      },
+      "executionUnlockStage": "dry-run",
+      "validationNotes": [
+        "coverage:missing required signal commit_count"
+      ],
+      "summary": "200 event(s); proxy source (incomplete) for build truth, activity with quality 0.65, freshness 1.00, unlock dry-run. Issues: missing required signal commit_count.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "ci",
+      "present": true,
+      "eventCount": 1,
+      "freshnessScore": 1,
+      "qualityScore": 0.837,
+      "trustWeight": 0.833,
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "decisionWeight": 0.9,
+      "manifest": {
+        "id": "ci",
+        "feedPath": "ignis/input/ci.json",
+        "owner": "core",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "ci_runs"
+        ],
+        "primaryDecisionAreas": [
+          "verification"
+        ]
+      },
+      "executionUnlockStage": "dry-run",
+      "validationNotes": [],
+      "summary": "1 event(s); proxy source (valid) for verification with quality 0.84, freshness 1.00, unlock dry-run.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "tasks",
+      "present": true,
+      "eventCount": 1,
+      "freshnessScore": 1,
+      "qualityScore": 0.874,
+      "trustWeight": 0.871,
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "decisionWeight": 0.8,
+      "manifest": {
+        "id": "tasks",
+        "feedPath": "ignis/input/tasks.json",
+        "owner": "core",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "task_count"
+        ],
+        "primaryDecisionAreas": [
+          "execution discipline"
+        ]
+      },
+      "executionUnlockStage": "dry-run",
+      "validationNotes": [],
+      "summary": "1 event(s); proxy source (valid) for execution discipline with quality 0.87, freshness 1.00, unlock dry-run.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "docs",
+      "present": true,
+      "eventCount": 1,
+      "freshnessScore": 1,
+      "qualityScore": 0.881,
+      "trustWeight": 0.873,
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "decisionWeight": 0.55,
+      "manifest": {
+        "id": "docs",
+        "feedPath": "ignis/input/docs.json",
+        "owner": "core",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "doc_updates"
+        ],
+        "primaryDecisionAreas": [
+          "context freshness"
+        ]
+      },
+      "executionUnlockStage": "dry-run",
+      "validationNotes": [],
+      "summary": "1 event(s); proxy source (valid) for context freshness with quality 0.88, freshness 1.00, unlock dry-run.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "registry",
+      "present": false,
+      "eventCount": 0,
+      "freshnessScore": 0,
+      "qualityScore": 0,
+      "trustWeight": 0,
+      "sourceClass": "missing",
+      "validationState": "missing",
+      "decisionWeight": 0.7,
+      "manifest": {
+        "id": "registry",
+        "feedPath": "ignis/input/registry.json",
+        "owner": "core",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "project_count"
+        ],
+        "primaryDecisionAreas": [
+          "portfolio truth"
+        ]
+      },
+      "executionUnlockStage": "blocked",
+      "validationNotes": [
+        "coverage:missing required signal project_count"
+      ],
+      "summary": "No events detected for registry; expected feed ignis/input/registry.json is missing.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "proposals",
+      "present": false,
+      "eventCount": 0,
+      "freshnessScore": 0,
+      "qualityScore": 0,
+      "trustWeight": 0,
+      "sourceClass": "missing",
+      "validationState": "missing",
+      "decisionWeight": 0.85,
+      "manifest": {
+        "id": "proposals",
+        "feedPath": "ignis/input/proposals.json",
+        "owner": "core",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "proposal_count"
+        ],
+        "primaryDecisionAreas": [
+          "roadmap truth"
+        ]
+      },
+      "executionUnlockStage": "blocked",
+      "validationNotes": [
+        "coverage:missing required signal proposal_count"
+      ],
+      "summary": "No events detected for proposals; expected feed ignis/input/proposals.json is missing.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "canon",
+      "present": true,
+      "eventCount": 1,
+      "freshnessScore": 1,
+      "qualityScore": 0.756,
+      "trustWeight": 0.756,
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "decisionWeight": 0.55,
+      "manifest": {
+        "id": "canon",
+        "feedPath": "ignis/input/canon.json",
+        "owner": "core",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "canon_entries"
+        ],
+        "primaryDecisionAreas": [
+          "canon compliance"
+        ]
+      },
+      "executionUnlockStage": "dry-run",
+      "validationNotes": [],
+      "summary": "1 event(s); proxy source (valid) for canon compliance with quality 0.76, freshness 1.00, unlock dry-run.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "sil",
+      "present": false,
+      "eventCount": 0,
+      "freshnessScore": 0,
+      "qualityScore": 0,
+      "trustWeight": 0,
+      "sourceClass": "missing",
+      "validationState": "missing",
+      "decisionWeight": 0.75,
+      "manifest": {
+        "id": "sil",
+        "feedPath": "ignis/input/sil.json",
+        "owner": "core",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "sil_total"
+        ],
+        "primaryDecisionAreas": [
+          "momentum"
+        ]
+      },
+      "executionUnlockStage": "blocked",
+      "validationNotes": [
+        "coverage:missing required signal sil_total"
+      ],
+      "summary": "No events detected for sil; expected feed ignis/input/sil.json is missing.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "pr-reviews",
+      "present": true,
+      "eventCount": 1,
+      "freshnessScore": 1,
+      "qualityScore": 0.771,
+      "trustWeight": 0.764,
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "decisionWeight": 0.95,
+      "manifest": {
+        "id": "pr-reviews",
+        "feedPath": "ignis/input/pr-reviews.json",
+        "owner": "ops",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "review_mentions"
+        ],
+        "primaryDecisionAreas": [
+          "governance",
+          "review quality"
+        ]
+      },
+      "executionUnlockStage": "shadow",
+      "validationNotes": [],
+      "summary": "1 event(s); proxy source (valid) for governance, review quality with quality 0.77, freshness 1.00, unlock shadow.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "deploys",
+      "present": true,
+      "eventCount": 1,
+      "freshnessScore": 1,
+      "qualityScore": 0.771,
+      "trustWeight": 0.764,
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "decisionWeight": 1,
+      "manifest": {
+        "id": "deploys",
+        "feedPath": "ignis/input/deploys.json",
+        "owner": "ops",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "deploy_status_known",
+          "deploy_freshness"
+        ],
+        "primaryDecisionAreas": [
+          "release readiness",
+          "execution"
+        ]
+      },
+      "executionUnlockStage": "shadow",
+      "validationNotes": [],
+      "summary": "1 event(s); proxy source (valid) for release readiness, execution with quality 0.77, freshness 1.00, unlock shadow.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "incidents",
+      "present": true,
+      "eventCount": 1,
+      "freshnessScore": 1,
+      "qualityScore": 0.771,
+      "trustWeight": 0.764,
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "decisionWeight": 0.95,
+      "manifest": {
+        "id": "incidents",
+        "feedPath": "ignis/input/incidents.json",
+        "owner": "ops",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "incident_pressure"
+        ],
+        "primaryDecisionAreas": [
+          "operational risk"
+        ]
+      },
+      "executionUnlockStage": "dry-run",
+      "validationNotes": [],
+      "summary": "1 event(s); proxy source (valid) for operational risk with quality 0.77, freshness 1.00, unlock dry-run.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "analytics",
+      "present": true,
+      "eventCount": 1,
+      "freshnessScore": 1,
+      "qualityScore": 0.771,
+      "trustWeight": 0.764,
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "decisionWeight": 0.85,
+      "manifest": {
+        "id": "analytics",
+        "feedPath": "ignis/input/analytics.json",
+        "owner": "ops",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "sil_score"
+        ],
+        "primaryDecisionAreas": [
+          "usage",
+          "trajectory"
+        ]
+      },
+      "executionUnlockStage": "dry-run",
+      "validationNotes": [],
+      "summary": "1 event(s); proxy source (valid) for usage, trajectory with quality 0.77, freshness 1.00, unlock dry-run.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "revenue",
+      "present": true,
+      "eventCount": 1,
+      "freshnessScore": 1,
+      "qualityScore": 0.771,
+      "trustWeight": 0.764,
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "decisionWeight": 0.75,
+      "manifest": {
+        "id": "revenue",
+        "feedPath": "ignis/input/revenue.json",
+        "owner": "ops",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "revenue_readiness"
+        ],
+        "primaryDecisionAreas": [
+          "commercial readiness"
+        ]
+      },
+      "executionUnlockStage": "dry-run",
+      "validationNotes": [],
+      "summary": "1 event(s); proxy source (valid) for commercial readiness with quality 0.77, freshness 1.00, unlock dry-run.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "founder-approvals",
+      "present": true,
+      "eventCount": 1,
+      "freshnessScore": 1,
+      "qualityScore": 0.771,
+      "trustWeight": 0.764,
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "decisionWeight": 0.9,
+      "manifest": {
+        "id": "founder-approvals",
+        "feedPath": "ignis/input/founder-approvals.json",
+        "owner": "ops",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "approval_count"
+        ],
+        "primaryDecisionAreas": [
+          "founder intent"
+        ]
+      },
+      "executionUnlockStage": "dry-run",
+      "validationNotes": [],
+      "summary": "1 event(s); proxy source (valid) for founder intent with quality 0.77, freshness 1.00, unlock dry-run.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "studio-hub",
+      "present": true,
+      "eventCount": 1,
+      "freshnessScore": 1,
+      "qualityScore": 0.771,
+      "trustWeight": 0.764,
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "decisionWeight": 0.92,
+      "manifest": {
+        "id": "studio-hub",
+        "feedPath": "ignis/input/studio-hub.json",
+        "owner": "hub",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "hub_sync_health",
+          "hub_freshness"
+        ],
+        "primaryDecisionAreas": [
+          "hub reporting",
+          "portfolio visibility"
+        ]
+      },
+      "executionUnlockStage": "shadow",
+      "validationNotes": [],
+      "summary": "1 event(s); proxy source (valid) for hub reporting, portfolio visibility with quality 0.77, freshness 1.00, unlock shadow.",
+      "velocityDelta": 0
+    },
+    {
+      "adapter": "social-dashboard",
+      "present": true,
+      "eventCount": 1,
+      "freshnessScore": 1,
+      "qualityScore": 0.771,
+      "trustWeight": 0.764,
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "decisionWeight": 0.82,
+      "manifest": {
+        "id": "social-dashboard",
+        "feedPath": "ignis/input/social-dashboard.json",
+        "owner": "social",
+        "expectedSourceClass": "external",
+        "requiredSignals": [
+          "social_engagement",
+          "content_cadence"
+        ],
+        "primaryDecisionAreas": [
+          "reach",
+          "external feedback"
+        ]
+      },
+      "executionUnlockStage": "shadow",
+      "validationNotes": [],
+      "summary": "1 event(s); proxy source (valid) for reach, external feedback with quality 0.77, freshness 1.00, unlock shadow.",
+      "velocityDelta": 0
+    }
+  ],
+  "trustReceipts": [
+    {
+      "adapter": "docs",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.873,
+      "qualityScore": 0.881,
+      "deltaFromPrevious": 0.873,
+      "movement": "new",
+      "reason": "Adapter entered coverage as proxy.",
+      "audienceDeltas": {
+        "founder": "docs is now dry-run for founder-facing trust.",
+        "operator": "docs is stable for operator routing.",
+        "hub": "docs influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for docs."
+      }
+    },
+    {
+      "adapter": "tasks",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.871,
+      "qualityScore": 0.874,
+      "deltaFromPrevious": 0.871,
+      "movement": "new",
+      "reason": "Adapter entered coverage as proxy.",
+      "audienceDeltas": {
+        "founder": "tasks is now dry-run for founder-facing trust.",
+        "operator": "tasks is stable for operator routing.",
+        "hub": "tasks influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for tasks."
+      }
+    },
+    {
+      "adapter": "ci",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.833,
+      "qualityScore": 0.837,
+      "deltaFromPrevious": 0.833,
+      "movement": "new",
+      "reason": "Adapter entered coverage as proxy.",
+      "audienceDeltas": {
+        "founder": "ci is now dry-run for founder-facing trust.",
+        "operator": "ci is stable for operator routing.",
+        "hub": "ci influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for ci."
+      }
+    },
+    {
+      "adapter": "sessions",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.826,
+      "qualityScore": 0.824,
+      "deltaFromPrevious": 0.826,
+      "movement": "new",
+      "reason": "Adapter entered coverage as proxy.",
+      "audienceDeltas": {
+        "founder": "sessions is now dry-run for founder-facing trust.",
+        "operator": "sessions is stable for operator routing.",
+        "hub": "sessions influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for sessions."
+      }
+    },
+    {
+      "adapter": "analytics",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.764,
+      "qualityScore": 0.771,
+      "deltaFromPrevious": 0.764,
+      "movement": "new",
+      "reason": "Adapter entered coverage as proxy.",
+      "audienceDeltas": {
+        "founder": "analytics is now dry-run for founder-facing trust.",
+        "operator": "analytics is stable for operator routing.",
+        "hub": "analytics influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for analytics."
+      }
+    },
+    {
+      "adapter": "deploys",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.764,
+      "qualityScore": 0.771,
+      "deltaFromPrevious": 0.764,
+      "movement": "new",
+      "reason": "Adapter entered coverage as proxy.",
+      "audienceDeltas": {
+        "founder": "deploys is now shadow for founder-facing trust.",
+        "operator": "deploys is stable for operator routing.",
+        "hub": "deploys influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator is appropriate; deploys is observable but not yet execution-grade."
+      }
+    },
+    {
+      "adapter": "founder-approvals",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.764,
+      "qualityScore": 0.771,
+      "deltaFromPrevious": 0.764,
+      "movement": "new",
+      "reason": "Adapter entered coverage as proxy.",
+      "audienceDeltas": {
+        "founder": "founder-approvals is now dry-run for founder-facing trust.",
+        "operator": "founder-approvals is stable for operator routing.",
+        "hub": "founder-approvals influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for founder-approvals."
+      }
+    },
+    {
+      "adapter": "incidents",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.764,
+      "qualityScore": 0.771,
+      "deltaFromPrevious": 0.764,
+      "movement": "new",
+      "reason": "Adapter entered coverage as proxy.",
+      "audienceDeltas": {
+        "founder": "incidents is now dry-run for founder-facing trust.",
+        "operator": "incidents is stable for operator routing.",
+        "hub": "incidents influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for incidents."
+      }
+    },
+    {
+      "adapter": "pr-reviews",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.764,
+      "qualityScore": 0.771,
+      "deltaFromPrevious": 0.764,
+      "movement": "new",
+      "reason": "Adapter entered coverage as proxy.",
+      "audienceDeltas": {
+        "founder": "pr-reviews is now shadow for founder-facing trust.",
+        "operator": "pr-reviews is stable for operator routing.",
+        "hub": "pr-reviews influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator is appropriate; pr-reviews is observable but not yet execution-grade."
+      }
+    },
+    {
+      "adapter": "revenue",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.764,
+      "qualityScore": 0.771,
+      "deltaFromPrevious": 0.764,
+      "movement": "new",
+      "reason": "Adapter entered coverage as proxy.",
+      "audienceDeltas": {
+        "founder": "revenue is now dry-run for founder-facing trust.",
+        "operator": "revenue is stable for operator routing.",
+        "hub": "revenue influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for revenue."
+      }
+    },
+    {
+      "adapter": "social-dashboard",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.764,
+      "qualityScore": 0.771,
+      "deltaFromPrevious": 0.764,
+      "movement": "new",
+      "reason": "Adapter entered coverage as proxy.",
+      "audienceDeltas": {
+        "founder": "social-dashboard is now shadow for founder-facing trust.",
+        "operator": "social-dashboard is stable for operator routing.",
+        "hub": "social-dashboard can support hub-facing reporting yet.",
+        "policy": "policyMode=operator is appropriate; social-dashboard is observable but not yet execution-grade."
+      }
+    },
+    {
+      "adapter": "studio-hub",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.764,
+      "qualityScore": 0.771,
+      "deltaFromPrevious": 0.764,
+      "movement": "new",
+      "reason": "Adapter entered coverage as proxy.",
+      "audienceDeltas": {
+        "founder": "studio-hub is now shadow for founder-facing trust.",
+        "operator": "studio-hub is stable for operator routing.",
+        "hub": "studio-hub can support hub-facing reporting yet.",
+        "policy": "policyMode=operator is appropriate; studio-hub is observable but not yet execution-grade."
+      }
+    },
+    {
+      "adapter": "canon",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.756,
+      "qualityScore": 0.756,
+      "deltaFromPrevious": 0.756,
+      "movement": "new",
+      "reason": "Adapter entered coverage as proxy.",
+      "audienceDeltas": {
+        "founder": "canon is now dry-run for founder-facing trust.",
+        "operator": "canon is stable for operator routing.",
+        "hub": "canon influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for canon."
+      }
+    },
+    {
+      "adapter": "git",
+      "sourceClass": "proxy",
+      "validationState": "incomplete",
+      "trustWeight": 0.698,
+      "qualityScore": 0.651,
+      "deltaFromPrevious": 0.698,
+      "movement": "new",
+      "reason": "Feed is present but missing required signals; commit_count not all covered.",
+      "audienceDeltas": {
+        "founder": "git is now dry-run for founder-facing trust.",
+        "operator": "git is stable for operator routing.",
+        "hub": "git influences hub reporting indirectly through trust posture.",
+        "policy": "Use policyMode=skeptic while git trust recovers; distrust recommendations that depend heavily on this adapter."
+      }
+    },
+    {
+      "adapter": "proposals",
+      "sourceClass": "missing",
+      "validationState": "missing",
+      "trustWeight": 0,
+      "qualityScore": 0,
+      "deltaFromPrevious": 0,
+      "movement": "new",
+      "reason": "No adapter events are present.",
+      "audienceDeltas": {
+        "founder": "proposals is now blocked for founder-facing trust.",
+        "operator": "proposals is stable for operator routing.",
+        "hub": "proposals influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=skeptic is recommended until proposals advances past blocked."
+      }
+    },
+    {
+      "adapter": "registry",
+      "sourceClass": "missing",
+      "validationState": "missing",
+      "trustWeight": 0,
+      "qualityScore": 0,
+      "deltaFromPrevious": 0,
+      "movement": "new",
+      "reason": "No adapter events are present.",
+      "audienceDeltas": {
+        "founder": "registry is now blocked for founder-facing trust.",
+        "operator": "registry is stable for operator routing.",
+        "hub": "registry influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=skeptic is recommended until registry advances past blocked."
+      }
+    },
+    {
+      "adapter": "sil",
+      "sourceClass": "missing",
+      "validationState": "missing",
+      "trustWeight": 0,
+      "qualityScore": 0,
+      "deltaFromPrevious": 0,
+      "movement": "new",
+      "reason": "No adapter events are present.",
+      "audienceDeltas": {
+        "founder": "sil is now blocked for founder-facing trust.",
+        "operator": "sil is stable for operator routing.",
+        "hub": "sil influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=skeptic is recommended until sil advances past blocked."
+      }
+    }
+  ],
+  "unlockProgressReceipts": [
+    {
+      "adapter": "deploys",
+      "previousStage": "new",
+      "currentStage": "shadow",
+      "changed": true,
+      "requirementsMissing": [
+        "real external source required for high-risk adapter"
+      ],
+      "nextStep": "Advance deploys by fixing real external source required for high-risk adapter.",
+      "severity": "critical",
+      "milestones": [
+        {
+          "label": "Events present",
+          "requirement": "At least one event from ignis/input/deploys.json",
+          "met": true
+        },
+        {
+          "label": "No feed-invalid tags",
+          "requirement": "validationState must not be invalid",
+          "met": true
+        },
+        {
+          "label": "Required signals covered",
+          "requirement": "All required signals present: deploy_status_known, deploy_freshness",
+          "met": true
+        },
+        {
+          "label": "Quality ≥ 62%",
+          "requirement": "qualityScore >= 0.62 for dry-run promotion",
+          "met": true
+        },
+        {
+          "label": "Trust ≥ 58%",
+          "requirement": "trustWeight >= 0.58 for dry-run promotion",
+          "met": true
+        },
+        {
+          "label": "External or hybrid source",
+          "requirement": "sourceClass must not be proxy for high-risk adapters",
+          "met": false
+        },
+        {
+          "label": "Quality ≥ 75%",
+          "requirement": "qualityScore >= 0.75 for live-ready promotion",
+          "met": true
+        },
+        {
+          "label": "Trust ≥ 70%",
+          "requirement": "trustWeight >= 0.70 for live-ready promotion",
+          "met": true
+        }
+      ]
+    },
+    {
+      "adapter": "pr-reviews",
+      "previousStage": "new",
+      "currentStage": "shadow",
+      "changed": true,
+      "requirementsMissing": [
+        "real external source required for high-risk adapter"
+      ],
+      "nextStep": "Advance pr-reviews by fixing real external source required for high-risk adapter.",
+      "severity": "critical",
+      "milestones": [
+        {
+          "label": "Events present",
+          "requirement": "At least one event from ignis/input/pr-reviews.json",
+          "met": true
+        },
+        {
+          "label": "No feed-invalid tags",
+          "requirement": "validationState must not be invalid",
+          "met": true
+        },
+        {
+          "label": "Required signals covered",
+          "requirement": "All required signals present: review_mentions",
+          "met": true
+        },
+        {
+          "label": "Quality ≥ 62%",
+          "requirement": "qualityScore >= 0.62 for dry-run promotion",
+          "met": true
+        },
+        {
+          "label": "Trust ≥ 58%",
+          "requirement": "trustWeight >= 0.58 for dry-run promotion",
+          "met": true
+        },
+        {
+          "label": "External or hybrid source",
+          "requirement": "sourceClass must not be proxy for high-risk adapters",
+          "met": false
+        },
+        {
+          "label": "Quality ≥ 75%",
+          "requirement": "qualityScore >= 0.75 for live-ready promotion",
+          "met": true
+        },
+        {
+          "label": "Trust ≥ 70%",
+          "requirement": "trustWeight >= 0.70 for live-ready promotion",
+          "met": true
+        }
+      ]
+    },
+    {
+      "adapter": "proposals",
+      "previousStage": "new",
+      "currentStage": "blocked",
+      "changed": true,
+      "requirementsMissing": [
+        "missing events from ignis/input/proposals.json"
+      ],
+      "nextStep": "Populate ignis/input/proposals.json with valid events.",
+      "severity": "critical",
+      "milestones": [
+        {
+          "label": "Events present",
+          "requirement": "At least one event from ignis/input/proposals.json",
+          "met": false
+        },
+        {
+          "label": "No feed-invalid tags",
+          "requirement": "validationState must not be invalid",
+          "met": true
+        },
+        {
+          "label": "Required signals covered",
+          "requirement": "All required signals present: proposal_count",
+          "met": false
+        },
+        {
+          "label": "Quality ≥ 62%",
+          "requirement": "qualityScore >= 0.62 for dry-run promotion",
+          "met": false
+        },
+        {
+          "label": "Trust ≥ 58%",
+          "requirement": "trustWeight >= 0.58 for dry-run promotion",
+          "met": false
+        },
+        {
+          "label": "External or hybrid source",
+          "requirement": "sourceClass must not be proxy for high-risk adapters",
+          "met": true
+        },
+        {
+          "label": "Quality ≥ 75%",
+          "requirement": "qualityScore >= 0.75 for live-ready promotion",
+          "met": false
+        },
+        {
+          "label": "Trust ≥ 70%",
+          "requirement": "trustWeight >= 0.70 for live-ready promotion",
+          "met": false
+        }
+      ]
+    },
+    {
+      "adapter": "registry",
+      "previousStage": "new",
+      "currentStage": "blocked",
+      "changed": true,
+      "requirementsMissing": [
+        "missing events from ignis/input/registry.json"
+      ],
+      "nextStep": "Populate ignis/input/registry.json with valid events.",
+      "severity": "critical",
+      "milestones": [
+        {
+          "label": "Events present",
+          "requirement": "At least one event from ignis/input/registry.json",
+          "met": false
+        },
+        {
+          "label": "No feed-invalid tags",
+          "requirement": "validationState must not be invalid",
+          "met": true
+        },
+        {
+          "label": "Required signals covered",
+          "requirement": "All required signals present: project_count",
+          "met": false
+        },
+        {
+          "label": "Quality ≥ 62%",
+          "requirement": "qualityScore >= 0.62 for dry-run promotion",
+          "met": false
+        },
+        {
+          "label": "Trust ≥ 58%",
+          "requirement": "trustWeight >= 0.58 for dry-run promotion",
+          "met": false
+        },
+        {
+          "label": "External or hybrid source",
+          "requirement": "sourceClass must not be proxy for high-risk adapters",
+          "met": true
+        },
+        {
+          "label": "Quality ≥ 75%",
+          "requirement": "qualityScore >= 0.75 for live-ready promotion",
+          "met": false
+        },
+        {
+          "label": "Trust ≥ 70%",
+          "requirement": "trustWeight >= 0.70 for live-ready promotion",
+          "met": false
+        }
+      ]
+    },
+    {
+      "adapter": "sil",
+      "previousStage": "new",
+      "currentStage": "blocked",
+      "changed": true,
+      "requirementsMissing": [
+        "missing events from ignis/input/sil.json"
+      ],
+      "nextStep": "Populate ignis/input/sil.json with valid events.",
+      "severity": "critical",
+      "milestones": [
+        {
+          "label": "Events present",
+          "requirement": "At least one event from ignis/input/sil.json",
+          "met": false
+        },
+        {
+          "label": "No feed-invalid tags",
+          "requirement": "validationState must not be invalid",
+          "met": true
+        },
+        {
+          "label": "Required signals covered",
+          "requirement": "All required signals present: sil_total",
+          "met": false
+        },
+        {
+          "label": "Quality ≥ 62%",
+          "requirement": "qualityScore >= 0.62 for dry-run promotion",
+          "met": false
+        },
+        {
+          "label": "Trust ≥ 58%",
+          "requirement": "trustWeight >= 0.58 for dry-run promotion",
+          "met": false
+        },
+        {
+          "label": "External or hybrid source",
+          "requirement": "sourceClass must not be proxy for high-risk adapters",
+          "met": true
+        },
+        {
+          "label": "Quality ≥ 75%",
+          "requirement": "qualityScore >= 0.75 for live-ready promotion",
+          "met": false
+        },
+        {
+          "label": "Trust ≥ 70%",
+          "requirement": "trustWeight >= 0.70 for live-ready promotion",
+          "met": false
+        }
+      ]
+    },
+    {
+      "adapter": "social-dashboard",
+      "previousStage": "new",
+      "currentStage": "shadow",
+      "changed": true,
+      "requirementsMissing": [
+        "real external source required for high-risk adapter"
+      ],
+      "nextStep": "Advance social-dashboard by fixing real external source required for high-risk adapter.",
+      "severity": "critical",
+      "milestones": [
+        {
+          "label": "Events present",
+          "requirement": "At least one event from ignis/input/social-dashboard.json",
+          "met": true
+        },
+        {
+          "label": "No feed-invalid tags",
+          "requirement": "validationState must not be invalid",
+          "met": true
+        },
+        {
+          "label": "Required signals covered",
+          "requirement": "All required signals present: social_engagement, content_cadence",
+          "met": true
+        },
+        {
+          "label": "Quality ≥ 62%",
+          "requirement": "qualityScore >= 0.62 for dry-run promotion",
+          "met": true
+        },
+        {
+          "label": "Trust ≥ 58%",
+          "requirement": "trustWeight >= 0.58 for dry-run promotion",
+          "met": true
+        },
+        {
+          "label": "External or hybrid source",
+          "requirement": "sourceClass must not be proxy for high-risk adapters",
+          "met": false
+        },
+        {
+          "label": "Quality ≥ 75%",
+          "requirement": "qualityScore >= 0.75 for live-ready promotion",
+          "met": true
+        },
+        {
+          "label": "Trust ≥ 70%",
+          "requirement": "trustWeight >= 0.70 for live-ready promotion",
+          "met": true
+        }
+      ]
+    },
+    {
+      "adapter": "studio-hub",
+      "previousStage": "new",
+      "currentStage": "shadow",
+      "changed": true,
+      "requirementsMissing": [
+        "real external source required for high-risk adapter"
+      ],
+      "nextStep": "Advance studio-hub by fixing real external source required for high-risk adapter.",
+      "severity": "critical",
+      "milestones": [
+        {
+          "label": "Events present",
+          "requirement": "At least one event from ignis/input/studio-hub.json",
+          "met": true
+        },
+        {
+          "label": "No feed-invalid tags",
+          "requirement": "validationState must not be invalid",
+          "met": true
+        },
+        {
+          "label": "Required signals covered",
+          "requirement": "All required signals present: hub_sync_health, hub_freshness",
+          "met": true
+        },
+        {
+          "label": "Quality ≥ 62%",
+          "requirement": "qualityScore >= 0.62 for dry-run promotion",
+          "met": true
+        },
+        {
+          "label": "Trust ≥ 58%",
+          "requirement": "trustWeight >= 0.58 for dry-run promotion",
+          "met": true
+        },
+        {
+          "label": "External or hybrid source",
+          "requirement": "sourceClass must not be proxy for high-risk adapters",
+          "met": false
+        },
+        {
+          "label": "Quality ≥ 75%",
+          "requirement": "qualityScore >= 0.75 for live-ready promotion",
+          "met": true
+        },
+        {
+          "label": "Trust ≥ 70%",
+          "requirement": "trustWeight >= 0.70 for live-ready promotion",
+          "met": true
+        }
+      ]
+    },
+    {
+      "adapter": "git",
+      "previousStage": "new",
+      "currentStage": "dry-run",
+      "changed": true,
+      "requirementsMissing": [
+        "missing required signals: commit_count"
+      ],
+      "nextStep": "Advance git by fixing missing required signals: commit_count.",
+      "severity": "watch",
+      "milestones": [
+        {
+          "label": "Events present",
+          "requirement": "At least one event from ignis/input/git.json",
+          "met": true
+        },
+        {
+          "label": "No feed-invalid tags",
+          "requirement": "validationState must not be invalid",
+          "met": true
+        },
+        {
+          "label": "Required signals covered",
+          "requirement": "All required signals present: commit_count",
+          "met": false
+        },
+        {
+          "label": "Quality ≥ 62%",
+          "requirement": "qualityScore >= 0.62 for dry-run promotion",
+          "met": true
+        },
+        {
+          "label": "Trust ≥ 58%",
+          "requirement": "trustWeight >= 0.58 for dry-run promotion",
+          "met": true
+        },
+        {
+          "label": "External or hybrid source",
+          "requirement": "sourceClass must not be proxy for high-risk adapters",
+          "met": true
+        },
+        {
+          "label": "Quality ≥ 75%",
+          "requirement": "qualityScore >= 0.75 for live-ready promotion",
+          "met": false
+        },
+        {
+          "label": "Trust ≥ 70%",
+          "requirement": "trustWeight >= 0.70 for live-ready promotion",
+          "met": false
+        }
+      ]
+    }
+  ]
+}

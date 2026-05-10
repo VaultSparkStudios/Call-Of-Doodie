@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.379Z",
+  "project": "call-of-doodie",
+  "currentPosture": "assertive",
+  "currentPolicyMode": "commander",
+  "currentNarrativeMode": "directive",
+  "confidenceBudget": 0.8929800000000001,
+  "drift": 0,
+  "arcDirection": "assertive",
+  "stabilityScore": 1,
+  "arcSummary": "Confidence budget rising over last 1 sessions (89%); moving toward commander posture.",
+  "founderProfile": {
+    "trustInIGNIS": 0.377,
+    "preferredDepth": "balanced",
+    "decisionStyle": "deliberate",
+    "approvalRate": 0,
+    "sessionCount": 6
+  },
+  "history": [
+    {
+      "session": 6,
+      "timestamp": "2026-04-25T22:03:23.378Z",
+      "posture": "assertive",
+      "policyMode": "commander",
+      "narrativeMode": "directive",
+      "confidenceBudget": 0.8929800000000001,
+      "skepticism": 0.3181
+    }
+  ]
+}

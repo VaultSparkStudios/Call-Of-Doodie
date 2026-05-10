@@ -1,0 +1,111 @@
+{
+  "version": "4.0",
+  "lastDecay": "2026-04-25T22:03:23.330Z",
+  "memories": [
+    {
+      "id": "sem-ee2ece99982a3cda",
+      "type": "semantic",
+      "created": "2026-04-25T22:03:23.330Z",
+      "lastAccessed": "2026-04-25T22:03:23.330Z",
+      "accessCount": 0,
+      "strength": 0.628,
+      "associations": [
+        "sem-553fe15f3ee2a7da"
+      ],
+      "consolidationStatus": "raw",
+      "fact": "Top contradiction: intent-outcome: 2 sessions marked intent as achieved/exceeded",
+      "confidence": 0.82,
+      "confirmations": 1,
+      "contradictions": 0
+    },
+    {
+      "id": "sem-553fe15f3ee2a7da",
+      "type": "semantic",
+      "created": "2026-04-25T22:03:23.331Z",
+      "lastAccessed": "2026-04-25T22:03:23.331Z",
+      "accessCount": 0,
+      "strength": 0.6200000000000001,
+      "associations": [
+        "sem-ee2ece99982a3cda",
+        "sem-df414d1ff982a767",
+        "ep-0d2962233681f9a5"
+      ],
+      "consolidationStatus": "raw",
+      "fact": "Top action: Harden shared external feed validation",
+      "confidence": 0.8,
+      "confirmations": 1,
+      "contradictions": 0
+    },
+    {
+      "id": "sem-df414d1ff982a767",
+      "type": "semantic",
+      "created": "2026-04-25T22:03:23.332Z",
+      "lastAccessed": "2026-04-25T22:03:23.332Z",
+      "accessCount": 0,
+      "strength": 0.6120000000000001,
+      "associations": [
+        "sem-553fe15f3ee2a7da",
+        "sem-f492c6285539313a",
+        "sem-58c49a750083c0da"
+      ],
+      "consolidationStatus": "raw",
+      "fact": "Strategy leader: conservative",
+      "confidence": 0.78,
+      "confirmations": 1,
+      "contradictions": 0
+    },
+    {
+      "id": "sem-f492c6285539313a",
+      "type": "semantic",
+      "created": "2026-04-25T22:03:23.332Z",
+      "lastAccessed": "2026-04-25T22:03:23.332Z",
+      "accessCount": 0,
+      "strength": 0.596,
+      "associations": [
+        "sem-df414d1ff982a767"
+      ],
+      "consolidationStatus": "raw",
+      "fact": "Narrative posture: assertive/directive",
+      "confidence": 0.74,
+      "confirmations": 1,
+      "contradictions": 0
+    },
+    {
+      "id": "sem-58c49a750083c0da",
+      "type": "semantic",
+      "created": "2026-04-25T22:03:23.333Z",
+      "lastAccessed": "2026-04-25T22:03:23.333Z",
+      "accessCount": 0,
+      "strength": 0.6160000000000001,
+      "associations": [
+        "sem-df414d1ff982a767"
+      ],
+      "consolidationStatus": "raw",
+      "fact": "Outcome loop: hit rate 100% with regret 0.25 and experiment coverage 66%",
+      "confidence": 0.79,
+      "confirmations": 1,
+      "contradictions": 0
+    },
+    {
+      "id": "ep-0d2962233681f9a5",
+      "type": "episodic",
+      "created": "2026-04-25T22:03:23.333Z",
+      "lastAccessed": "2026-04-25T22:03:23.333Z",
+      "accessCount": 0,
+      "strength": 0.8300000000000001,
+      "associations": [
+        "sem-553fe15f3ee2a7da"
+      ],
+      "consolidationStatus": "raw",
+      "event": "call-of-doodie score cycle tracked 219 events and 6 historical samples",
+      "context": {
+        "project": "call-of-doodie",
+        "eventCount": 219,
+        "historyCount": 6,
+        "winner": "growth-max"
+      },
+      "emotionalValence": 0,
+      "significance": 0.66
+    }
+  ]
+}

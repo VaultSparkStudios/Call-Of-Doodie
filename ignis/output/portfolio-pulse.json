@@ -1,0 +1,337 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.354Z",
+  "currentProject": "Call-Of-Doodie",
+  "totalProjects": 28,
+  "healthDistribution": {
+    "green": 21,
+    "yellow": 7,
+    "red": 0,
+    "unknown": 0
+  },
+  "avgIqScore": 0,
+  "regimeDistribution": {},
+  "projectsAtRisk": [],
+  "blockedProjects": [
+    "C:\\Users\\p4cka\\documents\\development\\Canon",
+    "C:\\Users\\p4cka\\documents\\development\\IdeaForge",
+    "C:\\Users\\p4cka\\documents\\development\\mindframe",
+    "C:\\Users\\p4cka\\documents\\development\\Orva",
+    "C:\\Users\\p4cka\\documents\\development\\PromoGrind",
+    "C:\\Users\\p4cka\\documents\\development\\Scriptorium",
+    "C:\\Users\\p4cka\\documents\\development\\Seamline",
+    "C:\\Users\\p4cka\\documents\\development\\Solara",
+    "C:\\Users\\p4cka\\documents\\development\\SparkFunnel",
+    "C:\\Users\\p4cka\\documents\\development\\StatVault",
+    "C:\\Users\\p4cka\\documents\\development\\The-Exodus",
+    "C:\\Users\\p4cka\\documents\\development\\VaultSpark Football GM",
+    "C:\\Users\\p4cka\\documents\\development\\VaultSpark-Forge",
+    "C:\\Users\\p4cka\\documents\\development\\vaultspark-social-dashboard",
+    "C:\\Users\\p4cka\\documents\\development\\vaultspark-studio-hub",
+    "C:\\Users\\p4cka\\documents\\development\\VaultSparkStudios.github.io",
+    "C:\\Users\\p4cka\\documents\\development\\Velaxis",
+    "C:\\Users\\p4cka\\documents\\development\\Voidfall",
+    "C:\\Users\\p4cka\\documents\\development\\Vorn"
+  ],
+  "stalestProject": {
+    "id": "C:\\Users\\p4cka\\documents\\development\\VaultSpark-Forge",
+    "staleDays": 24
+  },
+  "freshestProject": {
+    "id": "C:\\Users\\p4cka\\documents\\development\\Vorn",
+    "staleDays": 0
+  },
+  "sparklineHealth": "█",
+  "entries": [
+    {
+      "id": "Call-Of-Doodie",
+      "name": "Call-Of-Doodie",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Session 54 shipped the remaining high-impact repo-side launch/refinement tranche: session-flow bookkeeping is now extracted out of `App.jsx`, Run History can launch seeded rematches directly, and launch/readiness commands now report raster-asset and telemetry status in-repo. The remaining milestone work is owner-side launch execution plus live measurement, not missing plumbing.",
+      "blockerCount": 0,
+      "lastUpdated": "2026-04-22",
+      "staleDays": 3
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\Call-Of-Doodie",
+      "name": "Call-Of-Doodie",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Session 54 shipped the remaining high-impact repo-side launch/refinement tranche: session-flow bookkeeping is now extracted out of `App.jsx`, Run History can launch seeded rematches directly, and launch/readiness commands now report raster-asset and telemetry status in-repo. The remaining milestone work is owner-side launch execution plus live measurement, not missing plumbing.",
+      "blockerCount": 0,
+      "lastUpdated": "2026-04-22",
+      "staleDays": 3
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\Canon",
+      "name": "CANON",
+      "health": "yellow",
+      "regime": "",
+      "vaultStatus": "forge",
+      "currentFocus": "Sessions 31+32 shipped 14 engagement/UX features: Capsule Evolution Report, Canon Drift Score, Streak Ceremony Modal, PWA service worker, streak reminders, Weekly Taste Prompts, Taste Map, Canon Momentum/Stats, library rating badges, and web Taste DNA drift. Remote deploy remains blocked.",
+      "blockerCount": 8,
+      "lastUpdated": "2026-04-24",
+      "staleDays": 1
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\Gridiron-GM",
+      "name": "Gridiron-GM",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Keep the public repository deployable and public-safe.",
+      "blockerCount": 0,
+      "lastUpdated": "2026-04-03",
+      "staleDays": 22
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\gridiron-gm-play",
+      "name": "gridiron-gm-play",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Keep the public repository deployable and public-safe.",
+      "blockerCount": 0,
+      "lastUpdated": "2026-04-03",
+      "staleDays": 22
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\IdeaForge",
+      "name": "IdeaForge",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Session 50 completed public-unveil follow-through: /demo now has a no-auth adaptive-dimensions/proof-tasks/Dimension Signature tour, validate:claims prevents app/README/website marketing drift, supabase:bootstrap has a focused workspace-upgrade mode for migration 005, and all app + website gates pass.",
+      "blockerCount": 4,
+      "lastUpdated": "2026-04-24",
+      "staleDays": 1
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\mindframe",
+      "name": "MindFrame",
+      "health": "yellow",
+      "regime": "",
+      "vaultStatus": "forge",
+      "currentFocus": "Public-unveil readiness: production build/lint/typecheck/unit tests, focused UX, and dependency audit are green; founder outreach and launch envs remain.",
+      "blockerCount": 3,
+      "lastUpdated": "2026-04-25",
+      "staleDays": 0
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\Orva",
+      "name": "Orva EON",
+      "health": "yellow",
+      "regime": "",
+      "vaultStatus": "forge",
+      "currentFocus": "Session 48: pushed the app-first wedge implementation, resolved the PoC licensing contradiction, and added real local connector execution behind the action fabric.",
+      "blockerCount": 2,
+      "lastUpdated": "2026-04-14",
+      "staleDays": 11
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\PromoGrind",
+      "name": "PromoGrind",
+      "health": "green",
+      "regime": "",
+      "vaultStatus": "FORGE",
+      "currentFocus": "S78 launch-hardening refinement — canonical sportsbook CTA link analytics, adaptive ranking telemetry snapshots, evidence-gated launch proof updates, checkout notification seam extraction, and green verify:launch-local gate.",
+      "blockerCount": 3,
+      "lastUpdated": "2026-04-24",
+      "staleDays": 1
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\Scriptorium",
+      "name": "The Scriptorium",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "S16 first-run UX repair — empty-Run trap closed (new Run with no chapters now auto-routes to Score → Batch upload with prompt toast instead of empty Triage); workflow-driven NAV reorder with section dividers (PIPELINE / REFERENCE / RELEASE / POWER TOOLS); OnboardingModal rewritten as 5-step run guide aligned to new nav. 580/580 tests, 41 files. Live at scriptorium.vaultsparkstudios.com.",
+      "blockerCount": 1,
+      "lastUpdated": "2026-04-25",
+      "staleDays": 0
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\Seamline",
+      "name": "Seamline",
+      "health": "yellow",
+      "regime": "",
+      "vaultStatus": "forge",
+      "currentFocus": "Session 19 closeout — proof/replay/intelligence refinements landed: executable local-proof chain, assertive webhook replay, activation proof targets, dispatch/referral attribution outcomes, and 90-day creator receipt memory. 32 routes live. 88/88 tests green. Typecheck and route budgets green; production build timed out in this shell without diagnostic output.",
+      "blockerCount": 8,
+      "lastUpdated": "2026-04-24",
+      "staleDays": 1
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\Solara",
+      "name": "Solara",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Stabilize the shared-world meta-loop, RPC-first public write path, deterministic chronicle exports, interactive world feedback, First Myth onboarding, and Director-driven Daily Rite planning while keeping the public repository deployable and public-safe.",
+      "blockerCount": 1,
+      "lastUpdated": "2026-04-17",
+      "staleDays": 8
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\SparkFunnel",
+      "name": "SparkFunnel",
+      "health": "yellow",
+      "regime": "",
+      "vaultStatus": "FORGE",
+      "currentFocus": "Session 21 — growth-intelligence migration 0006 and missing layout migration 0005 applied and verified in shared Supabase; custom-domain CNAME created; Brevo sender DNS authenticated; experiment outcome snapshots shipped. Remaining activation items are missing UptimeRobot and Upstash secrets plus deploy publication from CI/Linux.",
+      "blockerCount": 2,
+      "lastUpdated": "2026-04-25",
+      "staleDays": 0
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\StatVault",
+      "name": "StatVault",
+      "health": "yellow",
+      "regime": "",
+      "vaultStatus": "forge",
+      "currentFocus": "The repo-owned Session 75 pass is implemented: backend watchdog and proxy-route audit artifacts now exist, project-ops/public-contract surfaces expose them, cutover doctor consumes them, startup brief generation validates with the required GENIUS HIT LIST block, Beat the Vault season ladder now exposes the rankings-to-evidence-to-card-to-rivalry retention path, and selected backend reads now fail fast with explicit timeouts. Remaining work is still external live backend recovery or Hetzner cutover, live seed capture, provider-key completion, final custom-domain attachment, and migrating the lowest-scoring proxy routes found by the new audit.",
+      "blockerCount": 5,
+      "lastUpdated": "2026-04-24",
+      "staleDays": 1
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\The-Exodus",
+      "name": "The Exodus",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "S25: Integrity and onboarding follow-through — admin env-health, auth split, async resume inbox, guided First Launch, friction triage, and bundle budget gate",
+      "blockerCount": 3,
+      "lastUpdated": "2026-04-14",
+      "staleDays": 11
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\VaultFront",
+      "name": "VaultFront",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Keep the public repository deployable and public-safe.",
+      "blockerCount": 0,
+      "lastUpdated": "2026-04-03",
+      "staleDays": 22
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\VaultSpark Football GM",
+      "name": "VaultSpark Football GM",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Test coverage expansion — 35 new tests added (session8-endpoints + session8-contract-edges). Suite now 95 pass, 0 fail.",
+      "blockerCount": 2,
+      "lastUpdated": "2026-04-13",
+      "staleDays": 12
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\VaultSpark-Forge",
+      "name": "VaultSpark Forge",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Speaker-aware transcript filtering and draft comparison shipped; awaiting real ElevenLabs credentials for first live creator pass",
+      "blockerCount": 3,
+      "lastUpdated": "2026-04-01",
+      "staleDays": 24
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\vaultspark-ignis",
+      "name": "IGNIS",
+      "health": "green",
+      "regime": "",
+      "vaultStatus": "sparked",
+      "currentFocus": "S100 shipped the full Next bucket (5 items: registry-drift monitor [SIL], contract-checksum alert, template-type-aware initiate, capability-gap triage tier, quarantine calibration suite) + 4 root-cause noise fixes (genius-list TASK_BOARD section regex, innovation-pack capability-gap scanner, brainstorm-orphan matcher, registry-drift --fix flag). TASK_BOARD Next is legitimately empty at closeout.",
+      "blockerCount": 0,
+      "lastUpdated": "2026-04-25",
+      "staleDays": 0
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\vaultspark-social-dashboard",
+      "name": "VaultSpark Studios Social Dashboard",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Session 61 (compound refinement sprint): shipped 12 test files for previously zero-coverage modules — dashboardTransportShared, performanceScoring, abTestEngine, agentMetricsCalculator, onboardingActions, apiContract, dashboardModel, platformOperationsController, settingsOperationsController, studioData, operationalSignals, runtimeProofController. Test suite advanced from 1771 to 1892. All primary genius list items remain human-blocked on live credentials.",
+      "blockerCount": 3,
+      "lastUpdated": "2026-04-24",
+      "staleDays": 1
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\vaultspark-studio-hub",
+      "name": "VaultSpark Studio Hub",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "S84 /go sprint: persisted founder score history + provenance + Δ pills, shipped ceremony noise-floor tuning and constellation node persistence, closed SESSION_PROTOCOL §2.3 expansion gap via new innovation-pack subcommand.",
+      "blockerCount": 5,
+      "lastUpdated": "2026-04-24",
+      "staleDays": 1
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\vaultspark-studio-ops",
+      "name": "Studio Ops",
+      "health": "yellow",
+      "regime": "",
+      "vaultStatus": "forge",
+      "currentFocus": "S63d aged-escalation blitz — all 3 ≥40-session credentials LIVE: Resend + R2 + CF wildcard DNS. Capability count 17 → 20/39 READY. Founder-pressure 132 → 0.",
+      "blockerCount": 0,
+      "lastUpdated": "2026-04-24",
+      "staleDays": 1
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\VaultSparkStudios.github.io",
+      "name": "VaultSparkStudios.github.io",
+      "health": "green",
+      "regime": "",
+      "vaultStatus": "SPARKED",
+      "currentFocus": "S111 structural-gate + compliance-recovery sprint: 3 new drift gates wired into build:check — portfolio-count-drift (press kit + homepage + studio-pulse pins against api/public-intelligence.json for both digit and word-spelled counts), brand-assets-drift (verifies /assets/brand/*.png|.webp byte counts match /brand/assets.json manifest), genius-list freshness suppression (scripts/generate-genius-list.mjs::ensureMinimum now calls isRecentlyDone to suppress default items already closed in TASK_BOARD within 3 sessions — root-cause fix for the Forge Window / Post-push CI re-surfacing pattern). Cross-repo: Vorn + Seamline TRUTH_AUDIT.md \"Overall status\" line stripped of bold markers / emoji prefix → validate-compliance 25/27 → 27/27. Doctor 10/13 (77%) → 12/13 (92%). No blocking advisory failures remain.",
+      "blockerCount": 4,
+      "lastUpdated": "2026-04-25",
+      "staleDays": 0
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\Velaxis",
+      "name": "Velaxis",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Command center, setup ranking, AI portfolio review, prediction review loop, worker typecheck, and Playwright CI path all shipped. Next: scenario compare, outcome scoring, sidebar mini mode, push smoke test.",
+      "blockerCount": 3,
+      "lastUpdated": "2026-04-24",
+      "staleDays": 1
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\Voidfall",
+      "name": "Voidfall",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Scriptorium v91 — quality-safe mega-sprint (20 items): prompt-cache 3-block split, smart skip cache, cost guardrails, drop-anywhere shell, A+ Gap Analyzer, sentence-level heat overlay, time-travel slider, voice drift detector, WebCrypto key encryption, Worker hardening, dashboard code-split, closeout-lint + cross-repo sync scripts. 383 tests green. Resolves 5 prior SIL items.",
+      "blockerCount": 1,
+      "lastUpdated": "2026-04-16",
+      "staleDays": 9
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\voidfall-build",
+      "name": "Voidfall Build Tool",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Maintaining scoring accuracy for Book 1 lock",
+      "blockerCount": 0,
+      "lastUpdated": "2026-04-01",
+      "staleDays": 24
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\voidfall-companion",
+      "name": "Voidfall Companion App",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Deploy companion app to production",
+      "blockerCount": 0,
+      "lastUpdated": "2026-04-01",
+      "staleDays": 24
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\Vorn",
+      "name": "Vorn",
+      "health": "green",
+      "regime": "",
+      "currentFocus": "Session 110 infra + CI: 6 scripts/lib modules created, render-startup-brief.mjs + blocker-preflight.mjs repaired, claim-flow smoke CI live, axe-core a11y CI live (18 routes). Launch readiness unchanged — VAPID + live validations remain human-gated.",
+      "blockerCount": 1,
+      "lastUpdated": "2026-04-25",
+      "staleDays": 0
+    }
+  ],
+  "summary": "28 project(s): 21 green · 7 yellow · 0 red · 0 unknown. Avg IQ: 0. No red-health projects."
+}

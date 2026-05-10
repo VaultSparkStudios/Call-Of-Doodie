@@ -1,0 +1,380 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.339Z",
+  "project": "call-of-doodie",
+  "summary": "8 guarded actions are staged from the live action plan around \"Harden shared external feed validation\"; trust 70%, regret 0.25.",
+  "policy": {
+    "mode": "manual-approval",
+    "approvalsRequired": [
+      "Founder approval before any write action executes.",
+      "Each action must carry an explicit rollback plan in the queue artifact.",
+      "High-risk or task-board mutations require explicit scope-aware approval."
+    ],
+    "rollbackExpectation": "Every action must remain reversible through git or managed-file rollback notes.",
+    "actorModel": "Only the founder or an explicitly delegated operator may approve queued writes.",
+    "requiresEvidenceThreshold": 0.65,
+    "requiresTrustThreshold": 0.6,
+    "dryRunExpectation": "Every queued action should be previewable before execution whenever the target system supports it.",
+    "externalExecutionReady": false,
+    "externalExecutionBlockers": [
+      "pr-reviews is shadow: proxy/valid with trust 76% and quality 77%.",
+      "deploys is shadow: proxy/valid with trust 76% and quality 77%.",
+      "studio-hub is shadow: proxy/valid with trust 76% and quality 77%.",
+      "proxy-heavy gap: proposals",
+      "proxy-heavy gap: sil"
+    ],
+    "authoritySummary": "External execution remains blocked until signal trust, composite trust, and at least one high-risk adapter clear the current gates.",
+    "unlockLadder": [
+      {
+        "adapter": "pr-reviews",
+        "stage": "shadow",
+        "reason": "proxy/valid with trust 76% and quality 77%.",
+        "milestones": [
+          {
+            "label": "Feed events present",
+            "requirement": "Populate ignis/input/pr-reviews.json with at least one valid event",
+            "met": true
+          },
+          {
+            "label": "Feed validation clean",
+            "requirement": "No feed-invalid or feed-incomplete tags (all required signals covered)",
+            "met": true
+          },
+          {
+            "label": "External source (not proxy)",
+            "requirement": "High-risk adapter must use external or hybrid source for shadow→dry-run",
+            "met": false
+          },
+          {
+            "label": "Quality ≥ 62% (dry-run gate)",
+            "requirement": "qualityScore >= 0.62 required for dry-run promotion",
+            "met": true
+          },
+          {
+            "label": "Trust ≥ 58% (dry-run gate)",
+            "requirement": "trustWeight >= 0.58 required for dry-run promotion",
+            "met": true
+          },
+          {
+            "label": "Quality ≥ 75% (live-ready gate)",
+            "requirement": "qualityScore >= 0.75 required for live-ready promotion",
+            "met": true
+          },
+          {
+            "label": "Trust ≥ 70% (live-ready gate)",
+            "requirement": "trustWeight >= 0.70 required for live-ready promotion",
+            "met": true
+          }
+        ]
+      },
+      {
+        "adapter": "deploys",
+        "stage": "shadow",
+        "reason": "proxy/valid with trust 76% and quality 77%.",
+        "milestones": [
+          {
+            "label": "Feed events present",
+            "requirement": "Populate ignis/input/deploys.json with at least one valid event",
+            "met": true
+          },
+          {
+            "label": "Feed validation clean",
+            "requirement": "No feed-invalid or feed-incomplete tags (all required signals covered)",
+            "met": true
+          },
+          {
+            "label": "External source (not proxy)",
+            "requirement": "High-risk adapter must use external or hybrid source for shadow→dry-run",
+            "met": false
+          },
+          {
+            "label": "Quality ≥ 62% (dry-run gate)",
+            "requirement": "qualityScore >= 0.62 required for dry-run promotion",
+            "met": true
+          },
+          {
+            "label": "Trust ≥ 58% (dry-run gate)",
+            "requirement": "trustWeight >= 0.58 required for dry-run promotion",
+            "met": true
+          },
+          {
+            "label": "Quality ≥ 75% (live-ready gate)",
+            "requirement": "qualityScore >= 0.75 required for live-ready promotion",
+            "met": true
+          },
+          {
+            "label": "Trust ≥ 70% (live-ready gate)",
+            "requirement": "trustWeight >= 0.70 required for live-ready promotion",
+            "met": true
+          }
+        ]
+      },
+      {
+        "adapter": "studio-hub",
+        "stage": "shadow",
+        "reason": "proxy/valid with trust 76% and quality 77%.",
+        "milestones": [
+          {
+            "label": "Feed events present",
+            "requirement": "Populate ignis/input/studio-hub.json with at least one valid event",
+            "met": true
+          },
+          {
+            "label": "Feed validation clean",
+            "requirement": "No feed-invalid or feed-incomplete tags (all required signals covered)",
+            "met": true
+          },
+          {
+            "label": "External source (not proxy)",
+            "requirement": "High-risk adapter must use external or hybrid source for shadow→dry-run",
+            "met": false
+          },
+          {
+            "label": "Quality ≥ 62% (dry-run gate)",
+            "requirement": "qualityScore >= 0.62 required for dry-run promotion",
+            "met": true
+          },
+          {
+            "label": "Trust ≥ 58% (dry-run gate)",
+            "requirement": "trustWeight >= 0.58 required for dry-run promotion",
+            "met": true
+          },
+          {
+            "label": "Quality ≥ 75% (live-ready gate)",
+            "requirement": "qualityScore >= 0.75 required for live-ready promotion",
+            "met": true
+          },
+          {
+            "label": "Trust ≥ 70% (live-ready gate)",
+            "requirement": "trustWeight >= 0.70 required for live-ready promotion",
+            "met": true
+          }
+        ]
+      },
+      {
+        "adapter": "social-dashboard",
+        "stage": "shadow",
+        "reason": "proxy/valid with trust 76% and quality 77%.",
+        "milestones": [
+          {
+            "label": "Feed events present",
+            "requirement": "Populate ignis/input/social-dashboard.json with at least one valid event",
+            "met": true
+          },
+          {
+            "label": "Feed validation clean",
+            "requirement": "No feed-invalid or feed-incomplete tags (all required signals covered)",
+            "met": true
+          },
+          {
+            "label": "External source (not proxy)",
+            "requirement": "High-risk adapter must use external or hybrid source for shadow→dry-run",
+            "met": false
+          },
+          {
+            "label": "Quality ≥ 62% (dry-run gate)",
+            "requirement": "qualityScore >= 0.62 required for dry-run promotion",
+            "met": true
+          },
+          {
+            "label": "Trust ≥ 58% (dry-run gate)",
+            "requirement": "trustWeight >= 0.58 required for dry-run promotion",
+            "met": true
+          },
+          {
+            "label": "Quality ≥ 75% (live-ready gate)",
+            "requirement": "qualityScore >= 0.75 required for live-ready promotion",
+            "met": true
+          },
+          {
+            "label": "Trust ≥ 70% (live-ready gate)",
+            "requirement": "trustWeight >= 0.70 required for live-ready promotion",
+            "met": true
+          }
+        ]
+      }
+    ],
+    "nextUnlock": "pr-reviews should advance next from shadow."
+  },
+  "actions": [
+    {
+      "id": "refresh-score",
+      "type": "refresh-score",
+      "title": "Refresh intelligence around \"Feed founder feedback directly into ranking and escalation policy\"",
+      "description": "Recompute and persist runtime artifacts after reassessing the live top action \"Feed founder feedback directly into ranking and escalation policy\".",
+      "requiresApproval": true,
+      "approvalReason": "This rewrites canonical runtime artifacts under ignis/output.",
+      "rollbackPlan": "Re-run the previous scoring cycle from git history or restore the prior artifact snapshots.",
+      "targetPath": "ignis/output",
+      "commandHint": "npm run build && tsx cli.ts founder .",
+      "successMetric": "Top actions and approval pressure adapt to founder behavior instead of just reporting it.",
+      "capability": "ignis.artifacts.write",
+      "riskLevel": "medium",
+      "approvalScope": "artifacts",
+      "actor": "founder",
+      "verificationCommand": "node dist/cli.js founder .",
+      "dryRunSupported": true,
+      "status": "pending_approval"
+    },
+    {
+      "id": "snapshot-evidence",
+      "type": "snapshot-evidence",
+      "title": "Capture a timestamped evidence snapshot",
+      "description": "Persist a point-in-time evidence/founder snapshot for later comparison and regret analysis.",
+      "requiresApproval": true,
+      "approvalReason": "This creates a new timestamped artifact under ignis/output/evidence-snapshots.",
+      "rollbackPlan": "Delete the timestamped snapshot file if it was created in error.",
+      "targetPath": "ignis/output/evidence-snapshots",
+      "commandHint": "tsx cli.ts evidence .",
+      "successMetric": "A fresh comparison point exists for the next score cycle.",
+      "capability": "ignis.evidence.snapshot",
+      "riskLevel": "low",
+      "approvalScope": "artifacts",
+      "actor": "founder",
+      "verificationCommand": "Review ignis/output/evidence-snapshots for the new timestamped file.",
+      "dryRunSupported": true,
+      "status": "pending_approval"
+    },
+    {
+      "id": "stamp-contradiction",
+      "type": "stamp-contradiction",
+      "title": "Stamp the current top contradiction",
+      "description": "Persist the highest-severity contradiction so founder surfaces and audits can reference the same stamp.",
+      "requiresApproval": true,
+      "approvalReason": "This writes a new contradiction stamp that other surfaces may treat as current truth context.",
+      "rollbackPlan": "Restore the previous contradiction stamp or remove the generated stamp if it was noise.",
+      "targetPath": "ignis/output/contradiction-stamp.json",
+      "notes": "1 contradiction(s) detected. Trust score: 75%.",
+      "commandHint": "tsx cli.ts founder .",
+      "successMetric": "Either intent criteria are too loose, or improvements aren't being tracked",
+      "capability": "ignis.contradiction.stamp",
+      "riskLevel": "medium",
+      "approvalScope": "artifacts",
+      "actor": "founder",
+      "verificationCommand": "Review ignis/output/contradiction-stamp.json for the active contradiction.",
+      "dryRunSupported": true,
+      "status": "pending_approval"
+    },
+    {
+      "id": "stage-action-synth-feedback-policy",
+      "type": "stage-action-playbook",
+      "title": "Compile live playbook for \"Feed founder feedback directly into ranking and escalation policy\"",
+      "description": "Materialize the current ranked action into a structured execution playbook with verification, rollback, and evidence requirements.",
+      "requiresApproval": true,
+      "approvalReason": "This writes a canonical action playbook that downstream execution surfaces may consume.",
+      "rollbackPlan": "Remove the generated playbook JSON if the action should not remain active.",
+      "targetPath": "ignis/output/action-playbooks/synth-feedback-policy.json",
+      "commandHint": "Map explicit approve/defer/reject/edit feedback signals into recommendation weighting and queue escalation posture.",
+      "successMetric": "Top actions and approval pressure adapt to founder behavior instead of just reporting it.",
+      "capability": "ignis.action-plan.write",
+      "riskLevel": "low",
+      "approvalScope": "artifacts",
+      "actor": "founder",
+      "verificationCommand": "Review ignis/output/action-playbooks/synth-feedback-policy.json for scope, verification, and rollback completeness.",
+      "dryRunSupported": true,
+      "notes": "Rank 1 · score 0.965 · category feedback · External execution gate is closed until trust/evidence improve; staging as artifacts.",
+      "status": "pending_approval"
+    },
+    {
+      "id": "stage-action-synth-allocation-engine",
+      "type": "stage-action-playbook",
+      "title": "Compile live playbook for \"Turn leverage modeling into a regime-aware studio allocation engine\"",
+      "description": "Materialize the current ranked action into a structured execution playbook with verification, rollback, and evidence requirements.",
+      "requiresApproval": true,
+      "approvalReason": "This writes a canonical action playbook that downstream execution surfaces may consume.",
+      "rollbackPlan": "Remove the generated playbook JSON if the action should not remain active.",
+      "targetPath": "ignis/output/action-playbooks/synth-allocation-engine.json",
+      "commandHint": "Attach explicit founder/engineering/creative allocation recommendations to the top leverage targets and summarize the best current studio-wide allocation move.",
+      "successMetric": "Portfolio leverage outputs name both the project and the recommended time split for acting on it.",
+      "capability": "ignis.action-plan.write",
+      "riskLevel": "low",
+      "approvalScope": "artifacts",
+      "actor": "founder",
+      "verificationCommand": "Review ignis/output/action-playbooks/synth-allocation-engine.json for scope, verification, and rollback completeness.",
+      "dryRunSupported": true,
+      "notes": "Rank 2 · score 0.902 · category strategy · External execution gate is closed until trust/evidence improve; staging as artifacts.",
+      "status": "pending_approval"
+    },
+    {
+      "id": "stage-action-synth-operator-inheritance",
+      "type": "stage-action-playbook",
+      "title": "Compile live playbook for \"Push dashboard and hub summaries onto the operator rendering spine\"",
+      "description": "Materialize the current ranked action into a structured execution playbook with verification, rollback, and evidence requirements.",
+      "requiresApproval": true,
+      "approvalReason": "This writes a canonical action playbook that downstream execution surfaces may consume.",
+      "rollbackPlan": "Remove the generated playbook JSON if the action should not remain active.",
+      "targetPath": "ignis/output/action-playbooks/synth-operator-inheritance.json",
+      "commandHint": "Route dashboard and hub-facing summaries through the operator command center so posture, trust movement, and unlock status share one runtime source.",
+      "successMetric": "Dashboard, startup, founder, and hub-facing outputs all describe the same evidence gaps, trust shifts, and unlock posture.",
+      "capability": "ignis.action-plan.write",
+      "riskLevel": "high",
+      "approvalScope": "artifacts",
+      "actor": "founder",
+      "verificationCommand": "Review ignis/output/action-playbooks/synth-operator-inheritance.json for scope, verification, and rollback completeness.",
+      "dryRunSupported": true,
+      "notes": "Rank 3 · score 0.895 · category platform · External execution gate is closed until trust/evidence improve; staging as artifacts.",
+      "skepticReview": {
+        "counterargument": "This action is well-supported but high-stakes. Confirm that the first step (\"Route dashboard and hub-facing summaries through the operator command center so ...\") is achievable with current resources before approving.",
+        "assumptions": [
+          "Core assumptions appear well-grounded given current evidence depth and uncertainty."
+        ],
+        "preConditions": [
+          "Verify success metric: \"Dashboard, startup, founder, and hub-facing outputs all describe the same evidence gaps, trust shifts, and unlock posture.\" is measurable before proceeding."
+        ],
+        "confidenceCap": 0.85,
+        "adversaryFindings": [
+          {
+            "kind": "stale-evidence",
+            "severity": "high",
+            "summary": "Supporting evidence averages 0% freshness. A refresh may overturn the recommendation."
+          },
+          {
+            "kind": "overfitting",
+            "severity": "high",
+            "summary": "Only 0 evidence node(s) back this recommendation across 2 ref(s); a single new contradicting signal could flip the ranking."
+          }
+        ]
+      },
+      "status": "pending_approval"
+    },
+    {
+      "id": "dry-run-git",
+      "type": "dry-run-external-action",
+      "title": "Dry-run external execution lane for git",
+      "description": "Generate a dry-run contract for git using the current unlock state, evidence gaps, and rollback posture.",
+      "requiresApproval": true,
+      "approvalReason": "This stages an adapter-backed external execution contract and should stay founder-gated even in dry-run mode.",
+      "rollbackPlan": "Delete the dry-run receipt if the execution lane should not remain active.",
+      "targetPath": "ignis/output/external-dry-runs/git.json",
+      "commandHint": "Validate git feed quality and produce a dry-run execution contract.",
+      "successMetric": "git has a reusable dry-run contract with verification and blocker notes.",
+      "capability": "ignis.external.dry-run",
+      "riskLevel": "medium",
+      "approvalScope": "external-system",
+      "actor": "founder",
+      "verificationCommand": "Review ignis/output/external-dry-runs/git.json for verification, rollback, and unlock context.",
+      "dryRunSupported": true,
+      "notes": "Unlock stage dry-run; next step: Advance git by fixing missing required signals: commit_count.",
+      "status": "pending_approval"
+    },
+    {
+      "id": "create-task",
+      "type": "create-task",
+      "title": "Stage managed task for \"Turn leverage modeling into a regime-aware studio allocation engine\"",
+      "description": "Insert a managed Now-bucket task for \"Harden shared external feed validation\".",
+      "requiresApproval": true,
+      "approvalReason": "This mutates the Studio OS task board and therefore needs explicit approval.",
+      "rollbackPlan": "Remove the managed [IGNIS EXEC] line from TASK_BOARD.md if the action should not stay in the queue.",
+      "targetPath": "context/TASK_BOARD.md",
+      "commandHint": "Review TASK_BOARD.md after execution.",
+      "successMetric": "Signal coverage receipts explain why an adapter is trusted, invalid, or still shadow-only instead of showing generic feed status only.",
+      "capability": "studio.task-board.write",
+      "riskLevel": "high",
+      "approvalScope": "task-board",
+      "actor": "founder",
+      "verificationCommand": "Confirm the managed [IGNIS EXEC] item exists in the Now bucket.",
+      "dryRunSupported": true,
+      "status": "pending_approval"
+    }
+  ],
+  "receipts": []
+}

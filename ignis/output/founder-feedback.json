@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.318Z",
+  "project": "call-of-doodie",
+  "summary": "Founder truth spine: 8 explicit decisions, 3/8 linked events, 8 pending founder decision(s), truth confidence 59%.",
+  "linkedRate": 0.375,
+  "directInterventionRate": 1,
+  "pendingDecisionCount": 8,
+  "approvalCount": 0,
+  "assignmentCount": 0,
+  "directionCount": 0,
+  "guidanceCount": 0,
+  "rejectionCount": 0,
+  "strategyTilt": "debt-first",
+  "escalationPressure": 0.38,
+  "preferredThemes": [],
+  "blockedThemes": [
+    "execution",
+    "playbook",
+    "canonical",
+    "external",
+    "may"
+  ],
+  "themePressures": [
+    {
+      "theme": "execution",
+      "weight": 0.74,
+      "direction": "avoid"
+    },
+    {
+      "theme": "playbook",
+      "weight": 0.62,
+      "direction": "avoid"
+    },
+    {
+      "theme": "canonical",
+      "weight": 0.5,
+      "direction": "avoid"
+    },
+    {
+      "theme": "external",
+      "weight": 0.38,
+      "direction": "avoid"
+    }
+  ],
+  "canonicalEventCount": 8,
+  "founderTruthConfidence": 0.59,
+  "preferredOutputDepth": "balanced",
+  "decisionVelocity": "moderate",
+  "learningPriority": "reduce pending approval backlog and tighten escalation policy",
+  "eventSourceBreakdown": {
+    "execution-queue": 8
+  },
+  "policySignals": [
+    "Strategy tilt: debt-first",
+    "Blocked themes: execution, playbook, canonical",
+    "Founder truth 59% from 8 explicit decisions across 1 source(s).",
+    "Preferred depth: balanced · decision velocity: moderate.",
+    "Escalation pressure 38% from rejection/pending founder feedback."
+  ],
+  "quarantine": {
+    "candidates": 0,
+    "quarantined": 0,
+    "emitted": 0,
+    "rate": 0
+  },
+  "events": [
+    {
+      "id": "queue:0f010e6c4333d1f1",
+      "source": "execution-queue",
+      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "title": "Capture a timestamped evidence snapshot",
+      "category": "pending",
+      "resolution": "pending",
+      "humanInput": "This creates a new timestamped artifact under ignis/output/evidence-snapshots.",
+      "linkConfidence": 0.72,
+      "signalStrength": 0.38,
+      "sourceDetail": "artifacts",
+      "notes": [
+        "scope=artifacts",
+        "risk=low"
+      ]
+    },
+    {
+      "id": "queue:49bb71ea9f27193c",
+      "source": "execution-queue",
+      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "title": "Compile live playbook for \"Deepen outcome learning and regret tracking\"",
+      "category": "pending",
+      "resolution": "pending",
+      "humanInput": "This writes a canonical action playbook that downstream execution surfaces may consume.",
+      "interventionId": "candidate:synth-outcome-ledger",
+      "linkedActionId": "synth-outcome-ledger",
+      "linkConfidence": 1,
+      "signalStrength": 0.38,
+      "sourceDetail": "artifacts",
+      "notes": [
+        "scope=artifacts",
+        "risk=low"
+      ]
+    },
+    {
+      "id": "queue:74745886861d0773",
+      "source": "execution-queue",
+      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "title": "Stage managed task for \"Replace global execution gating with adapter-specific unlock ladders\"",
+      "category": "pending",
+      "resolution": "pending",
+      "humanInput": "This mutates the Studio OS task board and therefore needs explicit approval.",
+      "linkConfidence": 0.72,
+      "signalStrength": 0.38,
+      "sourceDetail": "task-board",
+      "notes": [
+        "scope=task-board",
+        "risk=high"
+      ]
+    },
+    {
+      "id": "queue:77aed37251efe128",
+      "source": "execution-queue",
+      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "title": "Refresh intelligence around \"Harden shared external feed validation\"",
+      "category": "pending",
+      "resolution": "pending",
+      "humanInput": "This rewrites canonical runtime artifacts under ignis/output.",
+      "linkConfidence": 0.72,
+      "signalStrength": 0.38,
+      "sourceDetail": "artifacts",
+      "notes": [
+        "scope=artifacts",
+        "risk=medium"
+      ]
+    },
+    {
+      "id": "queue:7fd17bcc6a6fcd10",
+      "source": "execution-queue",
+      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "title": "Stamp the current top contradiction",
+      "category": "pending",
+      "resolution": "pending",
+      "humanInput": "This writes a new contradiction stamp that other surfaces may treat as current truth context.",
+      "linkConfidence": 0.72,
+      "signalStrength": 0.38,
+      "sourceDetail": "artifacts",
+      "notes": [
+        "scope=artifacts",
+        "risk=medium"
+      ]
+    },
+    {
+      "id": "queue:b6e8e914897e336c",
+      "source": "execution-queue",
+      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "title": "Compile live playbook for \"Replace global execution gating with adapter-specific unlock ladders\"",
+      "category": "pending",
+      "resolution": "pending",
+      "humanInput": "This writes a canonical action playbook that downstream execution surfaces may consume.",
+      "interventionId": "candidate:synth-execution-unlock",
+      "linkedActionId": "synth-execution-unlock",
+      "linkConfidence": 1,
+      "signalStrength": 0.38,
+      "sourceDetail": "artifacts",
+      "notes": [
+        "scope=artifacts",
+        "risk=high"
+      ]
+    },
+    {
+      "id": "queue:ca76b427bee57c66",
+      "source": "execution-queue",
+      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "title": "Compile live playbook for \"Harden shared external feed validation\"",
+      "category": "pending",
+      "resolution": "pending",
+      "humanInput": "This writes a canonical action playbook that downstream execution surfaces may consume.",
+      "interventionId": "candidate:synth-feed-validator",
+      "linkedActionId": "synth-feed-validator",
+      "linkConfidence": 1,
+      "signalStrength": 0.38,
+      "sourceDetail": "artifacts",
+      "notes": [
+        "scope=artifacts",
+        "risk=low"
+      ]
+    },
+    {
+      "id": "queue:dd67764975ad3d8e",
+      "source": "execution-queue",
+      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "title": "Dry-run external execution lane for git",
+      "category": "pending",
+      "resolution": "pending",
+      "humanInput": "This stages an adapter-backed external execution contract and should stay founder-gated even in dry-run mode.",
+      "linkConfidence": 0.72,
+      "signalStrength": 0.38,
+      "sourceDetail": "external-system",
+      "notes": [
+        "scope=external-system",
+        "risk=medium"
+      ]
+    }
+  ]
+}

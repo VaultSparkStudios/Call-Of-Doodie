@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.344Z",
+  "project": "call-of-doodie",
+  "totalResolved": 0,
+  "patterns": [],
+  "typeStats": [],
+  "activePredictions": [
+    {
+      "contradictionId": "intent-delivery-gap",
+      "contradictionType": "intent-outcome",
+      "currentAgeInSessions": 1,
+      "predictedResolutionSessions": 3,
+      "sessionsRemaining": 2,
+      "predictedMechanism": "Either intent criteria are too loose, or improvements aren't being tracked",
+      "confidence": 0.35,
+      "basedOnPatterns": 0
+    }
+  ],
+  "summary": "No resolved contradictions recorded yet. Library will populate as contradictions resolve."
+}

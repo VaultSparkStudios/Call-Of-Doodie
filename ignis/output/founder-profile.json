@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.380Z",
+  "project": "call-of-doodie",
+  "sessionCount": 6,
+  "approvalRate": 0,
+  "decisionVelocity": "fast",
+  "riskTolerance": "low",
+  "topInterestCategories": [],
+  "avoidedCategories": [
+    "execution",
+    "playbook",
+    "canonical"
+  ],
+  "preferredOutputDepth": "verbose",
+  "sessionEnergyPattern": "high-momentum sprints",
+  "founderArcNote": "6 sessions together. Still calibrating trust model; current preference leans verbose.",
+  "themeWeights": {
+    "pending": 0.1800000000000001,
+    "execution": 0.3,
+    "playbook": 0.3,
+    "canonical": 0.3,
+    "external": 0.3,
+    "may": 0.3
+  }
+}

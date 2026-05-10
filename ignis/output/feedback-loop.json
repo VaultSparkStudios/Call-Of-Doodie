@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.338Z",
+  "project": "call-of-doodie",
+  "summary": "Feedback loop strength is driven by direct intervention while execution follow-through remains the main limiter; reliability is 45% with founder truth 59%.",
+  "acceptanceRate": 0.5,
+  "deferRate": 1,
+  "rejectionRate": 0,
+  "editRate": 0,
+  "linkedFeedbackRate": 0.375,
+  "feedbackReliability": 0.448,
+  "eventCount": 8,
+  "pendingDecisionCount": 8,
+  "directionCount": 0,
+  "approvalCount": 0,
+  "assignmentCount": 0,
+  "guidanceCount": 0,
+  "rejectionCount": 0,
+  "receiptCount": 0,
+  "outcomeCount": 3,
+  "signals": [
+    {
+      "label": "Acceptance",
+      "value": 0.5,
+      "note": "0 approvals and 0 assignments across 0 explicit founder events."
+    },
+    {
+      "label": "Feedback Linkage",
+      "value": 0.375,
+      "note": "3 of 8 events link to a concrete intervention."
+    },
+    {
+      "label": "Direct Intervention",
+      "value": 1,
+      "note": "8 events are strongly linked to a concrete intervention or action."
+    },
+    {
+      "label": "Execution Follow-through",
+      "value": 0,
+      "note": "0 receipt(s) exist for 8 queued actions."
+    },
+    {
+      "label": "Outcome Resolution",
+      "value": 0.429,
+      "note": "3 observed outcomes across 7 ledger entries."
+    },
+    {
+      "label": "Rejection Pressure",
+      "value": 1,
+      "note": "0 rejection event(s) are linked across the founder feedback stream."
+    },
+    {
+      "label": "Experiment Depth",
+      "value": 0.657,
+      "note": "4 open intervention(s); experiment coverage 66%."
+    }
+  ],
+  "recommendations": [
+    "Prefer explicit founder-feedback event ingestion over markdown-only recovery whenever approval or override state matters.",
+    "Use founder-truth confidence to cap assertiveness when the decision stream is thin or pending-heavy.",
+    "Keep increasing intervention linkage so founder feedback can tune strategy and execution policy directly.",
+    "Require every executed action to produce an observed outcome, not just a receipt.",
+    "Promote recurring pending-approval pressure into explicit product or workflow backlog items."
+  ]
+}

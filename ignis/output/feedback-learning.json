@@ -1,0 +1,114 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.319Z",
+  "project": "call-of-doodie",
+  "actionRecords": [
+    {
+      "actionId": "capture-a-timestamped-evidence-snapshot",
+      "title": "Capture a timestamped evidence snapshot",
+      "approvals": 0,
+      "rejections": 0,
+      "deferrals": 0.38,
+      "approvalRate": 0,
+      "deferralRate": 1,
+      "rankingDelta": -0.04,
+      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+    },
+    {
+      "actionId": "synth-outcome-ledger",
+      "title": "Compile live playbook for \"Deepen outcome learning and regret tracking\"",
+      "approvals": 0,
+      "rejections": 0,
+      "deferrals": 0.38,
+      "approvalRate": 0,
+      "deferralRate": 1,
+      "rankingDelta": -0.04,
+      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+    },
+    {
+      "actionId": "stage-managed-task-for-replace-global-execution-ga",
+      "title": "Stage managed task for \"Replace global execution gating with adapter-specific unlock ladders\"",
+      "approvals": 0,
+      "rejections": 0,
+      "deferrals": 0.38,
+      "approvalRate": 0,
+      "deferralRate": 1,
+      "rankingDelta": -0.04,
+      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+    },
+    {
+      "actionId": "refresh-intelligence-around-harden-shared-external",
+      "title": "Refresh intelligence around \"Harden shared external feed validation\"",
+      "approvals": 0,
+      "rejections": 0,
+      "deferrals": 0.38,
+      "approvalRate": 0,
+      "deferralRate": 1,
+      "rankingDelta": -0.04,
+      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+    },
+    {
+      "actionId": "stamp-the-current-top-contradiction",
+      "title": "Stamp the current top contradiction",
+      "approvals": 0,
+      "rejections": 0,
+      "deferrals": 0.38,
+      "approvalRate": 0,
+      "deferralRate": 1,
+      "rankingDelta": -0.04,
+      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+    },
+    {
+      "actionId": "synth-execution-unlock",
+      "title": "Compile live playbook for \"Replace global execution gating with adapter-specific unlock ladders\"",
+      "approvals": 0,
+      "rejections": 0,
+      "deferrals": 0.38,
+      "approvalRate": 0,
+      "deferralRate": 1,
+      "rankingDelta": -0.04,
+      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+    },
+    {
+      "actionId": "synth-feed-validator",
+      "title": "Compile live playbook for \"Harden shared external feed validation\"",
+      "approvals": 0,
+      "rejections": 0,
+      "deferrals": 0.38,
+      "approvalRate": 0,
+      "deferralRate": 1,
+      "rankingDelta": -0.04,
+      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+    },
+    {
+      "actionId": "dry-run-external-execution-lane-for-git",
+      "title": "Dry-run external execution lane for git",
+      "approvals": 0,
+      "rejections": 0,
+      "deferrals": 0.38,
+      "approvalRate": 0,
+      "deferralRate": 1,
+      "rankingDelta": -0.04,
+      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+    }
+  ],
+  "categoryRecords": [
+    {
+      "category": "pending",
+      "approvals": 0,
+      "rejections": 0,
+      "deferrals": 3.0399999999999996,
+      "approvalRate": 0,
+      "authorityMultiplier": 0.7
+    }
+  ],
+  "escalationLearning": {
+    "deferralPressure": 1,
+    "pendingBacklog": 8,
+    "recommendedEscalationThreshold": 0.43,
+    "escalationTightened": true,
+    "escalationLoosened": false
+  },
+  "topApproved": [],
+  "topRejected": [],
+  "summary": "Feedback learning: 8 action(s) tracked, 1 category record(s), founder truth 59%. Demoted: pending. Escalation threshold raised to 43% (high deferral pressure)."
+}

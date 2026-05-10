@@ -1,0 +1,47 @@
+{
+  "posture": "assertive",
+  "skepticism": 0.3181,
+  "warmth": 0.575,
+  "noveltyBias": 0.373594,
+  "executionBias": 0.5088627,
+  "evidenceDiscipline": 0.8475,
+  "confidenceBudget": 0.8929800000000001,
+  "assertivenessCap": 0.9161250000000001,
+  "regime": "post-launch",
+  "narrativeMode": "directive",
+  "policyMode": "commander",
+  "rationale": [
+    "Evidence discipline 0.85 sets baseline posture.",
+    "Skepticism 0.32 rises when evidence or calibration is weak.",
+    "Novelty bias 0.37 vs execution bias 0.51 determines narrative mode.",
+    "Confidence budget 0.89 caps how assertive IGNIS should sound in the current regime.",
+    "Current winning strategy (growth-max) is allowed to tilt the narrator toward the active posture.",
+    "Personality arc → voice=blaze temp=0.71 density=full"
+  ],
+  "adaptationSignals": [
+    "regime=post-launch",
+    "hitRate=1.00",
+    "regret=0.25",
+    "trust=0.70"
+  ],
+  "uncertaintyDecomposition": {
+    "evidenceUncertainty": 0.4216,
+    "modelUncertainty": 0.05,
+    "externalUncertainty": 0.20223999999999998,
+    "total": 0.229088,
+    "summary": "Evidence 42% · Model 5% · External 20% → Total 23%"
+  },
+  "arcVoice": "blaze",
+  "arcTemperature": 0.71,
+  "arcDensity": "full",
+  "personalityArc": "Confidence budget rising over last 1 sessions (89%); moving toward commander posture.",
+  "sessionsInMode": 1,
+  "arcDirection": "assertive",
+  "founderRelationship": {
+    "sessionCount": 6,
+    "approvalRate": 0,
+    "decisionStyle": "deliberate",
+    "trustInIGNIS": 0.377
+  },
+  "growthMoment": "Hit rate improved to 100% — learning loop is calibrating."
+}

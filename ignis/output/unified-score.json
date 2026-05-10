@@ -1,0 +1,107 @@
+{
+  "total": 570091,
+  "ceiling": 1000000,
+  "pct": 57,
+  "iqScore": 48422,
+  "iqPct": 48.4,
+  "tier": "INFERNO",
+  "sessionDelta": 570091,
+  "pctDelta": 57,
+  "sparkline": "▁",
+  "pctHistory": [
+    57
+  ],
+  "domains": [
+    {
+      "id": "temporal",
+      "name": "Temporal Intelligence",
+      "score": 74719,
+      "ceiling": 100000,
+      "pct": 74.7,
+      "grade": "B+"
+    },
+    {
+      "id": "epistemic",
+      "name": "Epistemic Quality",
+      "score": 66138,
+      "ceiling": 100000,
+      "pct": 66.1,
+      "grade": "B"
+    },
+    {
+      "id": "temporal-intelligence",
+      "name": "Decision Temporal",
+      "score": 65000,
+      "ceiling": 100000,
+      "pct": 65,
+      "grade": "B"
+    },
+    {
+      "id": "emergent",
+      "name": "Emergent System",
+      "score": 61320,
+      "ceiling": 100000,
+      "pct": 61.3,
+      "grade": "B"
+    },
+    {
+      "id": "consciousness",
+      "name": "Consciousness & Self-Model",
+      "score": 58598,
+      "ceiling": 100000,
+      "pct": 58.6,
+      "grade": "C+"
+    },
+    {
+      "id": "innovation",
+      "name": "Innovation Intelligence",
+      "score": 58311,
+      "ceiling": 100000,
+      "pct": 58.3,
+      "grade": "C+"
+    },
+    {
+      "id": "founder",
+      "name": "Founder Behavioral Intelligence",
+      "score": 57583,
+      "ceiling": 100000,
+      "pct": 57.6,
+      "grade": "C+"
+    },
+    {
+      "id": "core",
+      "name": "Core Intelligence (10 Pillars)",
+      "score": 48422,
+      "ceiling": 100000,
+      "pct": 48.4,
+      "grade": "C"
+    },
+    {
+      "id": "studio-fabric",
+      "name": "Studio Fabric Intelligence",
+      "score": 44664,
+      "ceiling": 100000,
+      "pct": 44.7,
+      "grade": "C"
+    },
+    {
+      "id": "evidence-consciousness",
+      "name": "Evidence Consciousness",
+      "score": 35336,
+      "ceiling": 100000,
+      "pct": 35.3,
+      "grade": "D"
+    }
+  ],
+  "studioRank": {
+    "rank": 1,
+    "total": 1,
+    "ignisPct": 48.4,
+    "avgIQPct": 0,
+    "topPeerIQPct": 0
+  },
+  "sessionsToBoundary": null,
+  "nextTierBoundary": 65,
+  "nextTier": "SUPERNOVA",
+  "generatedAt": "2026-04-25T22:03:23.378Z"
+}

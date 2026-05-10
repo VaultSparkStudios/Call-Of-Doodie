@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.308Z",
+  "project": "call-of-doodie",
+  "metrics": [
+    {
+      "name": "naive_mae",
+      "value": 3513,
+      "interpretation": "Prediction error remains high."
+    },
+    {
+      "name": "trend",
+      "value": 4434,
+      "interpretation": "Recent trajectory is positive or stable."
+    },
+    {
+      "name": "stability",
+      "value": 34,
+      "interpretation": "Volatility should lower system certainty."
+    },
+    {
+      "name": "sample_size",
+      "value": 6,
+      "interpretation": "History remains too short for strong calibration claims."
+    },
+    {
+      "name": "outcome_hit_rate",
+      "value": 100,
+      "interpretation": "Recommendations are beginning to earn trust through measured outcomes."
+    },
+    {
+      "name": "regret_average",
+      "value": 25,
+      "interpretation": "Decision regret is controlled."
+    }
+  ],
+  "strengths": [
+    "Outcome hit rate is high enough to start letting recommendations earn more authority."
+  ],
+  "weaknesses": [
+    "Even naive next-step prediction remains noisy; forecast confidence should stay modest.",
+    "Sparse history limits self-calibration and learning-rate estimation.",
+    "Volatility is high enough that single-path recommendations may be misleading."
+  ],
+  "recommendations": [
+    "Log prediction outcomes and recommendation acceptance on every scoring run.",
+    "Demote certainty automatically when stability and sample size are weak.",
+    "Track strategy-level hit rates, not just raw score accuracy.",
+    "Let regret and contradiction pressure cap execution autonomy and narrator assertiveness."
+  ],
+  "evaluationSummary": "Stability 34 · hit rate 100 · regret 0.25 · confidence ×1.15",
+  "confidenceAdjustment": 1.15,
+  "confidenceAdjustmentReason": "high hit rate (100%) + low regret → widened",
+  "plattCalibration": {
+    "A": 1,
+    "B": 0,
+    "sampleSize": 3,
+    "ece": 0,
+    "brier": 0,
+    "overconfident": false,
+    "underconfident": false,
+    "calibrationQuality": "insufficient-data",
+    "summary": "Platt calibration needs ≥4 resolved outcomes; 3 available. Confidence values are uncalibrated."
+  }
+}

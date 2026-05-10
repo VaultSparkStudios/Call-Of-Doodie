@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-04-25T22:03:23.310Z",
+  "project": "call-of-doodie",
+  "summary": "Stable doctrine should be cached, hot operational state should refresh every score cycle, and cold audit history should be compacted unless explicitly requested.",
+  "stable": {
+    "name": "stable",
+    "summary": "Canonical identity and doctrine surfaces; cache aggressively.",
+    "paths": [
+      "context/PROJECT_BRIEF.md",
+      "context/SOUL.md",
+      "context/BRAIN.md",
+      "context/DECISIONS.md"
+    ]
+  },
+  "hot": {
+    "name": "hot",
+    "summary": "Current execution state and founder-facing intelligence; refresh every cycle.",
+    "paths": [
+      "context/CURRENT_STATE.md",
+      "context/TASK_BOARD.md",
+      "context/LATEST_HANDOFF.md",
+      "docs/STARTUP_BRIEF.md",
+      "ignis/output/founder-brief.json",
+      "ignis/output/action-plan.json",
+      "ignis/output/execution-queue.json",
+      "ignis/output/outcome-ledger.json"
+    ]
+  },
+  "cold": {
+    "name": "cold",
+    "summary": "Historical audits and long-tail artifacts; compact by default and fetch on demand.",
+    "paths": [
+      "audits/",
+      "logs/WORK_LOG.md",
+      "context/SELF_IMPROVEMENT_LOOP.md",
+      "ignis/output/score-history.json",
+      "ignis/output/decision-memory.json"
+    ]
+  }
+}
