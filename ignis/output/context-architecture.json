@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.310Z",
+  "generatedAt": "2026-05-14T01:35:45.817Z",
   "project": "call-of-doodie",
   "summary": "Stable doctrine should be cached, hot operational state should refresh every score cycle, and cold audit history should be compacted unless explicitly requested.",
   "stable": {

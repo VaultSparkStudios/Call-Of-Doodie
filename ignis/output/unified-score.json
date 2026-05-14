@@ -1,107 +1,109 @@
 {
-  "total": 570091,
+  "total": 529415,
   "ceiling": 1000000,
-  "pct": 57,
-  "iqScore": 48422,
-  "iqPct": 48.4,
+  "pct": 52.9,
+  "iqScore": 46693,
+  "iqPct": 46.7,
   "tier": "INFERNO",
-  "sessionDelta": 570091,
-  "pctDelta": 57,
-  "sparkline": "▁",
+  "sessionDelta": -17631,
+  "pctDelta": -1.8,
+  "sparkline": "█▄▁",
   "pctHistory": [
-    57
+    57,
+    54.7,
+    52.9
   ],
   "domains": [
     {
       "id": "temporal",
       "name": "Temporal Intelligence",
-      "score": 74719,
+      "score": 71804,
       "ceiling": 100000,
-      "pct": 74.7,
+      "pct": 71.8,
       "grade": "B+"
+    },
+    {
+      "id": "emergent",
+      "name": "Emergent System",
+      "score": 68899,
+      "ceiling": 100000,
+      "pct": 68.9,
+      "grade": "B"
     },
     {
       "id": "epistemic",
       "name": "Epistemic Quality",
-      "score": 66138,
+      "score": 66148,
       "ceiling": 100000,
       "pct": 66.1,
       "grade": "B"
     },
     {
-      "id": "temporal-intelligence",
-      "name": "Decision Temporal",
-      "score": 65000,
-      "ceiling": 100000,
-      "pct": 65,
-      "grade": "B"
-    },
-    {
-      "id": "emergent",
-      "name": "Emergent System",
-      "score": 61320,
-      "ceiling": 100000,
-      "pct": 61.3,
-      "grade": "B"
-    },
-    {
-      "id": "consciousness",
-      "name": "Consciousness & Self-Model",
-      "score": 58598,
-      "ceiling": 100000,
-      "pct": 58.6,
-      "grade": "C+"
-    },
-    {
       "id": "innovation",
       "name": "Innovation Intelligence",
-      "score": 58311,
+      "score": 63813,
       "ceiling": 100000,
-      "pct": 58.3,
-      "grade": "C+"
+      "pct": 63.8,
+      "grade": "B"
     },
     {
-      "id": "founder",
-      "name": "Founder Behavioral Intelligence",
-      "score": 57583,
+      "id": "temporal-intelligence",
+      "name": "Decision Temporal",
+      "score": 55714,
       "ceiling": 100000,
-      "pct": 57.6,
+      "pct": 55.7,
       "grade": "C+"
     },
     {
       "id": "core",
       "name": "Core Intelligence (10 Pillars)",
-      "score": 48422,
+      "score": 46693,
       "ceiling": 100000,
-      "pct": 48.4,
+      "pct": 46.7,
       "grade": "C"
     },
     {
       "id": "studio-fabric",
       "name": "Studio Fabric Intelligence",
-      "score": 44664,
+      "score": 44644,
       "ceiling": 100000,
-      "pct": 44.7,
+      "pct": 44.6,
       "grade": "C"
+    },
+    {
+      "id": "consciousness",
+      "name": "Consciousness & Self-Model",
+      "score": 38453,
+      "ceiling": 100000,
+      "pct": 38.5,
+      "grade": "D"
+    },
+    {
+      "id": "founder",
+      "name": "Founder Behavioral Intelligence",
+      "score": 38471,
+      "ceiling": 100000,
+      "pct": 38.5,
+      "grade": "D"
     },
     {
       "id": "evidence-consciousness",
       "name": "Evidence Consciousness",
-      "score": 35336,
+      "score": 34776,
       "ceiling": 100000,
-      "pct": 35.3,
+      "pct": 34.8,
       "grade": "D"
     }
   ],
   "studioRank": {
     "rank": 1,
     "total": 1,
-    "ignisPct": 48.4,
+    "ignisPct": 46.7,
     "avgIQPct": 0,
     "topPeerIQPct": 0
   },
   "sessionsToBoundary": null,
   "nextTierBoundary": 65,
   "nextTier": "SUPERNOVA",
-  "generatedAt": "2026-04-25T22:03:23.378Z"
+  "generatedAt": "2026-05-14T01:35:46.078Z"
 }

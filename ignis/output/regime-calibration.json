@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.256Z",
+  "generatedAt": "2026-05-14T01:35:45.671Z",
   "project": "call-of-doodie",
-  "sessionCount": 6,
+  "sessionCount": 8,
   "accelerationThreshold": 2977,
-  "driftThreshold": -200,
+  "driftThreshold": -808,
   "plateauBand": 4000,
-  "baselineVolatility": 7109
+  "baselineVolatility": 7042
 }

@@ -632,7 +632,12 @@
         55559
       ],
       "confidence": 0.6000000000000001,
-      "method": "linear_extrapolation"
+      "method": "linear_extrapolation",
+      "validatedAt": "2026-05-14T01:34:35.516Z",
+      "actualValue": 47614,
+      "error": 4785,
+      "withinInterval": false,
+      "accurate": true
     },
     {
       "id": "pred-perception-1777154603224",
@@ -645,7 +650,12 @@
         5984
       ],
       "confidence": 0.5,
-      "method": "pillar_linear_extrapolation"
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:34:35.516Z",
+      "actualValue": 5347.92,
+      "error": 347.0799999999999,
+      "withinInterval": false,
+      "accurate": true
     },
     {
       "id": "pred-trajectory-1777154603224",
@@ -658,7 +668,12 @@
         5086
       ],
       "confidence": 0.5,
-      "method": "pillar_linear_extrapolation"
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:34:35.516Z",
+      "actualValue": 4375.39,
+      "error": 32.60999999999967,
+      "withinInterval": true,
+      "accurate": true
     },
     {
       "id": "pred-execution-1777154603224",
@@ -671,7 +686,12 @@
         5113
       ],
       "confidence": 0.5,
-      "method": "pillar_linear_extrapolation"
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:34:35.516Z",
+      "actualValue": 4012.55,
+      "error": 691.4499999999998,
+      "withinInterval": false,
+      "accurate": false
     },
     {
       "id": "pred-vitality-1777154603224",
@@ -684,7 +704,12 @@
         7463
       ],
       "confidence": 0.5,
-      "method": "pillar_linear_extrapolation"
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:34:35.516Z",
+      "actualValue": 6167.2,
+      "error": 529.8000000000002,
+      "withinInterval": true,
+      "accurate": true
     },
     {
       "id": "pred-synthesis-1777154603224",
@@ -697,7 +722,12 @@
         4899
       ],
       "confidence": 0.5,
-      "method": "pillar_linear_extrapolation"
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:34:35.516Z",
+      "actualValue": 4108.4,
+      "error": 290.60000000000036,
+      "withinInterval": true,
+      "accurate": true
     },
     {
       "id": "pred-cognition-1777154603224",
@@ -710,7 +740,12 @@
         6196
       ],
       "confidence": 0.5,
-      "method": "pillar_linear_extrapolation"
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:34:35.516Z",
+      "actualValue": 4626.46,
+      "error": 777.54,
+      "withinInterval": true,
+      "accurate": false
     },
     {
       "id": "pred-foresight-1777154603224",
@@ -723,7 +758,12 @@
         5448
       ],
       "confidence": 0.5,
-      "method": "pillar_linear_extrapolation"
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:34:35.516Z",
+      "actualValue": 4438.97,
+      "error": 384.02999999999975,
+      "withinInterval": true,
+      "accurate": true
     },
     {
       "id": "pred-creativity-1777154603224",
@@ -736,7 +776,12 @@
         4692
       ],
       "confidence": 0.5,
-      "method": "pillar_linear_extrapolation"
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:34:35.516Z",
+      "actualValue": 3186.12,
+      "error": 663.8800000000001,
+      "withinInterval": true,
+      "accurate": false
     },
     {
       "id": "pred-expression-1777154603224",
@@ -749,7 +794,12 @@
         6146
       ],
       "confidence": 0.5,
-      "method": "pillar_linear_extrapolation"
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:34:35.516Z",
+      "actualValue": 4709.67,
+      "error": 699.3299999999999,
+      "withinInterval": true,
+      "accurate": false
     },
     {
       "id": "pred-potential-1777154603224",
@@ -762,7 +812,12 @@
         6041
       ],
       "confidence": 0.5,
-      "method": "pillar_linear_extrapolation"
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:34:35.516Z",
+      "actualValue": 5260.67,
+      "error": 379.3299999999999,
+      "withinInterval": true,
+      "accurate": true
     },
     {
       "id": "pred-trend-1777154603224",
@@ -776,15 +831,382 @@
       ],
       "confidence": 0.6,
       "method": "slope_sign"
+    },
+    {
+      "id": "pred-iq-1778722475518",
+      "createdAt": "2026-05-14T01:34:35.517Z",
+      "horizon": "short",
+      "label": "Next session IQ score",
+      "predictedValue": 50993,
+      "confidenceInterval": [
+        48479,
+        53507
+      ],
+      "confidence": 0.65,
+      "method": "linear_extrapolation",
+      "validatedAt": "2026-05-14T01:35:45.404Z",
+      "actualValue": 46693,
+      "error": 4300,
+      "withinInterval": false,
+      "accurate": true
+    },
+    {
+      "id": "pred-perception-1778722475518",
+      "createdAt": "2026-05-14T01:34:35.517Z",
+      "horizon": "short",
+      "label": "perception pillar next score",
+      "predictedValue": 5525,
+      "confidenceInterval": [
+        5260,
+        5790
+      ],
+      "confidence": 0.55,
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:35:45.404Z",
+      "actualValue": 5347.92,
+      "error": 177.07999999999993,
+      "withinInterval": true,
+      "accurate": true
+    },
+    {
+      "id": "pred-trajectory-1778722475518",
+      "createdAt": "2026-05-14T01:34:35.517Z",
+      "horizon": "short",
+      "label": "trajectory pillar next score",
+      "predictedValue": 4826,
+      "confidenceInterval": [
+        4150,
+        5502
+      ],
+      "confidence": 0.55,
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:35:45.404Z",
+      "actualValue": 4272.19,
+      "error": 553.8100000000004,
+      "withinInterval": true,
+      "accurate": false
+    },
+    {
+      "id": "pred-execution-1778722475518",
+      "createdAt": "2026-05-14T01:34:35.517Z",
+      "horizon": "short",
+      "label": "execution pillar next score",
+      "predictedValue": 4199,
+      "confidenceInterval": [
+        3919,
+        4479
+      ],
+      "confidence": 0.55,
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:35:45.404Z",
+      "actualValue": 4012.55,
+      "error": 186.44999999999982,
+      "withinInterval": true,
+      "accurate": true
+    },
+    {
+      "id": "pred-vitality-1778722475518",
+      "createdAt": "2026-05-14T01:34:35.517Z",
+      "horizon": "short",
+      "label": "vitality pillar next score",
+      "predictedValue": 6603,
+      "confidenceInterval": [
+        5949,
+        7257
+      ],
+      "confidence": 0.55,
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:35:45.404Z",
+      "actualValue": 6174.96,
+      "error": 428.03999999999996,
+      "withinInterval": true,
+      "accurate": true
+    },
+    {
+      "id": "pred-synthesis-1778722475518",
+      "createdAt": "2026-05-14T01:34:35.517Z",
+      "horizon": "short",
+      "label": "synthesis pillar next score",
+      "predictedValue": 4425,
+      "confidenceInterval": [
+        3950,
+        4899
+      ],
+      "confidence": 0.55,
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:35:45.404Z",
+      "actualValue": 4128.53,
+      "error": 296.47000000000025,
+      "withinInterval": true,
+      "accurate": true
+    },
+    {
+      "id": "pred-cognition-1778722475518",
+      "createdAt": "2026-05-14T01:34:35.517Z",
+      "horizon": "short",
+      "label": "cognition pillar next score",
+      "predictedValue": 5062,
+      "confidenceInterval": [
+        4409,
+        5716
+      ],
+      "confidence": 0.55,
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:35:45.404Z",
+      "actualValue": 4464.62,
+      "error": 597.3800000000001,
+      "withinInterval": true,
+      "accurate": false
+    },
+    {
+      "id": "pred-foresight-1778722475518",
+      "createdAt": "2026-05-14T01:34:35.517Z",
+      "horizon": "short",
+      "label": "foresight pillar next score",
+      "predictedValue": 4804,
+      "confidenceInterval": [
+        4256,
+        5352
+      ],
+      "confidence": 0.55,
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:35:45.404Z",
+      "actualValue": 4433.16,
+      "error": 370.84000000000015,
+      "withinInterval": true,
+      "accurate": true
+    },
+    {
+      "id": "pred-creativity-1778722475518",
+      "createdAt": "2026-05-14T01:34:35.517Z",
+      "horizon": "short",
+      "label": "creativity pillar next score",
+      "predictedValue": 3649,
+      "confidenceInterval": [
+        2955,
+        4343
+      ],
+      "confidence": 0.55,
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:35:45.404Z",
+      "actualValue": 3125.85,
+      "error": 523.1500000000001,
+      "withinInterval": true,
+      "accurate": false
+    },
+    {
+      "id": "pred-expression-1778722475518",
+      "createdAt": "2026-05-14T01:34:35.517Z",
+      "horizon": "short",
+      "label": "expression pillar next score",
+      "predictedValue": 5093,
+      "confidenceInterval": [
+        4518,
+        5667
+      ],
+      "confidence": 0.55,
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:35:45.404Z",
+      "actualValue": 4714.01,
+      "error": 378.9899999999998,
+      "withinInterval": true,
+      "accurate": true
+    },
+    {
+      "id": "pred-potential-1778722475518",
+      "createdAt": "2026-05-14T01:34:35.517Z",
+      "horizon": "short",
+      "label": "potential pillar next score",
+      "predictedValue": 5461,
+      "confidenceInterval": [
+        5161,
+        5761
+      ],
+      "confidence": 0.55,
+      "method": "pillar_linear_extrapolation",
+      "validatedAt": "2026-05-14T01:35:45.404Z",
+      "actualValue": 5180.4,
+      "error": 280.60000000000036,
+      "withinInterval": true,
+      "accurate": true
+    },
+    {
+      "id": "pred-trend-1778722475518",
+      "createdAt": "2026-05-14T01:34:35.517Z",
+      "horizon": "short",
+      "label": "Score trend direction",
+      "predictedValue": 1,
+      "confidenceInterval": [
+        -1,
+        1
+      ],
+      "confidence": 0.6,
+      "method": "slope_sign"
+    },
+    {
+      "id": "pred-iq-1778722545405",
+      "createdAt": "2026-05-14T01:35:45.405Z",
+      "horizon": "short",
+      "label": "Next session IQ score",
+      "predictedValue": 49464,
+      "confidenceInterval": [
+        48052,
+        50877
+      ],
+      "confidence": 0.7,
+      "method": "linear_extrapolation"
+    },
+    {
+      "id": "pred-perception-1778722545405",
+      "createdAt": "2026-05-14T01:35:45.405Z",
+      "horizon": "short",
+      "label": "perception pillar next score",
+      "predictedValue": 5503,
+      "confidenceInterval": [
+        5270,
+        5737
+      ],
+      "confidence": 0.6000000000000001,
+      "method": "pillar_linear_extrapolation"
+    },
+    {
+      "id": "pred-trajectory-1778722545405",
+      "createdAt": "2026-05-14T01:35:45.405Z",
+      "horizon": "short",
+      "label": "trajectory pillar next score",
+      "predictedValue": 4676,
+      "confidenceInterval": [
+        4070,
+        5281
+      ],
+      "confidence": 0.6000000000000001,
+      "method": "pillar_linear_extrapolation"
+    },
+    {
+      "id": "pred-execution-1778722545405",
+      "createdAt": "2026-05-14T01:35:45.405Z",
+      "horizon": "short",
+      "label": "execution pillar next score",
+      "predictedValue": 4148,
+      "confidenceInterval": [
+        3945,
+        4351
+      ],
+      "confidence": 0.6000000000000001,
+      "method": "pillar_linear_extrapolation"
+    },
+    {
+      "id": "pred-vitality-1778722545405",
+      "createdAt": "2026-05-14T01:35:45.405Z",
+      "horizon": "short",
+      "label": "vitality pillar next score",
+      "predictedValue": 6544,
+      "confidenceInterval": [
+        5990,
+        7098
+      ],
+      "confidence": 0.6000000000000001,
+      "method": "pillar_linear_extrapolation"
+    },
+    {
+      "id": "pred-synthesis-1778722545405",
+      "createdAt": "2026-05-14T01:35:45.405Z",
+      "horizon": "short",
+      "label": "synthesis pillar next score",
+      "predictedValue": 4413,
+      "confidenceInterval": [
+        3986,
+        4840
+      ],
+      "confidence": 0.6000000000000001,
+      "method": "pillar_linear_extrapolation"
+    },
+    {
+      "id": "pred-cognition-1778722545405",
+      "createdAt": "2026-05-14T01:35:45.405Z",
+      "horizon": "short",
+      "label": "cognition pillar next score",
+      "predictedValue": 4812,
+      "confidenceInterval": [
+        4291,
+        5333
+      ],
+      "confidence": 0.6000000000000001,
+      "method": "pillar_linear_extrapolation"
+    },
+    {
+      "id": "pred-foresight-1778722545405",
+      "createdAt": "2026-05-14T01:35:45.405Z",
+      "horizon": "short",
+      "label": "foresight pillar next score",
+      "predictedValue": 4746,
+      "confidenceInterval": [
+        4277,
+        5216
+      ],
+      "confidence": 0.6000000000000001,
+      "method": "pillar_linear_extrapolation"
+    },
+    {
+      "id": "pred-creativity-1778722545405",
+      "createdAt": "2026-05-14T01:35:45.405Z",
+      "horizon": "short",
+      "label": "creativity pillar next score",
+      "predictedValue": 3504,
+      "confidenceInterval": [
+        2937,
+        4071
+      ],
+      "confidence": 0.6000000000000001,
+      "method": "pillar_linear_extrapolation"
+    },
+    {
+      "id": "pred-expression-1778722545405",
+      "createdAt": "2026-05-14T01:35:45.405Z",
+      "horizon": "short",
+      "label": "expression pillar next score",
+      "predictedValue": 5020,
+      "confidenceInterval": [
+        4561,
+        5479
+      ],
+      "confidence": 0.6000000000000001,
+      "method": "pillar_linear_extrapolation"
+    },
+    {
+      "id": "pred-potential-1778722545405",
+      "createdAt": "2026-05-14T01:35:45.405Z",
+      "horizon": "short",
+      "label": "potential pillar next score",
+      "predictedValue": 5329,
+      "confidenceInterval": [
+        5106,
+        5552
+      ],
+      "confidence": 0.6000000000000001,
+      "method": "pillar_linear_extrapolation"
+    },
+    {
+      "id": "pred-trend-1778722545406",
+      "createdAt": "2026-05-14T01:35:45.405Z",
+      "horizon": "short",
+      "label": "Score trend direction",
+      "predictedValue": -1,
+      "confidenceInterval": [
+        -1,
+        1
+      ],
+      "confidence": 0.6,
+      "method": "slope_sign"
     }
   ],
   "stats": {
-    "totalPredictions": 47,
-    "validated": 33,
-    "accurateCount": 21,
-    "intervalHitCount": 20,
-    "meanAbsoluteError": 814,
-    "accuracy": 0.64,
-    "intervalHitRate": 0.61
+    "totalPredictions": 71,
+    "validated": 55,
+    "accurateCount": 36,
+    "intervalHitCount": 38,
+    "meanAbsoluteError": 810,
+    "accuracy": 0.65,
+    "intervalHitRate": 0.69
   }
 }

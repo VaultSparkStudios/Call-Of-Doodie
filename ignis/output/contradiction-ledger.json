@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-04-25T22:03:23.228Z",
+  "lastUpdated": "2026-05-14T01:34:35.526Z",
   "records": [
     {
       "id": "intent-delivery-gap",
@@ -9,7 +9,10 @@
       "firstSeenSession": 6,
       "firstSeenAt": "2026-04-25T22:03:23.228Z",
       "lastSeenSession": 6,
-      "lastSeenAt": "2026-04-25T22:03:23.228Z"
+      "lastSeenAt": "2026-04-25T22:03:23.228Z",
+      "resolvedSession": 7,
+      "resolvedAt": "2026-05-14T01:34:35.526Z",
+      "resolutionNote": "no longer detected"
     }
   ]
 }

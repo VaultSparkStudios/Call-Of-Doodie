@@ -1,6 +1,6 @@
 {
   "version": "4.0",
-  "lastDecay": "2026-04-25T22:03:23.330Z",
+  "lastDecay": "2026-05-14T01:34:35.986Z",
   "memories": [
     {
       "id": "sem-ee2ece99982a3cda",
@@ -8,7 +8,7 @@
       "created": "2026-04-25T22:03:23.330Z",
       "lastAccessed": "2026-04-25T22:03:23.330Z",
       "accessCount": 0,
-      "strength": 0.628,
+      "strength": 0.2650665148148148,
       "associations": [
         "sem-553fe15f3ee2a7da"
       ],
@@ -22,36 +22,42 @@
       "id": "sem-553fe15f3ee2a7da",
       "type": "semantic",
       "created": "2026-04-25T22:03:23.331Z",
-      "lastAccessed": "2026-04-25T22:03:23.331Z",
+      "lastAccessed": "2026-05-14T01:35:45.884Z",
       "accessCount": 0,
-      "strength": 0.6200000000000001,
+      "strength": 0.557066514814815,
       "associations": [
         "sem-ee2ece99982a3cda",
         "sem-df414d1ff982a767",
-        "ep-0d2962233681f9a5"
+        "ep-0d2962233681f9a5",
+        "sem-7962f0e95a2e76b8",
+        "ep-ce5651e47c45edf3",
+        "ep-d8965364a29398c4"
       ],
-      "consolidationStatus": "raw",
+      "consolidationStatus": "consolidated",
       "fact": "Top action: Harden shared external feed validation",
-      "confidence": 0.8,
-      "confirmations": 1,
+      "confidence": 1,
+      "confirmations": 3,
       "contradictions": 0
     },
     {
       "id": "sem-df414d1ff982a767",
       "type": "semantic",
       "created": "2026-04-25T22:03:23.332Z",
-      "lastAccessed": "2026-04-25T22:03:23.332Z",
+      "lastAccessed": "2026-05-14T01:35:45.885Z",
       "accessCount": 0,
-      "strength": 0.6120000000000001,
+      "strength": 0.5490665148148149,
       "associations": [
         "sem-553fe15f3ee2a7da",
         "sem-f492c6285539313a",
-        "sem-58c49a750083c0da"
+        "sem-58c49a750083c0da",
+        "sem-c812c19d4a8343a8",
+        "sem-5ac54e596f62c834",
+        "sem-96cfad2d3a8a0da5"
       ],
-      "consolidationStatus": "raw",
+      "consolidationStatus": "consolidated",
       "fact": "Strategy leader: conservative",
-      "confidence": 0.78,
-      "confirmations": 1,
+      "confidence": 0.98,
+      "confirmations": 3,
       "contradictions": 0
     },
     {
@@ -60,7 +66,7 @@
       "created": "2026-04-25T22:03:23.332Z",
       "lastAccessed": "2026-04-25T22:03:23.332Z",
       "accessCount": 0,
-      "strength": 0.596,
+      "strength": 0.23306651481481477,
       "associations": [
         "sem-df414d1ff982a767"
       ],
@@ -76,7 +82,7 @@
       "created": "2026-04-25T22:03:23.333Z",
       "lastAccessed": "2026-04-25T22:03:23.333Z",
       "accessCount": 0,
-      "strength": 0.6160000000000001,
+      "strength": 0.2530665148148149,
       "associations": [
         "sem-df414d1ff982a767"
       ],
@@ -92,7 +98,7 @@
       "created": "2026-04-25T22:03:23.333Z",
       "lastAccessed": "2026-04-25T22:03:23.333Z",
       "accessCount": 0,
-      "strength": 0.8300000000000001,
+      "strength": 0.46706651481481487,
       "associations": [
         "sem-553fe15f3ee2a7da"
       ],
@@ -102,6 +108,112 @@
         "project": "call-of-doodie",
         "eventCount": 219,
         "historyCount": 6,
+        "winner": "growth-max"
+      },
+      "emotionalValence": 0,
+      "significance": 0.66
+    },
+    {
+      "id": "sem-7962f0e95a2e76b8",
+      "type": "semantic",
+      "created": "2026-05-14T01:34:35.988Z",
+      "lastAccessed": "2026-05-14T01:35:45.883Z",
+      "accessCount": 0,
+      "strength": 0.778,
+      "associations": [
+        "sem-553fe15f3ee2a7da"
+      ],
+      "consolidationStatus": "raw",
+      "fact": "Top contradiction: weakest pillar: CREATIVITY",
+      "confidence": 0.9199999999999999,
+      "confirmations": 2,
+      "contradictions": 0
+    },
+    {
+      "id": "sem-c812c19d4a8343a8",
+      "type": "semantic",
+      "created": "2026-05-14T01:34:35.991Z",
+      "lastAccessed": "2026-05-14T01:35:45.886Z",
+      "accessCount": 0,
+      "strength": 0.746,
+      "associations": [
+        "sem-df414d1ff982a767"
+      ],
+      "consolidationStatus": "raw",
+      "fact": "Narrative posture: balanced/directive",
+      "confidence": 0.84,
+      "confirmations": 2,
+      "contradictions": 0
+    },
+    {
+      "id": "sem-5ac54e596f62c834",
+      "type": "semantic",
+      "created": "2026-05-14T01:34:35.992Z",
+      "lastAccessed": "2026-05-14T01:34:35.992Z",
+      "accessCount": 0,
+      "strength": 0.6160000000000001,
+      "associations": [
+        "sem-df414d1ff982a767"
+      ],
+      "consolidationStatus": "raw",
+      "fact": "Outcome loop: hit rate 56% with regret 0.48 and experiment coverage 79%",
+      "confidence": 0.79,
+      "confirmations": 1,
+      "contradictions": 0
+    },
+    {
+      "id": "ep-ce5651e47c45edf3",
+      "type": "episodic",
+      "created": "2026-05-14T01:34:35.994Z",
+      "lastAccessed": "2026-05-14T01:34:35.994Z",
+      "accessCount": 0,
+      "strength": 0.8300000000000001,
+      "associations": [
+        "sem-553fe15f3ee2a7da"
+      ],
+      "consolidationStatus": "raw",
+      "event": "call-of-doodie score cycle tracked 223 events and 7 historical samples",
+      "context": {
+        "project": "call-of-doodie",
+        "eventCount": 223,
+        "historyCount": 7,
+        "winner": "growth-max"
+      },
+      "emotionalValence": 0,
+      "significance": 0.66
+    },
+    {
+      "id": "sem-96cfad2d3a8a0da5",
+      "type": "semantic",
+      "created": "2026-05-14T01:35:45.886Z",
+      "lastAccessed": "2026-05-14T01:35:45.886Z",
+      "accessCount": 0,
+      "strength": 0.6160000000000001,
+      "associations": [
+        "sem-df414d1ff982a767"
+      ],
+      "consolidationStatus": "raw",
+      "fact": "Outcome loop: hit rate 25% with regret 0.62 and experiment coverage 87%",
+      "confidence": 0.79,
+      "confirmations": 1,
+      "contradictions": 0
+    },
+    {
+      "id": "ep-d8965364a29398c4",
+      "type": "episodic",
+      "created": "2026-05-14T01:35:45.887Z",
+      "lastAccessed": "2026-05-14T01:35:45.887Z",
+      "accessCount": 0,
+      "strength": 0.8300000000000001,
+      "associations": [
+        "sem-553fe15f3ee2a7da"
+      ],
+      "consolidationStatus": "raw",
+      "event": "call-of-doodie score cycle tracked 223 events and 8 historical samples",
+      "context": {
+        "project": "call-of-doodie",
+        "eventCount": 223,
+        "historyCount": 8,
         "winner": "growth-max"
       },
       "emotionalValence": 0,

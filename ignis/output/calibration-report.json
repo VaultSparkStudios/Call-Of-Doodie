@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.308Z",
+  "generatedAt": "2026-05-14T01:35:45.813Z",
   "project": "call-of-doodie",
   "metrics": [
     {
       "name": "naive_mae",
-      "value": 3513,
+      "value": 2756,
       "interpretation": "Prediction error remains high."
     },
     {
       "name": "trend",
-      "value": 4434,
+      "value": 597,
       "interpretation": "Recent trajectory is positive or stable."
     },
     {
       "name": "stability",
-      "value": 34,
-      "interpretation": "Volatility should lower system certainty."
+      "value": 87,
+      "interpretation": "Score behavior is stable enough for higher-confidence recommendations."
     },
     {
       "name": "sample_size",
-      "value": 6,
-      "interpretation": "History remains too short for strong calibration claims."
+      "value": 8,
+      "interpretation": "Enough history to start model calibration seriously."
     },
     {
       "name": "outcome_hit_rate",
-      "value": 100,
-      "interpretation": "Recommendations are beginning to earn trust through measured outcomes."
+      "value": 25,
+      "interpretation": "Outcome learning exists, but recommendation quality still needs proof."
     },
     {
       "name": "regret_average",
-      "value": 25,
-      "interpretation": "Decision regret is controlled."
+      "value": 62,
+      "interpretation": "Regret remains high enough that certainty should stay capped."
     }
   ],
   "strengths": [
-    "Outcome hit rate is high enough to start letting recommendations earn more authority."
+    "History depth is sufficient to begin recommendation grading and regime detection."
   ],
   "weaknesses": [
     "Even naive next-step prediction remains noisy; forecast confidence should stay modest.",
-    "Sparse history limits self-calibration and learning-rate estimation.",
-    "Volatility is high enough that single-path recommendations may be misleading."
+    "Outcome learning is still too weak to justify aggressive autonomy.",
+    "Average regret is still elevated; IGNIS should prefer reversible actions."
   ],
   "recommendations": [
     "Log prediction outcomes and recommendation acceptance on every scoring run.",
@@ -47,18 +47,18 @@
     "Track strategy-level hit rates, not just raw score accuracy.",
     "Let regret and contradiction pressure cap execution autonomy and narrator assertiveness."
   ],
-  "evaluationSummary": "Stability 34 · hit rate 100 · regret 0.25 · confidence ×1.15",
-  "confidenceAdjustment": 1.15,
-  "confidenceAdjustmentReason": "high hit rate (100%) + low regret → widened",
+  "evaluationSummary": "Stability 87 · hit rate 25 · regret 0.62 · confidence ×0.75 · Platt ECE 0.006",
+  "confidenceAdjustment": 0.75,
+  "confidenceAdjustmentReason": "low hit rate (25%) → tightened",
   "plattCalibration": {
-    "A": 1,
-    "B": 0,
-    "sampleSize": 3,
-    "ece": 0,
-    "brier": 0,
-    "overconfident": false,
+    "A": -0.8500541283289724,
+    "B": -0.4407606809190751,
+    "sampleSize": 12,
+    "ece": 0.006,
+    "brier": 0.179,
+    "overconfident": true,
     "underconfident": false,
-    "calibrationQuality": "insufficient-data",
-    "summary": "Platt calibration needs ≥4 resolved outcomes; 3 available. Confidence values are uncalibrated."
+    "calibrationQuality": "strong",
+    "summary": "Platt calibration (n=12): ECE 0.006 · Brier 0.179 · quality=strong. System is overconfident — calibrated scores are lower than reported. A=-0.850, B=-0.441."
   }
 }

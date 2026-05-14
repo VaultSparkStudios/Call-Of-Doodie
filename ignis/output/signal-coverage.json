@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.255Z",
+  "generatedAt": "2026-05-14T01:35:45.652Z",
   "project": "call-of-doodie",
-  "coverageScore": 0.653,
+  "coverageScore": 0.652,
   "adapterCoverageScore": 0.824,
-  "weightedCoverageScore": 0.653,
-  "trustScore": 0.652,
+  "weightedCoverageScore": 0.652,
+  "trustScore": 0.651,
   "externalAdapterCount": 0,
   "proxyAdapterCount": 14,
   "presentAdapters": [
@@ -42,10 +42,10 @@
     {
       "adapter": "sessions",
       "present": true,
-      "eventCount": 7,
-      "freshnessScore": 0.8,
-      "qualityScore": 0.824,
-      "trustWeight": 0.826,
+      "eventCount": 11,
+      "freshnessScore": 1,
+      "qualityScore": 0.807,
+      "trustWeight": 0.814,
       "sourceClass": "proxy",
       "validationState": "valid",
       "decisionWeight": 0.8,
@@ -64,7 +64,7 @@
       },
       "executionUnlockStage": "dry-run",
       "validationNotes": [],
-      "summary": "7 event(s); proxy source (valid) for continuity, velocity with quality 0.82, freshness 0.80, unlock dry-run.",
+      "summary": "11 event(s); proxy source (valid) for continuity, velocity with quality 0.81, freshness 1.00, unlock dry-run.",
       "velocityDelta": 0
     },
     {
@@ -519,35 +519,35 @@
   ],
   "trustReceipts": [
     {
-      "adapter": "docs",
+      "adapter": "analytics",
       "sourceClass": "proxy",
       "validationState": "valid",
-      "trustWeight": 0.873,
-      "qualityScore": 0.881,
-      "deltaFromPrevious": 0.873,
-      "movement": "new",
-      "reason": "Adapter entered coverage as proxy.",
+      "trustWeight": 0.764,
+      "qualityScore": 0.771,
+      "deltaFromPrevious": 0,
+      "movement": "flat",
+      "reason": "Trust is stable at 0.76 with 1 event(s).",
       "audienceDeltas": {
-        "founder": "docs is now dry-run for founder-facing trust.",
-        "operator": "docs is stable for operator routing.",
-        "hub": "docs influences hub reporting indirectly through trust posture.",
-        "policy": "policyMode=operator with dry-run verification is appropriate for docs."
+        "founder": "analytics remains dry-run for founder-facing trust.",
+        "operator": "analytics is stable for operator routing.",
+        "hub": "analytics influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for analytics."
       }
     },
     {
-      "adapter": "tasks",
+      "adapter": "canon",
       "sourceClass": "proxy",
       "validationState": "valid",
-      "trustWeight": 0.871,
-      "qualityScore": 0.874,
-      "deltaFromPrevious": 0.871,
-      "movement": "new",
-      "reason": "Adapter entered coverage as proxy.",
+      "trustWeight": 0.756,
+      "qualityScore": 0.756,
+      "deltaFromPrevious": 0,
+      "movement": "flat",
+      "reason": "Trust is stable at 0.76 with 1 event(s).",
       "audienceDeltas": {
-        "founder": "tasks is now dry-run for founder-facing trust.",
-        "operator": "tasks is stable for operator routing.",
-        "hub": "tasks influences hub reporting indirectly through trust posture.",
-        "policy": "policyMode=operator with dry-run verification is appropriate for tasks."
+        "founder": "canon remains dry-run for founder-facing trust.",
+        "operator": "canon is stable for operator routing.",
+        "hub": "canon influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for canon."
       }
     },
     {
@@ -556,46 +556,14 @@
       "validationState": "valid",
       "trustWeight": 0.833,
       "qualityScore": 0.837,
-      "deltaFromPrevious": 0.833,
-      "movement": "new",
-      "reason": "Adapter entered coverage as proxy.",
+      "deltaFromPrevious": 0,
+      "movement": "flat",
+      "reason": "Trust is stable at 0.83 with 1 event(s).",
       "audienceDeltas": {
-        "founder": "ci is now dry-run for founder-facing trust.",
+        "founder": "ci remains dry-run for founder-facing trust.",
         "operator": "ci is stable for operator routing.",
         "hub": "ci influences hub reporting indirectly through trust posture.",
         "policy": "policyMode=operator with dry-run verification is appropriate for ci."
-      }
-    },
-    {
-      "adapter": "sessions",
-      "sourceClass": "proxy",
-      "validationState": "valid",
-      "trustWeight": 0.826,
-      "qualityScore": 0.824,
-      "deltaFromPrevious": 0.826,
-      "movement": "new",
-      "reason": "Adapter entered coverage as proxy.",
-      "audienceDeltas": {
-        "founder": "sessions is now dry-run for founder-facing trust.",
-        "operator": "sessions is stable for operator routing.",
-        "hub": "sessions influences hub reporting indirectly through trust posture.",
-        "policy": "policyMode=operator with dry-run verification is appropriate for sessions."
-      }
-    },
-    {
-      "adapter": "analytics",
-      "sourceClass": "proxy",
-      "validationState": "valid",
-      "trustWeight": 0.764,
-      "qualityScore": 0.771,
-      "deltaFromPrevious": 0.764,
-      "movement": "new",
-      "reason": "Adapter entered coverage as proxy.",
-      "audienceDeltas": {
-        "founder": "analytics is now dry-run for founder-facing trust.",
-        "operator": "analytics is stable for operator routing.",
-        "hub": "analytics influences hub reporting indirectly through trust posture.",
-        "policy": "policyMode=operator with dry-run verification is appropriate for analytics."
       }
     },
     {
@@ -604,14 +572,30 @@
       "validationState": "valid",
       "trustWeight": 0.764,
       "qualityScore": 0.771,
-      "deltaFromPrevious": 0.764,
-      "movement": "new",
-      "reason": "Adapter entered coverage as proxy.",
+      "deltaFromPrevious": 0,
+      "movement": "flat",
+      "reason": "Trust is stable at 0.76 with 1 event(s).",
       "audienceDeltas": {
-        "founder": "deploys is now shadow for founder-facing trust.",
+        "founder": "deploys remains shadow for founder-facing trust.",
         "operator": "deploys is stable for operator routing.",
         "hub": "deploys influences hub reporting indirectly through trust posture.",
         "policy": "policyMode=operator is appropriate; deploys is observable but not yet execution-grade."
+      }
+    },
+    {
+      "adapter": "docs",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.873,
+      "qualityScore": 0.881,
+      "deltaFromPrevious": 0,
+      "movement": "flat",
+      "reason": "Trust is stable at 0.87 with 1 event(s).",
+      "audienceDeltas": {
+        "founder": "docs remains dry-run for founder-facing trust.",
+        "operator": "docs is stable for operator routing.",
+        "hub": "docs influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for docs."
       }
     },
     {
@@ -620,14 +604,30 @@
       "validationState": "valid",
       "trustWeight": 0.764,
       "qualityScore": 0.771,
-      "deltaFromPrevious": 0.764,
-      "movement": "new",
-      "reason": "Adapter entered coverage as proxy.",
+      "deltaFromPrevious": 0,
+      "movement": "flat",
+      "reason": "Trust is stable at 0.76 with 1 event(s).",
       "audienceDeltas": {
-        "founder": "founder-approvals is now dry-run for founder-facing trust.",
+        "founder": "founder-approvals remains dry-run for founder-facing trust.",
         "operator": "founder-approvals is stable for operator routing.",
         "hub": "founder-approvals influences hub reporting indirectly through trust posture.",
         "policy": "policyMode=operator with dry-run verification is appropriate for founder-approvals."
+      }
+    },
+    {
+      "adapter": "git",
+      "sourceClass": "proxy",
+      "validationState": "incomplete",
+      "trustWeight": 0.698,
+      "qualityScore": 0.651,
+      "deltaFromPrevious": 0,
+      "movement": "flat",
+      "reason": "Feed is present but missing required signals; commit_count not all covered.",
+      "audienceDeltas": {
+        "founder": "git remains dry-run for founder-facing trust.",
+        "operator": "git is stable for operator routing.",
+        "hub": "git influences hub reporting indirectly through trust posture.",
+        "policy": "Use policyMode=skeptic while git trust recovers; distrust recommendations that depend heavily on this adapter."
       }
     },
     {
@@ -636,11 +636,11 @@
       "validationState": "valid",
       "trustWeight": 0.764,
       "qualityScore": 0.771,
-      "deltaFromPrevious": 0.764,
-      "movement": "new",
-      "reason": "Adapter entered coverage as proxy.",
+      "deltaFromPrevious": 0,
+      "movement": "flat",
+      "reason": "Trust is stable at 0.76 with 1 event(s).",
       "audienceDeltas": {
-        "founder": "incidents is now dry-run for founder-facing trust.",
+        "founder": "incidents remains dry-run for founder-facing trust.",
         "operator": "incidents is stable for operator routing.",
         "hub": "incidents influences hub reporting indirectly through trust posture.",
         "policy": "policyMode=operator with dry-run verification is appropriate for incidents."
@@ -652,94 +652,14 @@
       "validationState": "valid",
       "trustWeight": 0.764,
       "qualityScore": 0.771,
-      "deltaFromPrevious": 0.764,
-      "movement": "new",
-      "reason": "Adapter entered coverage as proxy.",
+      "deltaFromPrevious": 0,
+      "movement": "flat",
+      "reason": "Trust is stable at 0.76 with 1 event(s).",
       "audienceDeltas": {
-        "founder": "pr-reviews is now shadow for founder-facing trust.",
+        "founder": "pr-reviews remains shadow for founder-facing trust.",
         "operator": "pr-reviews is stable for operator routing.",
         "hub": "pr-reviews influences hub reporting indirectly through trust posture.",
         "policy": "policyMode=operator is appropriate; pr-reviews is observable but not yet execution-grade."
-      }
-    },
-    {
-      "adapter": "revenue",
-      "sourceClass": "proxy",
-      "validationState": "valid",
-      "trustWeight": 0.764,
-      "qualityScore": 0.771,
-      "deltaFromPrevious": 0.764,
-      "movement": "new",
-      "reason": "Adapter entered coverage as proxy.",
-      "audienceDeltas": {
-        "founder": "revenue is now dry-run for founder-facing trust.",
-        "operator": "revenue is stable for operator routing.",
-        "hub": "revenue influences hub reporting indirectly through trust posture.",
-        "policy": "policyMode=operator with dry-run verification is appropriate for revenue."
-      }
-    },
-    {
-      "adapter": "social-dashboard",
-      "sourceClass": "proxy",
-      "validationState": "valid",
-      "trustWeight": 0.764,
-      "qualityScore": 0.771,
-      "deltaFromPrevious": 0.764,
-      "movement": "new",
-      "reason": "Adapter entered coverage as proxy.",
-      "audienceDeltas": {
-        "founder": "social-dashboard is now shadow for founder-facing trust.",
-        "operator": "social-dashboard is stable for operator routing.",
-        "hub": "social-dashboard can support hub-facing reporting yet.",
-        "policy": "policyMode=operator is appropriate; social-dashboard is observable but not yet execution-grade."
-      }
-    },
-    {
-      "adapter": "studio-hub",
-      "sourceClass": "proxy",
-      "validationState": "valid",
-      "trustWeight": 0.764,
-      "qualityScore": 0.771,
-      "deltaFromPrevious": 0.764,
-      "movement": "new",
-      "reason": "Adapter entered coverage as proxy.",
-      "audienceDeltas": {
-        "founder": "studio-hub is now shadow for founder-facing trust.",
-        "operator": "studio-hub is stable for operator routing.",
-        "hub": "studio-hub can support hub-facing reporting yet.",
-        "policy": "policyMode=operator is appropriate; studio-hub is observable but not yet execution-grade."
-      }
-    },
-    {
-      "adapter": "canon",
-      "sourceClass": "proxy",
-      "validationState": "valid",
-      "trustWeight": 0.756,
-      "qualityScore": 0.756,
-      "deltaFromPrevious": 0.756,
-      "movement": "new",
-      "reason": "Adapter entered coverage as proxy.",
-      "audienceDeltas": {
-        "founder": "canon is now dry-run for founder-facing trust.",
-        "operator": "canon is stable for operator routing.",
-        "hub": "canon influences hub reporting indirectly through trust posture.",
-        "policy": "policyMode=operator with dry-run verification is appropriate for canon."
-      }
-    },
-    {
-      "adapter": "git",
-      "sourceClass": "proxy",
-      "validationState": "incomplete",
-      "trustWeight": 0.698,
-      "qualityScore": 0.651,
-      "deltaFromPrevious": 0.698,
-      "movement": "new",
-      "reason": "Feed is present but missing required signals; commit_count not all covered.",
-      "audienceDeltas": {
-        "founder": "git is now dry-run for founder-facing trust.",
-        "operator": "git is stable for operator routing.",
-        "hub": "git influences hub reporting indirectly through trust posture.",
-        "policy": "Use policyMode=skeptic while git trust recovers; distrust recommendations that depend heavily on this adapter."
       }
     },
     {
@@ -749,10 +669,10 @@
       "trustWeight": 0,
       "qualityScore": 0,
       "deltaFromPrevious": 0,
-      "movement": "new",
+      "movement": "flat",
       "reason": "No adapter events are present.",
       "audienceDeltas": {
-        "founder": "proposals is now blocked for founder-facing trust.",
+        "founder": "proposals remains blocked for founder-facing trust.",
         "operator": "proposals is stable for operator routing.",
         "hub": "proposals influences hub reporting indirectly through trust posture.",
         "policy": "policyMode=skeptic is recommended until proposals advances past blocked."
@@ -765,13 +685,45 @@
       "trustWeight": 0,
       "qualityScore": 0,
       "deltaFromPrevious": 0,
-      "movement": "new",
+      "movement": "flat",
       "reason": "No adapter events are present.",
       "audienceDeltas": {
-        "founder": "registry is now blocked for founder-facing trust.",
+        "founder": "registry remains blocked for founder-facing trust.",
         "operator": "registry is stable for operator routing.",
         "hub": "registry influences hub reporting indirectly through trust posture.",
         "policy": "policyMode=skeptic is recommended until registry advances past blocked."
+      }
+    },
+    {
+      "adapter": "revenue",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.764,
+      "qualityScore": 0.771,
+      "deltaFromPrevious": 0,
+      "movement": "flat",
+      "reason": "Trust is stable at 0.76 with 1 event(s).",
+      "audienceDeltas": {
+        "founder": "revenue remains dry-run for founder-facing trust.",
+        "operator": "revenue is stable for operator routing.",
+        "hub": "revenue influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for revenue."
+      }
+    },
+    {
+      "adapter": "sessions",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.814,
+      "qualityScore": 0.807,
+      "deltaFromPrevious": 0,
+      "movement": "flat",
+      "reason": "Trust is stable at 0.81 with 11 event(s).",
+      "audienceDeltas": {
+        "founder": "sessions remains dry-run for founder-facing trust.",
+        "operator": "sessions is stable for operator routing.",
+        "hub": "sessions influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for sessions."
       }
     },
     {
@@ -781,22 +733,70 @@
       "trustWeight": 0,
       "qualityScore": 0,
       "deltaFromPrevious": 0,
-      "movement": "new",
+      "movement": "flat",
       "reason": "No adapter events are present.",
       "audienceDeltas": {
-        "founder": "sil is now blocked for founder-facing trust.",
+        "founder": "sil remains blocked for founder-facing trust.",
         "operator": "sil is stable for operator routing.",
         "hub": "sil influences hub reporting indirectly through trust posture.",
         "policy": "policyMode=skeptic is recommended until sil advances past blocked."
+      }
+    },
+    {
+      "adapter": "social-dashboard",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.764,
+      "qualityScore": 0.771,
+      "deltaFromPrevious": 0,
+      "movement": "flat",
+      "reason": "Trust is stable at 0.76 with 1 event(s).",
+      "audienceDeltas": {
+        "founder": "social-dashboard remains shadow for founder-facing trust.",
+        "operator": "social-dashboard is stable for operator routing.",
+        "hub": "social-dashboard can support hub-facing reporting yet.",
+        "policy": "policyMode=operator is appropriate; social-dashboard is observable but not yet execution-grade."
+      }
+    },
+    {
+      "adapter": "studio-hub",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.764,
+      "qualityScore": 0.771,
+      "deltaFromPrevious": 0,
+      "movement": "flat",
+      "reason": "Trust is stable at 0.76 with 1 event(s).",
+      "audienceDeltas": {
+        "founder": "studio-hub remains shadow for founder-facing trust.",
+        "operator": "studio-hub is stable for operator routing.",
+        "hub": "studio-hub can support hub-facing reporting yet.",
+        "policy": "policyMode=operator is appropriate; studio-hub is observable but not yet execution-grade."
+      }
+    },
+    {
+      "adapter": "tasks",
+      "sourceClass": "proxy",
+      "validationState": "valid",
+      "trustWeight": 0.871,
+      "qualityScore": 0.874,
+      "deltaFromPrevious": 0,
+      "movement": "flat",
+      "reason": "Trust is stable at 0.87 with 1 event(s).",
+      "audienceDeltas": {
+        "founder": "tasks remains dry-run for founder-facing trust.",
+        "operator": "tasks is stable for operator routing.",
+        "hub": "tasks influences hub reporting indirectly through trust posture.",
+        "policy": "policyMode=operator with dry-run verification is appropriate for tasks."
       }
     }
   ],
   "unlockProgressReceipts": [
     {
       "adapter": "deploys",
-      "previousStage": "new",
+      "previousStage": "shadow",
       "currentStage": "shadow",
-      "changed": true,
+      "changed": false,
       "requirementsMissing": [
         "real external source required for high-risk adapter"
       ],
@@ -847,9 +847,9 @@
     },
     {
       "adapter": "pr-reviews",
-      "previousStage": "new",
+      "previousStage": "shadow",
       "currentStage": "shadow",
-      "changed": true,
+      "changed": false,
       "requirementsMissing": [
         "real external source required for high-risk adapter"
       ],
@@ -900,9 +900,9 @@
     },
     {
       "adapter": "proposals",
-      "previousStage": "new",
+      "previousStage": "blocked",
       "currentStage": "blocked",
-      "changed": true,
+      "changed": false,
       "requirementsMissing": [
         "missing events from ignis/input/proposals.json"
       ],
@@ -953,9 +953,9 @@
     },
     {
       "adapter": "registry",
-      "previousStage": "new",
+      "previousStage": "blocked",
       "currentStage": "blocked",
-      "changed": true,
+      "changed": false,
       "requirementsMissing": [
         "missing events from ignis/input/registry.json"
       ],
@@ -1006,9 +1006,9 @@
     },
     {
       "adapter": "sil",
-      "previousStage": "new",
+      "previousStage": "blocked",
       "currentStage": "blocked",
-      "changed": true,
+      "changed": false,
       "requirementsMissing": [
         "missing events from ignis/input/sil.json"
       ],
@@ -1059,9 +1059,9 @@
     },
     {
       "adapter": "social-dashboard",
-      "previousStage": "new",
+      "previousStage": "shadow",
       "currentStage": "shadow",
-      "changed": true,
+      "changed": false,
       "requirementsMissing": [
         "real external source required for high-risk adapter"
       ],
@@ -1112,9 +1112,9 @@
     },
     {
       "adapter": "studio-hub",
-      "previousStage": "new",
+      "previousStage": "shadow",
       "currentStage": "shadow",
-      "changed": true,
+      "changed": false,
       "requirementsMissing": [
         "real external source required for high-risk adapter"
       ],
@@ -1165,9 +1165,9 @@
     },
     {
       "adapter": "git",
-      "previousStage": "new",
+      "previousStage": "dry-run",
       "currentStage": "dry-run",
-      "changed": true,
+      "changed": false,
       "requirementsMissing": [
         "missing required signals: commit_count"
       ],

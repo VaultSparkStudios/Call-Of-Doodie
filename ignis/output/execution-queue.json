@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.339Z",
+  "generatedAt": "2026-05-14T01:35:45.909Z",
   "project": "call-of-doodie",
-  "summary": "8 guarded actions are staged from the live action plan around \"Harden shared external feed validation\"; trust 70%, regret 0.25.",
+  "summary": "8 guarded actions are staged from the live action plan around \"Harden shared external feed validation\"; trust 64%, regret 0.62.",
   "policy": {
     "mode": "manual-approval",
     "approvalsRequired": [
@@ -243,9 +243,9 @@
       "approvalReason": "This writes a new contradiction stamp that other surfaces may treat as current truth context.",
       "rollbackPlan": "Restore the previous contradiction stamp or remove the generated stamp if it was noise.",
       "targetPath": "ignis/output/contradiction-stamp.json",
-      "notes": "1 contradiction(s) detected. Trust score: 75%.",
+      "notes": "No contradictions detected. Internal consistency is high.",
       "commandHint": "tsx cli.ts founder .",
-      "successMetric": "Either intent criteria are too loose, or improvements aren't being tracked",
+      "successMetric": "Raise CREATIVITY without weakening VITALITY.",
       "capability": "ignis.contradiction.stamp",
       "riskLevel": "medium",
       "approvalScope": "artifacts",
@@ -271,7 +271,7 @@
       "actor": "founder",
       "verificationCommand": "Review ignis/output/action-playbooks/synth-feedback-policy.json for scope, verification, and rollback completeness.",
       "dryRunSupported": true,
-      "notes": "Rank 1 · score 0.965 · category feedback · External execution gate is closed until trust/evidence improve; staging as artifacts.",
+      "notes": "Rank 1 · score 0.959 · category feedback · External execution gate is closed until trust/evidence improve; staging as artifacts.",
       "status": "pending_approval"
     },
     {
@@ -291,7 +291,7 @@
       "actor": "founder",
       "verificationCommand": "Review ignis/output/action-playbooks/synth-allocation-engine.json for scope, verification, and rollback completeness.",
       "dryRunSupported": true,
-      "notes": "Rank 2 · score 0.902 · category strategy · External execution gate is closed until trust/evidence improve; staging as artifacts.",
+      "notes": "Rank 2 · score 0.896 · category strategy · External execution gate is closed until trust/evidence improve; staging as artifacts.",
       "status": "pending_approval"
     },
     {
@@ -311,7 +311,7 @@
       "actor": "founder",
       "verificationCommand": "Review ignis/output/action-playbooks/synth-operator-inheritance.json for scope, verification, and rollback completeness.",
       "dryRunSupported": true,
-      "notes": "Rank 3 · score 0.895 · category platform · External execution gate is closed until trust/evidence improve; staging as artifacts.",
+      "notes": "Rank 3 · score 0.888 · category platform · External execution gate is closed until trust/evidence improve; staging as artifacts.",
       "skepticReview": {
         "counterargument": "This action is well-supported but high-stakes. Confirm that the first step (\"Route dashboard and hub-facing summaries through the operator command center so ...\") is achievable with current resources before approving.",
         "assumptions": [
@@ -320,7 +320,7 @@
         "preConditions": [
           "Verify success metric: \"Dashboard, startup, founder, and hub-facing outputs all describe the same evidence gaps, trust shifts, and unlock posture.\" is measurable before proceeding."
         ],
-        "confidenceCap": 0.85,
+        "confidenceCap": 0.226,
         "adversaryFindings": [
           {
             "kind": "stale-evidence",

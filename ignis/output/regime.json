@@ -4,9 +4,9 @@
   "confidence": 0.72,
   "rationale": "call-of-doodie is showing live/deploy signals, so the operating priority shifts toward signal quality and follow-through.",
   "cues": [
-    "trend 3977/cycle",
-    "volatility 7109",
+    "trend 2093/cycle",
+    "volatility 4730",
     "coverage 65%",
-    "1 contradiction(s)"
+    "0 contradiction(s)"
   ]
 }

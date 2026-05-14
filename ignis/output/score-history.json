@@ -172,5 +172,63 @@
       "curiosity": 0.5,
       "satisfaction": 0.5
     }
+  },
+  {
+    "timestamp": "2026-05-14T01:34:34.629Z",
+    "session": 7,
+    "iqScore": 47614,
+    "tier": "FORGE",
+    "pillarScores": {
+      "perception": 5347.92,
+      "trajectory": 4375.39,
+      "execution": 4012.55,
+      "vitality": 6167.2,
+      "synthesis": 4108.4,
+      "cognition": 4626.46,
+      "foresight": 4438.97,
+      "creativity": 3186.12,
+      "expression": 4709.67,
+      "potential": 5260.67
+    },
+    "emotionalState": {
+      "burnout": 0,
+      "excitement": 0,
+      "frustration": 0.4,
+      "stagnation": 0,
+      "momentum": 0.9999999997641913,
+      "anxiety": 0,
+      "confidence": 0.5,
+      "curiosity": 0.5,
+      "satisfaction": 0.5
+    }
+  },
+  {
+    "timestamp": "2026-05-14T01:35:43.747Z",
+    "session": 8,
+    "iqScore": 46693,
+    "tier": "FORGE",
+    "pillarScores": {
+      "perception": 5347.92,
+      "trajectory": 4272.19,
+      "execution": 4012.55,
+      "vitality": 6174.96,
+      "synthesis": 4128.53,
+      "cognition": 4464.62,
+      "foresight": 4433.16,
+      "creativity": 3125.85,
+      "expression": 4714.01,
+      "potential": 5180.4
+    },
+    "emotionalState": {
+      "burnout": 0,
+      "excitement": 0,
+      "frustration": 0.4,
+      "stagnation": 0,
+      "momentum": 0.9999997226540734,
+      "anxiety": 0,
+      "confidence": 0.5,
+      "curiosity": 0.5,
+      "satisfaction": 0.5
+    }
   }
 ]

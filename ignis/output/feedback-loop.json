@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.338Z",
+  "generatedAt": "2026-05-14T01:35:45.908Z",
   "project": "call-of-doodie",
-  "summary": "Feedback loop strength is driven by direct intervention while execution follow-through remains the main limiter; reliability is 45% with founder truth 59%.",
+  "summary": "Feedback loop strength is driven by direct intervention while execution follow-through remains the main limiter; reliability is 51% with founder truth 59%.",
   "acceptanceRate": 0.5,
   "deferRate": 1,
   "rejectionRate": 0,
   "editRate": 0,
   "linkedFeedbackRate": 0.375,
-  "feedbackReliability": 0.448,
+  "feedbackReliability": 0.513,
   "eventCount": 8,
   "pendingDecisionCount": 8,
   "directionCount": 0,
@@ -16,7 +16,7 @@
   "guidanceCount": 0,
   "rejectionCount": 0,
   "receiptCount": 0,
-  "outcomeCount": 3,
+  "outcomeCount": 12,
   "signals": [
     {
       "label": "Acceptance",
@@ -40,8 +40,8 @@
     },
     {
       "label": "Outcome Resolution",
-      "value": 0.429,
-      "note": "3 observed outcomes across 7 ledger entries."
+      "value": 0.75,
+      "note": "12 observed outcomes across 16 ledger entries."
     },
     {
       "label": "Rejection Pressure",
@@ -50,8 +50,8 @@
     },
     {
       "label": "Experiment Depth",
-      "value": 0.657,
-      "note": "4 open intervention(s); experiment coverage 66%."
+      "value": 0.872,
+      "note": "4 open intervention(s); experiment coverage 87%."
     }
   ],
   "recommendations": [

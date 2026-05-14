@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.319Z",
+  "generatedAt": "2026-05-14T01:35:45.856Z",
   "project": "call-of-doodie",
   "actionRecords": [
     {
@@ -11,7 +11,7 @@
       "approvalRate": 0,
       "deferralRate": 1,
       "rankingDelta": -0.04,
-      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+      "lastDecisionAt": "2026-05-14T01:35:45.823Z"
     },
     {
       "actionId": "synth-outcome-ledger",
@@ -22,7 +22,7 @@
       "approvalRate": 0,
       "deferralRate": 1,
       "rankingDelta": -0.04,
-      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+      "lastDecisionAt": "2026-05-14T01:35:45.823Z"
     },
     {
       "actionId": "stage-managed-task-for-replace-global-execution-ga",
@@ -33,7 +33,7 @@
       "approvalRate": 0,
       "deferralRate": 1,
       "rankingDelta": -0.04,
-      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+      "lastDecisionAt": "2026-05-14T01:35:45.823Z"
     },
     {
       "actionId": "refresh-intelligence-around-harden-shared-external",
@@ -44,7 +44,7 @@
       "approvalRate": 0,
       "deferralRate": 1,
       "rankingDelta": -0.04,
-      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+      "lastDecisionAt": "2026-05-14T01:35:45.823Z"
     },
     {
       "actionId": "stamp-the-current-top-contradiction",
@@ -55,7 +55,7 @@
       "approvalRate": 0,
       "deferralRate": 1,
       "rankingDelta": -0.04,
-      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+      "lastDecisionAt": "2026-05-14T01:35:45.823Z"
     },
     {
       "actionId": "synth-execution-unlock",
@@ -66,7 +66,7 @@
       "approvalRate": 0,
       "deferralRate": 1,
       "rankingDelta": -0.04,
-      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+      "lastDecisionAt": "2026-05-14T01:35:45.823Z"
     },
     {
       "actionId": "synth-feed-validator",
@@ -77,7 +77,7 @@
       "approvalRate": 0,
       "deferralRate": 1,
       "rankingDelta": -0.04,
-      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+      "lastDecisionAt": "2026-05-14T01:35:45.823Z"
     },
     {
       "actionId": "dry-run-external-execution-lane-for-git",
@@ -88,7 +88,7 @@
       "approvalRate": 0,
       "deferralRate": 1,
       "rankingDelta": -0.04,
-      "lastDecisionAt": "2026-04-25T22:03:23.315Z"
+      "lastDecisionAt": "2026-05-14T01:35:45.823Z"
     }
   ],
   "categoryRecords": [

@@ -1,137 +1,137 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.377Z",
+  "generatedAt": "2026-05-14T01:35:46.076Z",
   "project": "call-of-doodie",
-  "mindScore": 570091,
+  "mindScore": 529415,
   "domains": {
     "core": {
       "id": "core",
       "name": "Core Intelligence (10 Pillars)",
-      "score": 48422,
+      "score": 46693,
       "maxScore": 100000,
       "confidence": 0.85,
-      "summary": "10-pillar IQ score: 48,422/100,000 (FORGE)",
+      "summary": "10-pillar IQ score: 46,693/100,000 (FORGE)",
       "factors": [
         {
           "id": "perception",
           "name": "PERCEPTION",
-          "value": 660,
+          "value": 642,
           "maxValue": 1200,
-          "rationale": "Score: 5,503.2, weight: 12%"
+          "rationale": "Score: 5,347.92, weight: 12%"
         },
         {
           "id": "trajectory",
           "name": "TRAJECTORY",
-          "value": 475,
+          "value": 513,
           "maxValue": 1200,
-          "rationale": "Score: 3,955.14, weight: 12%"
+          "rationale": "Score: 4,272.19, weight: 12%"
         },
         {
           "id": "execution",
           "name": "EXECUTION",
-          "value": 620,
+          "value": 562,
           "maxValue": 1400,
-          "rationale": "Score: 4,431.55, weight: 14%"
+          "rationale": "Score: 4,012.55, weight: 14%"
         },
         {
           "id": "vitality",
           "name": "VITALITY",
-          "value": 619,
+          "value": 617,
           "maxValue": 1000,
-          "rationale": "Score: 6,186.62, weight: 10%"
+          "rationale": "Score: 6,174.96, weight: 10%"
         },
         {
           "id": "synthesis",
           "name": "SYNTHESIS",
-          "value": 407,
+          "value": 413,
           "maxValue": 1000,
-          "rationale": "Score: 4,065.54, weight: 10%"
+          "rationale": "Score: 4,128.53, weight: 10%"
         },
         {
           "id": "cognition",
           "name": "COGNITION",
-          "value": 390,
+          "value": 357,
           "maxValue": 800,
-          "rationale": "Score: 4,876.06, weight: 8%"
+          "rationale": "Score: 4,464.62, weight: 8%"
         },
         {
           "id": "foresight",
           "name": "FORESIGHT",
-          "value": 353,
+          "value": 355,
           "maxValue": 800,
-          "rationale": "Score: 4,406.62, weight: 8%"
+          "rationale": "Score: 4,433.16, weight: 8%"
         },
         {
           "id": "creativity",
           "name": "CREATIVITY",
-          "value": 197,
+          "value": 188,
           "maxValue": 600,
-          "rationale": "Score: 3,288.82, weight: 6%"
+          "rationale": "Score: 3,125.85, weight: 6%"
         },
         {
           "id": "expression",
           "name": "EXPRESSION",
-          "value": 393,
+          "value": 377,
           "maxValue": 800,
-          "rationale": "Score: 4,917.94, weight: 8%"
+          "rationale": "Score: 4,714.01, weight: 8%"
         },
         {
           "id": "potential",
           "name": "POTENTIAL",
-          "value": 322,
+          "value": 311,
           "maxValue": 600,
-          "rationale": "Score: 5,373.32, weight: 6%"
+          "rationale": "Score: 5,180.4, weight: 6%"
         }
       ]
     },
     "temporal": {
       "id": "temporal",
       "name": "Temporal Intelligence",
-      "score": 74719,
+      "score": 71804,
       "maxScore": 100000,
-      "confidence": 0.72,
-      "summary": "Trajectory is accelerating. Temporal score: 74,719/100,000. Stability: 34%, persistence: 60%.",
+      "confidence": 0.8600000000000001,
+      "summary": "Trajectory is accelerating. Temporal score: 71,804/100,000. Stability: 87%, persistence: 60%.",
       "factors": [
         {
           "id": "velocity",
           "name": "Immediate Velocity",
-          "value": 6714,
+          "value": 5779,
           "maxValue": 12000,
-          "rationale": "Last session delta: 2977"
+          "rationale": "Last session delta: -921"
         },
         {
           "id": "smoothed-vel",
           "name": "Smoothed Velocity",
-          "value": 9166,
+          "value": 6816,
           "maxValue": 10000,
           "rationale": "3-session avg change"
         },
         {
           "id": "short-trend",
           "name": "Short-Horizon Trend",
-          "value": 14000,
+          "value": 8672,
           "maxValue": 14000,
-          "rationale": "slope5: 4434/session"
+          "rationale": "slope5: 597/session"
         },
         {
           "id": "macro-trend",
           "name": "Macro Trend",
           "value": 12000,
           "maxValue": 12000,
-          "rationale": "slope10: 3977/session"
+          "rationale": "slope10: 2771/session"
         },
         {
           "id": "stability",
           "name": "Score Stability",
-          "value": 4074,
+          "value": 10394,
           "maxValue": 12000,
-          "rationale": "Volatility: 6605"
+          "rationale": "Volatility: 1339"
         },
         {
           "id": "peak",
           "name": "Peak Awareness",
-          "value": 8000,
+          "value": 7714,
           "maxValue": 8000,
-          "rationale": "Current: 48,422 vs peak: 48,422"
+          "rationale": "Current: 46,693 vs peak: 48,422"
         },
         {
           "id": "persistence",
@@ -143,21 +143,21 @@
         {
           "id": "trend-agree",
           "name": "Trend Agreement",
-          "value": 8000,
+          "value": 4955,
           "maxValue": 8000,
           "rationale": "Short vs macro horizon coherence"
         },
         {
           "id": "reversal-resist",
           "name": "Reversal Resistance",
-          "value": 2433,
+          "value": 4922,
           "maxValue": 8000,
-          "rationale": "Reversal risk: 70%"
+          "rationale": "Reversal risk: 38%"
         },
         {
           "id": "traj-confidence",
           "name": "Trajectory Confidence",
-          "value": 4331,
+          "value": 4551,
           "maxValue": 6000,
           "rationale": "Cross-window signal agreement"
         }
@@ -166,10 +166,10 @@
     "temporal-intelligence": {
       "id": "temporal-intelligence",
       "name": "Decision Temporal",
-      "score": 65000,
+      "score": 55714,
       "maxScore": 100000,
       "confidence": 0.75,
-      "summary": "Decision latency 75% · time-to-value 100% · cadence regularity 0% · momentum persistence 100%",
+      "summary": "Decision latency 75% · time-to-value 75% · cadence regularity 0% · momentum persistence 71%",
       "factors": [
         {
           "id": "decision-latency",
@@ -181,9 +181,9 @@
         {
           "id": "time-to-value",
           "name": "Time-to-Value Accuracy",
-          "value": 100000,
+          "value": 75000,
           "maxValue": 100000,
-          "rationale": "Horizon accuracy across 3 resolved interventions"
+          "rationale": "Horizon accuracy across 12 resolved interventions"
         },
         {
           "id": "urgency-calibration",
@@ -197,12 +197,12 @@
           "name": "Session Cadence Regularity",
           "value": 0,
           "maxValue": 100000,
-          "rationale": "Coefficient of variation of session intervals from 6 sessions"
+          "rationale": "Coefficient of variation of session intervals from 8 sessions"
         },
         {
           "id": "momentum-persistence",
           "name": "Momentum Persistence",
-          "value": 100000,
+          "value": 71429,
           "maxValue": 100000,
           "rationale": "% of sessions with positive IQ velocity"
         },
@@ -218,10 +218,10 @@
     "epistemic": {
       "id": "epistemic",
       "name": "Epistemic Quality",
-      "score": 66138,
+      "score": 66148,
       "maxScore": 100000,
       "confidence": 1,
-      "summary": "Evidence epistemics: 66,138/100,000. Freshness 100%, confidence 78%. Top gap: proposals.",
+      "summary": "Evidence epistemics: 66,148/100,000. Freshness 100%, confidence 78%. Top gap: proposals.",
       "factors": [
         {
           "id": "freshness",
@@ -233,7 +233,7 @@
         {
           "id": "confidence",
           "name": "Evidence Confidence",
-          "value": 9317,
+          "value": 9323,
           "maxValue": 12000,
           "rationale": "Avg confidence: 78%"
         },
@@ -254,28 +254,28 @@
         {
           "id": "contradiction-density",
           "name": "Contradiction Density",
-          "value": 9923,
+          "value": 9961,
           "maxValue": 10000,
-          "rationale": "2 contradiction edges"
+          "rationale": "1 contradiction edges"
         },
         {
           "id": "corroboration",
           "name": "Evidence Corroboration",
-          "value": 2778,
+          "value": 2751,
           "maxValue": 10000,
-          "rationale": "225 support edges"
+          "rationale": "222 support edges"
         },
         {
           "id": "graph-density",
           "name": "Knowledge Graph Density",
           "value": 2563,
           "maxValue": 8000,
-          "rationale": "519 edges across 540 nodes"
+          "rationale": "517 edges across 538 nodes"
         },
         {
           "id": "coverage",
           "name": "Evidence Coverage",
-          "value": 7836,
+          "value": 7824,
           "maxValue": 12000,
           "rationale": "Weighted coverage: 65%"
         },
@@ -289,7 +289,7 @@
         {
           "id": "coherence",
           "name": "Epistemic Coherence",
-          "value": 2969,
+          "value": 2973,
           "maxValue": 4000,
           "rationale": "Cross-quality signal agreement"
         }
@@ -298,17 +298,17 @@
     "consciousness": {
       "id": "consciousness",
       "name": "Consciousness & Self-Model",
-      "score": 58598,
+      "score": 38453,
       "maxScore": 100000,
-      "confidence": 0.62,
-      "summary": "Self-model integrity is developing (58,598/100,000). Primary bottleneck: Counterfactual Accuracy.",
+      "confidence": 0.98,
+      "summary": "Self-model integrity is bootstrap (38,453/100,000). Primary bottleneck: Counterfactual Accuracy.",
       "factors": [
         {
           "id": "self-prediction",
           "name": "Self-Prediction Accuracy",
-          "value": 15000,
+          "value": 3750,
           "maxValue": 15000,
-          "rationale": "Hit rate: 100%"
+          "rationale": "Hit rate: 25%"
         },
         {
           "id": "calibration",
@@ -320,16 +320,16 @@
         {
           "id": "epistemic-humility",
           "name": "Epistemic Humility",
-          "value": 9300,
+          "value": 5336,
           "maxValue": 12000,
-          "rationale": "Regret avg: 0.25"
+          "rationale": "Regret avg: 0.62"
         },
         {
           "id": "experiment-rigor",
           "name": "Experiment Rigor",
-          "value": 6570,
+          "value": 8720,
           "maxValue": 10000,
-          "rationale": "Coverage: 66%"
+          "rationale": "Coverage: 87%"
         },
         {
           "id": "counterfactual",
@@ -341,9 +341,9 @@
         {
           "id": "adversarial",
           "name": "Adversarial Resistance",
-          "value": 10000,
+          "value": 6670,
           "maxValue": 10000,
-          "rationale": "Adversarial win rate: 0%"
+          "rationale": "Adversarial win rate: 33%"
         },
         {
           "id": "founder-trust",
@@ -355,21 +355,21 @@
         {
           "id": "learning-velocity",
           "name": "Learning Velocity",
-          "value": 3429,
+          "value": 6000,
           "maxValue": 8000,
-          "rationale": "3/7 interventions resolved"
+          "rationale": "12/16 interventions resolved"
         },
         {
           "id": "blind-spot",
           "name": "Blind Spot Awareness",
-          "value": 5299,
+          "value": 2226,
           "maxValue": 7000,
           "rationale": "Coverage × accuracy composite"
         },
         {
           "id": "coherence",
           "name": "Consciousness Coherence",
-          "value": 6000,
+          "value": 2751,
           "maxValue": 6000,
           "rationale": "Adversarial resistance + prediction accuracy"
         }
@@ -378,17 +378,17 @@
     "founder": {
       "id": "founder",
       "name": "Founder Behavioral Intelligence",
-      "score": 57583,
+      "score": 38471,
       "maxScore": 100000,
       "confidence": 0.88,
-      "summary": "Founder behavioral profile: balanced depth, deliberate style. Trust calibration 55%. Score: 57,583/100,000.",
+      "summary": "Founder behavioral profile: balanced depth, deliberate style. Trust calibration 14%. Score: 38,471/100,000.",
       "factors": [
         {
           "id": "decision-quality",
           "name": "Decision Quality Trend",
-          "value": 15000,
+          "value": 7500,
           "maxValue": 15000,
-          "rationale": "100% sessions improving"
+          "rationale": "50% sessions improving"
         },
         {
           "id": "approval-consistency",
@@ -400,7 +400,7 @@
         {
           "id": "trust-calibration",
           "name": "Trust Calibration",
-          "value": 6600,
+          "value": 1650,
           "maxValue": 12000,
           "rationale": "Hit rate × approval rate composite"
         },
@@ -435,7 +435,7 @@
         {
           "id": "co-evolution",
           "name": "Co-Evolution Signal",
-          "value": 7750,
+          "value": 3188,
           "maxValue": 10000,
           "rationale": "Founder + IGNIS accuracy alignment"
         },
@@ -449,7 +449,7 @@
         {
           "id": "override-insight",
           "name": "Override Insight",
-          "value": 4900,
+          "value": 2800,
           "maxValue": 7000,
           "rationale": "Rejection rate: 0%"
         }
@@ -458,10 +458,10 @@
     "studio-fabric": {
       "id": "studio-fabric",
       "name": "Studio Fabric Intelligence",
-      "score": 44664,
+      "score": 44644,
       "maxScore": 100000,
       "confidence": 0.8,
-      "summary": "Studio fabric score: 44,664/100,000. Top leverage target: none. Network: 0 candidates, 48 edges.",
+      "summary": "Studio fabric score: 44,644/100,000. Top leverage target: none. Network: 0 candidates, 57 edges.",
       "factors": [
         {
           "id": "leverage",
@@ -482,7 +482,7 @@
           "name": "Cross-Project Intelligence",
           "value": 12000,
           "maxValue": 12000,
-          "rationale": "48 total edges"
+          "rationale": "57 total edges"
         },
         {
           "id": "centrality",
@@ -508,14 +508,14 @@
         {
           "id": "studio-os",
           "name": "Studio OS Adoption",
-          "value": 7836,
+          "value": 7824,
           "maxValue": 12000,
           "rationale": "Signal coverage: 65%"
         },
         {
           "id": "sil",
           "name": "SIL Contribution",
-          "value": 4493,
+          "value": 4486,
           "maxValue": 8000,
           "rationale": "Trust score: 65%"
         },
@@ -529,7 +529,7 @@
         {
           "id": "integration",
           "name": "Studio Integration Depth",
-          "value": 3935,
+          "value": 3934,
           "maxValue": 6000,
           "rationale": "Composite cross-project richness"
         }
@@ -538,10 +538,10 @@
     "innovation": {
       "id": "innovation",
       "name": "Innovation Intelligence",
-      "score": 58311,
+      "score": 63813,
       "maxScore": 100000,
       "confidence": 0.7,
-      "summary": "Contrarian success 50% · novelty rate 50% · breakthrough proximity 69% · serendipity 30%",
+      "summary": "Contrarian success 50% · novelty rate 100% · breakthrough proximity 68% · serendipity 12%",
       "factors": [
         {
           "id": "contrarian-success",
@@ -553,21 +553,21 @@
         {
           "id": "novelty-rate",
           "name": "Strategy Novelty Rate",
-          "value": 50000,
+          "value": 100000,
           "maxValue": 100000,
-          "rationale": "50% of strategies are non-conservative"
+          "rationale": "100% of strategies are non-conservative"
         },
         {
           "id": "breakthrough-proximity",
           "name": "Breakthrough Proximity",
-          "value": 69053,
+          "value": 68016,
           "maxValue": 100000,
           "rationale": "Proximity to next IQ tier ceiling based on current score + velocity"
         },
         {
           "id": "serendipity-capture",
           "name": "Serendipity Capture",
-          "value": 30000,
+          "value": 12500,
           "maxValue": 100000,
           "rationale": "Unexpected wins (confidence < 65%) as fraction of resolved entries"
         },
@@ -581,33 +581,33 @@
         {
           "id": "adversarial-intelligence",
           "name": "Adversarial Intelligence",
-          "value": 100000,
+          "value": 83350,
           "maxValue": 100000,
-          "rationale": "Inverted adversarial win rate: 0% opposite-path wins"
+          "rationale": "Inverted adversarial win rate: 33% opposite-path wins"
         }
       ]
     },
     "emergent": {
       "id": "emergent",
       "name": "Emergent System",
-      "score": 61320,
+      "score": 68899,
       "maxScore": 100000,
       "confidence": 0.68,
-      "summary": "Anti-fragility 50% · self-org 52% · edge-of-chaos 60% · bifurcation safety 96% · contagion awareness 48%",
+      "summary": "Anti-fragility 79% · self-org 52% · edge-of-chaos 60% · bifurcation safety 98% · contagion awareness 48%",
       "factors": [
         {
           "id": "antifragility",
           "name": "Anti-Fragility",
-          "value": 50000,
+          "value": 78571,
           "maxValue": 100000,
           "rationale": "Win rate during volatile sessions vs stable baseline"
         },
         {
           "id": "self-organization",
           "name": "Self-Organization Index",
-          "value": 52426,
+          "value": 52423,
           "maxValue": 100000,
-          "rationale": "Evidence graph density: 519 edges / 540 nodes"
+          "rationale": "Evidence graph density: 517 edges / 538 nodes"
         },
         {
           "id": "edge-of-chaos",
@@ -619,7 +619,7 @@
         {
           "id": "bifurcation-safety",
           "name": "Bifurcation Safety",
-          "value": 96050,
+          "value": 98234,
           "maxValue": 100000,
           "rationale": "Low bifurcation risk from 0 prediction losses and recent volatility"
         },
@@ -635,10 +635,10 @@
     "evidence-consciousness": {
       "id": "evidence-consciousness",
       "name": "Evidence Consciousness",
-      "score": 35336,
+      "score": 34776,
       "maxScore": 100000,
       "confidence": 0.72,
-      "summary": "Epistemic debt 13% cleared · chain depth 32% · surrogate risk 50% · provenance 29%",
+      "summary": "Epistemic debt 13% cleared · chain depth 32% · surrogate risk 50% · provenance 38%",
       "factors": [
         {
           "id": "epistemic-debt",
@@ -650,9 +650,9 @@
         {
           "id": "chain-depth",
           "name": "Evidence Chain Depth",
-          "value": 32037,
+          "value": 32032,
           "maxValue": 100000,
-          "rationale": "Avg 1.0 edges/node in evidence graph (519 edges, 540 nodes)"
+          "rationale": "Avg 1.0 edges/node in evidence graph (517 edges, 538 nodes)"
         },
         {
           "id": "missing-evidence-cost",
@@ -671,14 +671,14 @@
         {
           "id": "provenance-completeness",
           "name": "Provenance Completeness",
-          "value": 28571,
+          "value": 37500,
           "maxValue": 100000,
-          "rationale": "2/7 outcome entries have execution-linked provenance"
+          "rationale": "6/16 outcome entries have execution-linked provenance"
         },
         {
           "id": "observation-latency",
           "name": "Observation Latency",
-          "value": 100000,
+          "value": 81020,
           "maxValue": 100000,
           "rationale": "Avg days to observe outcomes after opening (target < 7 days)"
         }
@@ -686,12 +686,12 @@
     }
   },
   "tier": "INFERNO",
-  "summary": "IGNIS Mind Score: 570,091/1,000,000 (INFERNO). 10/10 domains active. Core: 48,422 | Temporal: +74,719 | Decision: +65,000 | Epistemic: +66,138 | Consciousness: +58,598 | Founder: +57,583 | Studio: +44,664 | Innovation: +58,311 | Emergent: +61,320 | Evidence: +35,336.",
-  "primaryBottleneck": "Evidence Consciousness (35,336/100,000)",
-  "breakthroughPath": "Highest leverage: improve Evidence Consciousness — estimated 47K pts available",
+  "summary": "IGNIS Mind Score: 529,415/1,000,000 (INFERNO). 10/10 domains active. Core: 46,693 | Temporal: +71,804 | Decision: +55,714 | Epistemic: +66,148 | Consciousness: +38,453 | Founder: +38,471 | Studio: +44,644 | Innovation: +63,813 | Emergent: +68,899 | Evidence: +34,776.",
+  "primaryBottleneck": "Evidence Consciousness (34,776/100,000)",
+  "breakthroughPath": "Highest leverage: improve Consciousness & Self-Model — estimated 60K pts available",
   "uncertaintyBand": [
-    518099,
-    622083
+    491721,
+    567109
   ],
-  "scoreBreakdown": "Core: 48,422 | Temporal: +74,719 | Decision: +65,000 | Epistemic: +66,138 | Consciousness: +58,598 | Founder: +57,583 | Studio: +44,664 | Innovation: +58,311 | Emergent: +61,320 | Evidence: +35,336"
+  "scoreBreakdown": "Core: 46,693 | Temporal: +71,804 | Decision: +55,714 | Epistemic: +66,148 | Consciousness: +38,453 | Founder: +38,471 | Studio: +44,644 | Innovation: +63,813 | Emergent: +68,899 | Evidence: +34,776"
 }

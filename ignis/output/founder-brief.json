@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.339Z",
+  "generatedAt": "2026-05-14T01:35:45.909Z",
   "project": "call-of-doodie",
-  "summary": "call-of-doodie is compounding, but the first thing to read is the top contradiction: intent-outcome: 2 sessions marked intent as achieved/exceeded.",
-  "executiveCommand": "Execute \"Feed founder feedback directly into ranking and escalation policy\" now, because the market is favoring a growth-max posture to use vitality momentum to expand studio reach; guardrail: Either intent criteria are too loose, or improvements aren't being tracked.",
-  "startupHeadline": "Lead with intent-outcome: 2 sessions marked intent as achieved/exceeded; then execute Feed founder feedback directly into ranking and escalation policy under a growth-max posture.",
+  "summary": "call-of-doodie is internally coherent; default surfaces should now stay focused on execution, not rediscovery.",
+  "executiveCommand": "Execute \"Feed founder feedback directly into ranking and escalation policy\" now, because the market is favoring a growth-max posture to use vitality momentum to expand studio reach; guardrail: Raise CREATIVITY without weakening VITALITY..",
+  "startupHeadline": "Lead with weakest pillar: CREATIVITY; then execute Feed founder feedback directly into ranking and escalation policy under a growth-max posture.",
   "contradictionSentinel": {
-    "label": "intent-outcome: 2 sessions marked intent as achieved/exceeded",
-    "severity": 0.5,
-    "resolution": "Either intent criteria are too loose, or improvements aren't being tracked",
-    "confidence": 0.65
+    "label": "weakest pillar: CREATIVITY",
+    "severity": 0.2,
+    "resolution": "Raise CREATIVITY without weakening VITALITY.",
+    "confidence": 0.55
   },
   "topAction": {
     "title": "Feed founder feedback directly into ranking and escalation policy",
     "category": "feedback",
-    "score": 0.965,
+    "score": 0.959,
     "firstStep": "Map explicit approve/defer/reject/edit feedback signals into recommendation weighting and queue escalation posture.",
     "successMetric": "Top actions and approval pressure adapt to founder behavior instead of just reporting it.",
     "evidenceProvenance": [
@@ -36,7 +36,7 @@
       "preConditions": [
         "Verify success metric: \"Top actions and approval pressure adapt to founder behavior instead of just reporting it.\" is measurable before proceeding."
       ],
-      "confidenceCap": 0.85,
+      "confidenceCap": 0.217,
       "adversaryFindings": [
         {
           "kind": "stale-evidence",
@@ -66,31 +66,25 @@
         "registry (high-risk gap — if activated, may change ranking)",
         "git (high-risk gap — if activated, may change ranking)"
       ],
-      "contradictionsConsidered": [
-        {
-          "type": "intent-outcome",
-          "severity": 0.5,
-          "resolution": "Either intent criteria are too loose, or improvements aren't being tracked"
-        }
-      ],
+      "contradictionsConsidered": [],
       "analogMemories": [
         "Top action: Harden shared external feed validation"
       ],
       "expectedUpside": 0.89,
       "expectedDownside": 0.12,
-      "confidenceBudget": 0.85,
-      "confidenceBreakdown": "Capped by: skeptic cap 85% · evidence confidence 0% · stale-evidence (high) · overfitting (high)"
+      "confidenceBudget": 0.22,
+      "confidenceBreakdown": "Capped by: skeptic cap 22% · evidence confidence 0% · stale-evidence (high) · overfitting (high)"
     }
   },
   "highestRisk": {
-    "label": "intent-outcome: 2 sessions marked intent as achieved/exceeded",
-    "severity": 0.5,
-    "resolution": "Either intent criteria are too loose, or improvements aren't being tracked"
+    "label": "weakest pillar: CREATIVITY",
+    "severity": 0.2,
+    "resolution": "Raise CREATIVITY without weakening VITALITY."
   },
   "strategyCall": {
     "winner": "growth-max",
     "rationale": "VITALITY is carrying enough momentum that controlled expansion can compound current gains.",
-    "confidence": 0.97
+    "confidence": 0.688
   },
   "approvalsNeeded": [
     "Refresh intelligence around \"Feed founder feedback directly into ranking and escalation policy\" [artifacts/medium]: This rewrites canonical runtime artifacts under ignis/output.",
@@ -103,19 +97,19 @@
     "Stage managed task for \"Turn leverage modeling into a regime-aware studio allocation engine\" [task-board/high]: This mutates the Studio OS task board and therefore needs explicit approval."
   ],
   "ignoreForNow": [
-    "Expand evidence provenance and contradiction tracing",
     "Harden shared external feed validation",
     "Deepen outcome learning and regret tracking",
+    "Expand evidence provenance and contradiction tracing",
     "Increase external evidence connector coverage"
   ],
-  "trustScore": 0.694,
-  "executionHeadline": "0 guarded actions approved, 8 still waiting on approval. Composite trust 69% = internal 75% · signal 65% · outcome 84% · feedback 48% · failure modes: proxy-heavy, governance-gaps, learning-backlog, feedback-weak.",
+  "trustScore": 0.642,
+  "executionHeadline": "0 guarded actions approved, 8 still waiting on approval. Composite trust 64% = internal 100% · signal 65% · outcome 42% · feedback 51% · failure modes: proxy-heavy, governance-gaps, feedback-weak.",
   "leverageHeadline": "No portfolio baseline is available yet, so leverage modeling is still ungrounded.",
   "strategyHeadline": "conservative leads the arbitration panel with authority 0.500 (governor 0%).",
-  "memoryHeadline": "Retrieved 5 memories anchored to the current contradiction, action, strategy, posture, and outcome loop.",
+  "memoryHeadline": "Retrieved 6 memories anchored to the current contradiction, action, strategy, posture, and outcome loop.",
   "regimeHeadline": "Post-Launch (72%) — call-of-doodie is showing live/deploy signals, so the operating priority shifts toward signal quality and follow-through.",
-  "uncertaintyHeadline": "Confidence should stay capped while composite trust is 69% (signal 65% · internal 75%), and regret sits at 0.25.",
-  "feedbackLoopHeadline": "Feedback loop strength is driven by direct intervention while execution follow-through remains the main limiter; reliability is 45% with founder truth 59%. Acceptance 50% · reliability 45% · 0 receipts recorded.",
-  "fireMetaphor": "This fire transforms everything it touches.",
-  "voiceOpener": "The forge has an opinion."
+  "uncertaintyHeadline": "Confidence should stay capped while composite trust is 64% (signal 65% · internal 100%), and regret sits at 0.62.",
+  "feedbackLoopHeadline": "Feedback loop strength is driven by direct intervention while execution follow-through remains the main limiter; reliability is 51% with founder truth 59%. Acceptance 50% · reliability 51% · 0 receipts recorded.",
+  "fireMetaphor": "A forge this hot can recover quickly — but only if we act.",
+  "voiceOpener": "Here's what I'd change if I could."
 }

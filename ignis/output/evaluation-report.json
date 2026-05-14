@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.340Z",
+  "generatedAt": "2026-05-14T01:35:45.910Z",
   "project": "call-of-doodie",
-  "summary": "Evaluation discipline is 68/100 across evidence, contradiction handling, learning, and regret control.",
+  "summary": "Evaluation discipline is 57/100 across evidence, contradiction handling, learning, and regret control.",
   "dimensions": [
     {
       "name": "Evidence Grounding",
@@ -10,43 +10,43 @@
     },
     {
       "name": "Contradiction Discipline",
-      "score": 82,
-      "note": "1 contradiction(s) are active and should influence certainty."
+      "score": 100,
+      "note": "No contradictions detected in the current cycle."
     },
     {
       "name": "Outcome Learning",
-      "score": 90,
-      "note": "Observed recommendation hit rate is 100%; signal trust is 65%."
+      "score": 37,
+      "note": "Observed recommendation hit rate is 25%; signal trust is 65%."
     },
     {
       "name": "Regret Control",
-      "score": 75,
-      "note": "Average regret is 0.25; lower is better."
+      "score": 38,
+      "note": "Average regret is 0.62; lower is better."
     },
     {
       "name": "Counterfactual Discipline",
-      "score": 30,
-      "note": "Counterfactual hit rate is 0%; opposite-branch wins are 0%."
+      "score": 20,
+      "note": "Counterfactual hit rate is 0%; opposite-branch wins are 33%."
     },
     {
       "name": "Experiment Depth",
-      "score": 66,
+      "score": 87,
       "note": "Outcome/feedback tracking is only as good as intervention shape and observation quality."
     },
     {
       "name": "Feedback Loop Health",
-      "score": 45,
-      "note": "Feedback loop strength is driven by direct intervention while execution follow-through remains the main limiter; reliability is 45% with founder truth 59%."
+      "score": 51,
+      "note": "Feedback loop strength is driven by direct intervention while execution follow-through remains the main limiter; reliability is 51% with founder truth 59%."
     },
     {
       "name": "Recommendation Precision",
-      "score": 100,
-      "note": "3/3 resolved outcomes were wins (100%). Precision is acceptable."
+      "score": 25,
+      "note": "3/12 resolved outcomes were wins (25%). Precision below 50% — recommendations need calibration."
     },
     {
       "name": "False Certainty",
-      "score": 60,
-      "note": "Platt calibration needs ≥4 resolved outcomes. False certainty unverifiable."
+      "score": 95,
+      "note": "Platt ECE 0.006 (quality: strong). System is systematically overconfident — Platt correction applied."
     },
     {
       "name": "Rollback Quality",
@@ -55,13 +55,13 @@
     },
     {
       "name": "Contradiction Recall",
-      "score": 62,
-      "note": "1 active contradiction(s). No resolutions detected yet."
+      "score": 95,
+      "note": "No active contradictions — system is internally consistent."
     },
     {
       "name": "Execution Success",
-      "score": 65,
-      "note": "No execution-linked resolved outcomes yet."
+      "score": 0,
+      "note": "0/4 execution-linked outcomes were wins or mixed. Execution quality needs improvement before live widening."
     }
   ],
   "recommendations": [

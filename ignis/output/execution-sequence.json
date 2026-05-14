@@ -6,7 +6,7 @@
       "category": "feedback",
       "rationale": "Founder feedback now carries 37.5% linkage and 38% escalation pressure; ranking should respond to that behavior directly.",
       "expectedUpside": 0.89,
-      "confidence": 0.966,
+      "confidence": 0.274,
       "effort": 0.32,
       "reversibility": 0.95,
       "urgency": 0.88,
@@ -26,8 +26,8 @@
       "evidenceDepth": 0.78,
       "expectedValue": 0.84,
       "regretRisk": 0.12,
-      "uncertainty": 0.15501500772997748,
-      "score": 0.965,
+      "uncertainty": 0.17164005331249174,
+      "score": 0.959,
       "evidenceProvenance": [
         {
           "ref": "ignis/output/founder-feedback.json",
@@ -47,7 +47,7 @@
         "preConditions": [
           "Verify success metric: \"Top actions and approval pressure adapt to founder behavior instead of just reporting it.\" is measurable before proceeding."
         ],
-        "confidenceCap": 0.85,
+        "confidenceCap": 0.217,
         "adversaryFindings": [
           {
             "kind": "stale-evidence",
@@ -76,7 +76,7 @@
       "category": "strategy",
       "rationale": "Leverage scoring is useful, but studio-wide decisions require a recommended split of founder, engineering, and creative attention tied to regime and dependency pressure.",
       "expectedUpside": 0.84,
-      "confidence": 0.886,
+      "confidence": 0.283,
       "effort": 0.34,
       "reversibility": 0.94,
       "urgency": 0.74,
@@ -97,8 +97,8 @@
       "evidenceDepth": 0.74,
       "expectedValue": 0.78,
       "regretRisk": 0.09,
-      "uncertainty": 0.16830200839254697,
-      "score": 0.902,
+      "uncertainty": 0.1863520578821339,
+      "score": 0.896,
       "evidenceProvenance": [
         {
           "ref": "portfolio-leverage",
@@ -134,7 +134,7 @@
       "category": "platform",
       "rationale": "Startup already inherits operator posture; dashboard and hub views should stop maintaining parallel summary logic before drift reappears.",
       "expectedUpside": 0.8,
-      "confidence": 0.943,
+      "confidence": 0.276,
       "effort": 0.24,
       "reversibility": 0.97,
       "urgency": 0.75,
@@ -155,8 +155,8 @@
       "evidenceDepth": 0.76,
       "expectedValue": 0.77,
       "regretRisk": 0.07,
-      "uncertainty": 0.1660875082821187,
-      "score": 0.895,
+      "uncertainty": 0.18390005712052687,
+      "score": 0.888,
       "evidenceProvenance": [
         {
           "ref": "operator-command-center",
@@ -185,7 +185,7 @@
         "preConditions": [
           "Verify success metric: \"Dashboard, startup, founder, and hub-facing outputs all describe the same evidence gaps, trust shifts, and unlock posture.\" is measurable before proceeding."
         ],
-        "confidenceCap": 0.85,
+        "confidenceCap": 0.226,
         "adversaryFindings": [
           {
             "kind": "stale-evidence",
@@ -209,91 +209,12 @@
       }
     },
     {
-      "id": "synth-evidence-provenance",
-      "title": "Expand evidence provenance and contradiction tracing",
-      "category": "data",
-      "rationale": "Evidence density is 3.55 with 0% stale nodes; provenance and contradiction edges should drive trust explicitly.",
-      "expectedUpside": 0.89,
-      "confidence": 0.92,
-      "effort": 0.48,
-      "reversibility": 0.92,
-      "urgency": 0.9,
-      "unblockPotential": 0.84,
-      "firstStep": "Persist provenance metadata, contradiction edges, and citation-like source links in the evidence graph.",
-      "successMetric": "Every major recommendation can show evidence depth, freshness, and contradiction pressure.",
-      "relatedPillars": [
-        "perception",
-        "synthesis",
-        "cognition"
-      ],
-      "evidenceRefs": [
-        "event:*",
-        "prediction:*"
-      ],
-      "blockers": [],
-      "regimeFit": "post-launch",
-      "evidenceDepth": 0.81,
-      "expectedValue": 0.76,
-      "regretRisk": 0.18,
-      "uncertainty": 0.15501500772997748,
-      "score": 0.894,
-      "evidenceProvenance": [
-        {
-          "ref": "event:*",
-          "matchedNodeIds": [
-            "event:social-dashboard-call-of-doodie-5dfa3e023f2e129f",
-            "event:studio-hub-call-of-doodie-d2c15a448d902b00",
-            "event:pr-reviews-call-of-doodie-8ad583fdd27d1edc",
-            "event:founder-approvals-call-of-doodie-e21cb621e065def7",
-            "event:revenue-call-of-doodie-f13892bc897f8fad",
-            "event:incidents-call-of-doodie-3cda17d778385651"
-          ],
-          "adapters": [
-            "social-dashboard",
-            "studio-hub",
-            "pr-reviews",
-            "founder-approvals",
-            "revenue",
-            "incidents",
-            "analytics",
-            "deploys",
-            "nerve-canon",
-            "nerve-docs",
-            "nerve-tasks",
-            "nerve-ci"
-          ],
-          "avgFreshness": 1,
-          "avgConfidence": 0.763,
-          "latestTimestamp": "2026-04-25T22:03:23.017Z",
-          "contradictionCount": 0,
-          "contradictionSeverity": 0
-        },
-        {
-          "ref": "prediction:*",
-          "matchedNodeIds": [],
-          "adapters": [],
-          "avgFreshness": 0,
-          "avgConfidence": 0,
-          "contradictionCount": 0,
-          "contradictionSeverity": 0
-        }
-      ],
-      "experimentContract": {
-        "interventionId": "candidate:synth-evidence-provenance",
-        "horizon": "short",
-        "expectedDirection": "up",
-        "expectedMetric": "Every major recommendation can show evidence depth, freshness, and contradiction pressure.",
-        "status": "open",
-        "completeness": 0.4
-      }
-    },
-    {
       "id": "synth-feed-validator",
       "title": "Harden shared external feed validation",
       "category": "data",
       "rationale": "The external feed seam now carries decision-grade adapters, so manifest-level validation and downgrade rules need to be stricter than generic feed-valid/feed-invalid tagging.",
       "expectedUpside": 0.9,
-      "confidence": 0.989,
+      "confidence": 0.271,
       "effort": 0.28,
       "reversibility": 0.95,
       "urgency": 0.88,
@@ -314,8 +235,8 @@
       "evidenceDepth": 0.82,
       "expectedValue": 0.86,
       "regretRisk": 0.08,
-      "uncertainty": 0.13729900684655147,
-      "score": 0.886,
+      "uncertainty": 0.15202404721963556,
+      "score": 0.879,
       "evidenceProvenance": [
         {
           "ref": "signal-coverage",
@@ -343,17 +264,19 @@
         "horizon": "short",
         "expectedDirection": "up",
         "expectedMetric": "Signal coverage receipts explain why an adapter is trusted, invalid, or still shadow-only instead of showing generic feed status only.",
-        "status": "open",
-        "completeness": 0.75
+        "observedEffect": "iq_delta=-808; contradiction_delta=0; mode=analysis-only",
+        "outcomeScore": 0.15,
+        "status": "observed",
+        "completeness": 1
       }
     },
     {
       "id": "synth-outcome-ledger",
       "title": "Deepen outcome learning and regret tracking",
       "category": "feedback",
-      "rationale": "Recommendation quality should improve from measured results, not narrative confidence; hit rate is 100% and regret is 0.25.",
+      "rationale": "Recommendation quality should improve from measured results, not narrative confidence; hit rate is 25% and regret is 0.62.",
       "expectedUpside": 0.91,
-      "confidence": 0.943,
+      "confidence": 0.276,
       "effort": 0.38,
       "reversibility": 0.96,
       "urgency": 0.82,
@@ -373,8 +296,8 @@
       "evidenceDepth": 0.74,
       "expectedValue": 0.83,
       "regretRisk": 0.12,
-      "uncertainty": 0.17716000883425997,
-      "score": 0.882,
+      "uncertainty": 0.196160060928562,
+      "score": 0.876,
       "evidenceProvenance": [
         {
           "ref": "ignis/output/outcome-ledger.json",
@@ -396,12 +319,91 @@
       }
     },
     {
+      "id": "synth-evidence-provenance",
+      "title": "Expand evidence provenance and contradiction tracing",
+      "category": "data",
+      "rationale": "Evidence density is 3.63 with 0% stale nodes; provenance and contradiction edges should drive trust explicitly.",
+      "expectedUpside": 0.89,
+      "confidence": 0.279,
+      "effort": 0.48,
+      "reversibility": 0.92,
+      "urgency": 0.72,
+      "unblockPotential": 0.84,
+      "firstStep": "Persist provenance metadata, contradiction edges, and citation-like source links in the evidence graph.",
+      "successMetric": "Every major recommendation can show evidence depth, freshness, and contradiction pressure.",
+      "relatedPillars": [
+        "perception",
+        "synthesis",
+        "cognition"
+      ],
+      "evidenceRefs": [
+        "event:*",
+        "prediction:*"
+      ],
+      "blockers": [],
+      "regimeFit": "post-launch",
+      "evidenceDepth": 0.81,
+      "expectedValue": 0.76,
+      "regretRisk": 0.18,
+      "uncertainty": 0.17164005331249174,
+      "score": 0.862,
+      "evidenceProvenance": [
+        {
+          "ref": "event:*",
+          "matchedNodeIds": [
+            "event:social-dashboard-call-of-doodie-9aa016e3dd6d16c7",
+            "event:studio-hub-call-of-doodie-67d33254368b8e48",
+            "event:pr-reviews-call-of-doodie-aca22e14fd492349",
+            "event:founder-approvals-call-of-doodie-7b8c77816db34c99",
+            "event:analytics-call-of-doodie-2a09876fdbb26b13",
+            "event:revenue-call-of-doodie-8406f04c35977b9b"
+          ],
+          "adapters": [
+            "social-dashboard",
+            "studio-hub",
+            "pr-reviews",
+            "founder-approvals",
+            "analytics",
+            "revenue",
+            "incidents",
+            "deploys",
+            "nerve-canon",
+            "nerve-docs",
+            "nerve-tasks",
+            "nerve-ci"
+          ],
+          "avgFreshness": 1,
+          "avgConfidence": 0.763,
+          "latestTimestamp": "2026-05-14T01:35:43.746Z",
+          "contradictionCount": 0,
+          "contradictionSeverity": 0
+        },
+        {
+          "ref": "prediction:*",
+          "matchedNodeIds": [],
+          "adapters": [],
+          "avgFreshness": 0,
+          "avgConfidence": 0,
+          "contradictionCount": 0,
+          "contradictionSeverity": 0
+        }
+      ],
+      "experimentContract": {
+        "interventionId": "candidate:synth-evidence-provenance",
+        "horizon": "short",
+        "expectedDirection": "up",
+        "expectedMetric": "Every major recommendation can show evidence depth, freshness, and contradiction pressure.",
+        "status": "open",
+        "completeness": 0.4
+      }
+    },
+    {
       "id": "synth-signal-connectors",
       "title": "Increase external evidence connector coverage",
       "category": "platform",
       "rationale": "Coverage is 65%; higher autonomy is unjustified until external evidence replaces local proxies.",
       "expectedUpside": 0.93,
-      "confidence": 0.966,
+      "confidence": 0.274,
       "effort": 0.5,
       "reversibility": 0.9,
       "urgency": 0.9,
@@ -421,8 +423,8 @@
       "evidenceDepth": 0.69,
       "expectedValue": 0.85,
       "regretRisk": 0.14,
-      "uncertainty": 0.1660875082821187,
-      "score": 0.861,
+      "uncertainty": 0.18390005712052687,
+      "score": 0.854,
       "evidenceProvenance": [
         {
           "ref": "signal-coverage",
@@ -443,7 +445,7 @@
           "Significant effort (50%) required — confirm scope is achievable before approving.",
           "Verify success metric: \"Signal coverage exceeds 90% and the top missing adapters are no longer core governance inputs.\" is measurable before proceeding."
         ],
-        "confidenceCap": 0.85,
+        "confidenceCap": 0.1995,
         "adversaryFindings": [
           {
             "kind": "stale-evidence",
@@ -472,7 +474,7 @@
       "category": "strategy",
       "rationale": "Recommendation authority remains soft until IGNIS compares the selected path against plausible alternatives and resolves those differences over time.",
       "expectedUpside": 0.86,
-      "confidence": 0.874,
+      "confidence": 0.284,
       "effort": 0.36,
       "reversibility": 0.95,
       "urgency": 0.72,
@@ -493,8 +495,8 @@
       "evidenceDepth": 0.71,
       "expectedValue": 0.79,
       "regretRisk": 0.11,
-      "uncertainty": 0.17716000883425997,
-      "score": 0.859,
+      "uncertainty": 0.196160060928562,
+      "score": 0.853,
       "evidenceProvenance": [
         {
           "ref": "action-plan",
@@ -531,9 +533,9 @@
     "  1. Feed founder feedback directly into ranking and escalation policy",
     "  2. Turn leverage modeling into a regime-aware studio allocation engine",
     "  3. Push dashboard and hub summaries onto the operator rendering spine",
-    "  4. Expand evidence provenance and contradiction tracing",
-    "  5. Harden shared external feed validation",
-    "  6. Deepen outcome learning and regret tracking",
+    "  4. Harden shared external feed validation",
+    "  5. Deepen outcome learning and regret tracking",
+    "  6. Expand evidence provenance and contradiction tracing",
     "  7. Increase external evidence connector coverage",
     "  8. Grade top recommendations against do, delay, and opposite counterfactuals"
   ],

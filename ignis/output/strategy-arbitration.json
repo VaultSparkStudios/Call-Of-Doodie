@@ -1,22 +1,11 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.310Z",
+  "generatedAt": "2026-05-14T01:35:45.817Z",
   "project": "call-of-doodie",
   "leader": "conservative",
   "summary": "conservative leads, but authority is still governor-limited at 0% of full weight until more outcomes resolve.",
   "entries": [
     {
       "strategy": "conservative",
-      "rawAuthority": 0.5,
-      "authorityGovernor": 0,
-      "authority": 0.5,
-      "winRate": 0.5,
-      "avgScoreDelta": 0,
-      "avgOutcomeScore": 0.5,
-      "appearances": 0,
-      "resolved": 0
-    },
-    {
-      "strategy": "growth-max",
       "rawAuthority": 0.5,
       "authorityGovernor": 0,
       "authority": 0.5,
@@ -58,6 +47,17 @@
       "avgOutcomeScore": 0.5,
       "appearances": 0,
       "resolved": 0
+    },
+    {
+      "strategy": "growth-max",
+      "rawAuthority": 0.256,
+      "authorityGovernor": 0.25,
+      "authority": 0.439,
+      "winRate": 0,
+      "avgScoreDelta": -808,
+      "avgOutcomeScore": 0.365,
+      "appearances": 2,
+      "resolved": 1
     }
   ]
 }

@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-05-14T01:35:45.906Z",
+  "project": "call-of-doodie",
+  "summary": "Retrieved 6 memories anchored to the current contradiction, action, strategy, posture, and outcome loop.",
+  "queries": [
+    "Harden shared external feed validation",
+    "weakest pillar: CREATIVITY",
+    "conservative",
+    "balanced",
+    "outcome loop"
+  ],
+  "entries": [
+    {
+      "id": "sem-7962f0e95a2e76b8",
+      "type": "semantic",
+      "summary": "Top contradiction: weakest pillar: CREATIVITY",
+      "strength": 0.778,
+      "relevance": 0.2,
+      "source": "semantic-memory"
+    },
+    {
+      "id": "sem-c812c19d4a8343a8",
+      "type": "semantic",
+      "summary": "Narrative posture: balanced/directive",
+      "strength": 0.746,
+      "relevance": 0.2,
+      "source": "semantic-memory"
+    },
+    {
+      "id": "sem-5ac54e596f62c834",
+      "type": "semantic",
+      "summary": "Outcome loop: hit rate 56% with regret 0.48 and experiment coverage 79%",
+      "strength": 0.616,
+      "relevance": 0.2,
+      "source": "semantic-memory"
+    },
+    {
+      "id": "sem-96cfad2d3a8a0da5",
+      "type": "semantic",
+      "summary": "Outcome loop: hit rate 25% with regret 0.62 and experiment coverage 87%",
+      "strength": 0.616,
+      "relevance": 0.2,
+      "source": "semantic-memory"
+    },
+    {
+      "id": "sem-553fe15f3ee2a7da",
+      "type": "semantic",
+      "summary": "Top action: Harden shared external feed validation",
+      "strength": 0.557,
+      "relevance": 0.2,
+      "source": "semantic-memory"
+    },
+    {
+      "id": "sem-df414d1ff982a767",
+      "type": "semantic",
+      "summary": "Strategy leader: conservative",
+      "strength": 0.549,
+      "relevance": 0.2,
+      "source": "semantic-memory"
+    }
+  ]
+}

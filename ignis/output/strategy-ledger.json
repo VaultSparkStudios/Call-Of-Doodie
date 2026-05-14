@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.420Z",
+  "generatedAt": "2026-05-14T01:35:46.173Z",
   "project": "call-of-doodie",
   "entries": [
     {
@@ -13,7 +13,43 @@
         "Demote uncalibrated heuristics automatically"
       ],
       "rationale": "VITALITY is carrying enough momentum that controlled expansion can compound current gains.",
-      "baselineIq": 48422
+      "baselineIq": 48422,
+      "resolvedAt": "2026-05-14T01:34:34.629Z",
+      "resolvedAgainstIq": 47614,
+      "scoreDelta": -808,
+      "outcomeScore": 0.36533333333333334,
+      "outcomeLabel": "loss"
+    },
+    {
+      "openedAt": "2026-05-14T01:34:34.629Z",
+      "strategy": "growth-max",
+      "confidence": 0.97,
+      "consensus": [
+        "Ship action intelligence and write-capable MCP tools",
+        "Push cross-project contagion modeling",
+        "Grade recommendations against outcomes",
+        "Demote uncalibrated heuristics automatically"
+      ],
+      "rationale": "VITALITY is carrying enough momentum that controlled expansion can compound current gains.",
+      "baselineIq": 47614,
+      "resolvedAt": "2026-05-14T01:35:43.747Z",
+      "resolvedAgainstIq": 46693,
+      "scoreDelta": -921,
+      "outcomeScore": 0.34650000000000003,
+      "outcomeLabel": "loss"
+    },
+    {
+      "openedAt": "2026-05-14T01:35:43.747Z",
+      "strategy": "growth-max",
+      "confidence": 0.694,
+      "consensus": [
+        "Ship action intelligence and write-capable MCP tools",
+        "Push cross-project contagion modeling",
+        "Grade recommendations against outcomes",
+        "Demote uncalibrated heuristics automatically"
+      ],
+      "rationale": "VITALITY is carrying enough momentum that controlled expansion can compound current gains.",
+      "baselineIq": 46693
     }
   ],
   "stats": {
@@ -28,14 +64,14 @@
       "authority": 0.5
     },
     "growth-max": {
-      "appearances": 1,
-      "resolved": 0,
+      "appearances": 3,
+      "resolved": 2,
       "wins": 0,
-      "avgScoreDelta": 0,
-      "avgOutcomeScore": 0.5,
-      "rawAuthority": 0.5,
-      "authorityGovernor": 0,
-      "authority": 0.5
+      "avgScoreDelta": -864,
+      "avgOutcomeScore": 0.356,
+      "rawAuthority": 0.25,
+      "authorityGovernor": 0.5,
+      "authority": 0.375
     },
     "debt-first": {
       "appearances": 0,

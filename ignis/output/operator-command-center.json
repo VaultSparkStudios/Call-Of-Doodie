@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.341Z",
+  "generatedAt": "2026-05-14T01:35:45.912Z",
   "project": "call-of-doodie",
   "summary": "Feed founder feedback directly into ranking and escalation policy is the current operating priority; 8 approval(s) are waiting and proposals, sil, registry remain the main evidence drag.",
-  "contradiction": "intent-outcome: 2 sessions marked intent as achieved/exceeded -> Either intent criteria are too loose, or improvements aren't being tracked",
+  "contradiction": "weakest pillar: CREATIVITY -> Raise CREATIVITY without weakening VITALITY.",
   "topAction": "Feed founder feedback directly into ranking and escalation policy -> Map explicit approve/defer/reject/edit feedback signals into recommendation weighting and queue escalation posture.",
   "approvalsWaiting": 8,
-  "trustBudget": "69% composite trust · 65% signal trust · 45% feedback reliability",
+  "trustBudget": "64% composite trust · 65% signal trust · 51% feedback reliability",
   "evidenceGaps": [
     "proposals",
     "sil",
@@ -14,26 +14,25 @@
     "deploys"
   ],
   "changedSinceLastRun": [
-    "Operator command center initialized for this project.",
-    "Top action seeded as Feed founder feedback directly into ranking and escalation policy."
+    "No material operating change since the last operator snapshot."
   ],
-  "memoryAnchor": "Top contradiction: intent-outcome: 2 sessions marked intent as achieved/exceeded",
+  "memoryAnchor": "Top contradiction: weakest pillar: CREATIVITY",
   "policyPosture": "growth-max · debt-first · escalation 38%",
-  "topTrustShift": "docs new (+0.873) — Adapter entered coverage as proxy.",
+  "topTrustShift": "analytics flat (+0.000) — Trust is stable at 0.76 with 1 event(s).",
   "sharedSurfaceStatus": "Startup/dashboard/Hub should render from this operator artifact; current evidence gaps are proposals, sil. Unlock progression: deploys:shadow | pr-reviews:shadow.",
   "allocationHeadline": "No allocation recommendation is available yet. No measured allocation evidence is available yet.",
-  "counterfactualHeadline": "Counterfactual verdict on top action: DO — Execute now — expected upside 89% at 97% confidence, evidence depth 78%, regret risk 12%, historical do-now 50% (75% margin over best alternative). Historical prior: do 50% · delay 50% · opposite 50%.",
-  "learningHeadline": "Learning loop: 100% hit rate, regret 0.25, counterfactual 0%, experiment coverage 66%.",
-  "adversarialHeadline": "Adversarial check: opposite-path wins remain 0% across observed interventions.",
+  "counterfactualHeadline": "Counterfactual verdict on top action: DO — Execute now — expected upside 89% at 27% confidence, evidence depth 78%, regret risk 12%, historical do-now 50% (41% margin over best alternative). Historical prior: do 50% · delay 50% · opposite 50%.",
+  "learningHeadline": "Learning loop: 25% hit rate, regret 0.62, counterfactual 0%, experiment coverage 87%.",
+  "adversarialHeadline": "Adversarial check: Observed outcome fit \"opposite\" better than default \"do-now\" for Replace global execution gating with adapter-specific unlock ladders.",
   "executionUnlockSummary": "pr-reviews:shadow | deploys:shadow | studio-hub:shadow | social-dashboard:shadow",
   "velocityWarning": null,
   "crossRepoCoherence": null,
   "roleViews": [
     {
       "role": "founder",
-      "headline": "Execute \"Feed founder feedback directly into ranking and escalation policy\" now, because the market is favoring a growth-max posture to use vitality momentum to expand studio reach; guardrail: Either intent criteria are too loose, or improvements aren't being tracked.",
+      "headline": "Execute \"Feed founder feedback directly into ranking and escalation policy\" now, because the market is favoring a growth-max posture to use vitality momentum to expand studio reach; guardrail: Raise CREATIVITY without weakening VITALITY..",
       "nextStep": "Review 8 guarded approval(s) before expanding scope.",
-      "detail": "ACTION: Feed founder feedback directly into ranking and escalation policy\nWHY: VITALITY is carrying enough momentum that controlled expansion can compound current gains.\nRISK: intent-outcome: 2 sessions marked intent as achieved/exceeded (severity 0.50)\nSKEPTIC: This action is well-supported but high-stakes. Confirm that the first step (\"Map explicit approve/de\nTRUST: 69% composite trust · 65% signal trust · 45% feedback reliability\nAPPROVALS NEEDED: 8 actions waiting"
+      "detail": "ACTION: Feed founder feedback directly into ranking and escalation policy\nWHY: VITALITY is carrying enough momentum that controlled expansion can compound current gains.\nRISK: weakest pillar: CREATIVITY (severity 0.20)\nSKEPTIC: This action is well-supported but high-stakes. Confirm that the first step (\"Map explicit approve/de\nTRUST: 64% composite trust · 65% signal trust · 51% feedback reliability\nAPPROVALS NEEDED: 8 actions waiting"
     },
     {
       "role": "builder",
@@ -43,15 +42,15 @@
     },
     {
       "role": "reviewer",
-      "headline": "Risk posture: composite trust 69% · regret 0.25 · hit rate 100%",
-      "nextStep": "Verify: (1) freshness of top evidence (0% = stale-evidence adversary firing); (2) experiment coverage >66%; (3) contradiction pressure < 0.09 cap.",
-      "detail": "HIT RATE: 100% (target: >50%)\nREGRET: 0.25 (target: <0.35)\nEXPERIMENT COVERAGE: 66%\nHIGH ADVERSARY FINDINGS: stale-evidence, overfitting\nCONTRADICTION LOAD: intent-outcome: 2 sessions marked intent as achieved/exceeded\nTOP TRUST RECEIPT: docs — check freshness before approving"
+      "headline": "Risk posture: composite trust 64% · regret 0.62 · hit rate 25%",
+      "nextStep": "Verify: (1) freshness of top evidence (0% = stale-evidence adversary firing); (2) experiment coverage >87%; (3) contradiction pressure < 0.09 cap.",
+      "detail": "HIT RATE: 25% (target: >50%)\nREGRET: 0.62 (target: <0.35)\nEXPERIMENT COVERAGE: 87%\nHIGH ADVERSARY FINDINGS: stale-evidence, overfitting\nCONTRADICTION LOAD: weakest pillar: CREATIVITY\nTOP TRUST RECEIPT: analytics — check freshness before approving"
     },
     {
       "role": "hub",
       "headline": "No external leverage target is currently ranked.",
       "nextStep": "Surface conservative posture, evidence gaps, approval pressure, unlock ladder, unlock receipts, and shared-surface status in the next hub-facing summary.",
-      "detail": "{\"topAction\":\"Feed founder feedback directly into ranking and escalation policy\",\"strategy\":\"growth-max\",\"trustBudget\":\"69% composite trust · 65% signal trust · 45% feedback reliability\",\"pendingApprovals\":8,\"leverageTarget\":null,\"unlockLadder\":[\"pr-reviews:shadow\",\"deploys:shadow\",\"studio-hub:shadow\"],\"contradiction\":\"intent-outcome: 2 sessions marked intent as achieved/exceeded\"}"
+      "detail": "{\"topAction\":\"Feed founder feedback directly into ranking and escalation policy\",\"strategy\":\"growth-max\",\"trustBudget\":\"64% composite trust · 65% signal trust · 51% feedback reliability\",\"pendingApprovals\":8,\"leverageTarget\":null,\"unlockLadder\":[\"pr-reviews:shadow\",\"deploys:shadow\",\"studio-hub:shadow\"],\"contradiction\":\"weakest pillar: CREATIVITY\"}"
     }
   ]
 }

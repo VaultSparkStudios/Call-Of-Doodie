@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.342Z",
+  "generatedAt": "2026-05-14T01:35:45.914Z",
   "project": "call-of-doodie",
   "summary": "Feed founder feedback directly into ranking and escalation policy is the current operating priority; 8 approval(s) are waiting and proposals, sil, registry remain the main evidence drag.",
   "statusLine": "growth-max · debt-first · escalation 38%",
-  "trustLine": "69% composite trust · 65% signal trust · 45% feedback reliability",
+  "trustLine": "64% composite trust · 65% signal trust · 51% feedback reliability",
   "unlockLine": "Unlock pressure: deploys:shadow | pr-reviews:shadow | proposals:blocked",
   "allocationLine": "No allocation recommendation is available yet. No measured allocation evidence is available yet.",
-  "learningLine": "Learning loop: 100% hit rate, regret 0.25, counterfactual 0%, experiment coverage 66%.",
-  "counterfactualLine": "Counterfactual verdict on top action: DO — Execute now — expected upside 89% at 97% confidence, evidence depth 78%, regret risk 12%, historical do-now 50% (75% margin over best alternative). Historical prior: do 50% · delay 50% · opposite 50%.",
-  "adversarialLine": "Adversarial check: opposite-path wins remain 0% across observed interventions.",
+  "learningLine": "Learning loop: 25% hit rate, regret 0.62, counterfactual 0%, experiment coverage 87%.",
+  "counterfactualLine": "Counterfactual verdict on top action: DO — Execute now — expected upside 89% at 27% confidence, evidence depth 78%, regret risk 12%, historical do-now 50% (41% margin over best alternative). Historical prior: do 50% · delay 50% · opposite 50%.",
+  "adversarialLine": "Adversarial check: Observed outcome fit \"opposite\" better than default \"do-now\" for Replace global execution gating with adapter-specific unlock ladders.",
   "topAction": "Feed founder feedback directly into ranking and escalation policy -> Map explicit approve/defer/reject/edit feedback signals into recommendation weighting and queue escalation posture.",
   "evidenceGaps": [
     "proposals",
@@ -18,8 +18,7 @@
     "deploys"
   ],
   "changeLog": [
-    "Operator command center initialized for this project.",
-    "Top action seeded as Feed founder feedback directly into ranking and escalation policy."
+    "No material operating change since the last operator snapshot."
   ],
   "nextStep": "Surface conservative posture, evidence gaps, approval pressure, unlock ladder, unlock receipts, and shared-surface status in the next hub-facing summary."
 }

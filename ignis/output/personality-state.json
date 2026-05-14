@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.379Z",
+  "generatedAt": "2026-05-14T01:35:46.079Z",
   "project": "call-of-doodie",
-  "currentPosture": "assertive",
-  "currentPolicyMode": "commander",
+  "currentPosture": "balanced",
+  "currentPolicyMode": "operator",
   "currentNarrativeMode": "directive",
-  "confidenceBudget": 0.8929800000000001,
-  "drift": 0,
+  "confidenceBudget": 0.6077130000000002,
+  "drift": 0.1603739999999999,
   "arcDirection": "assertive",
-  "stabilityScore": 1,
-  "arcSummary": "Confidence budget rising over last 1 sessions (89%); moving toward commander posture.",
+  "stabilityScore": 0.6499960583450524,
+  "arcSummary": "Confidence budget rising over last 3 sessions (75%); moving toward operator posture.",
   "founderProfile": {
-    "trustInIGNIS": 0.377,
+    "trustInIGNIS": 0.30699921166901045,
     "preferredDepth": "balanced",
     "decisionStyle": "deliberate",
     "approvalRate": 0,
-    "sessionCount": 6
+    "sessionCount": 8
   },
   "history": [
     {
@@ -25,6 +25,24 @@
       "narrativeMode": "directive",
       "confidenceBudget": 0.8929800000000001,
       "skepticism": 0.3181
+    },
+    {
+      "session": 7,
+      "timestamp": "2026-05-14T01:34:36.104Z",
+      "posture": "balanced",
+      "policyMode": "commander",
+      "narrativeMode": "directive",
+      "confidenceBudget": 0.7355670000000001,
+      "skepticism": 0.30284
+    },
+    {
+      "session": 8,
+      "timestamp": "2026-05-14T01:35:46.079Z",
+      "posture": "balanced",
+      "policyMode": "operator",
+      "narrativeMode": "directive",
+      "confidenceBudget": 0.6077130000000002,
+      "skepticism": 0.33536
     }
   ]
 }

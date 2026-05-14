@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.318Z",
+  "generatedAt": "2026-05-14T01:35:45.855Z",
   "project": "call-of-doodie",
   "summary": "Founder truth spine: 8 explicit decisions, 3/8 linked events, 8 pending founder decision(s), truth confidence 59%.",
   "linkedRate": 0.375,
@@ -58,7 +58,7 @@
     "Escalation pressure 38% from rejection/pending founder feedback."
   ],
   "quarantine": {
-    "candidates": 0,
+    "candidates": 5,
     "quarantined": 0,
     "emitted": 0,
     "rate": 0
@@ -67,7 +67,7 @@
     {
       "id": "queue:0f010e6c4333d1f1",
       "source": "execution-queue",
-      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "recordedAt": "2026-05-14T01:35:45.823Z",
       "title": "Capture a timestamped evidence snapshot",
       "category": "pending",
       "resolution": "pending",
@@ -83,7 +83,7 @@
     {
       "id": "queue:49bb71ea9f27193c",
       "source": "execution-queue",
-      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "recordedAt": "2026-05-14T01:35:45.823Z",
       "title": "Compile live playbook for \"Deepen outcome learning and regret tracking\"",
       "category": "pending",
       "resolution": "pending",
@@ -101,7 +101,7 @@
     {
       "id": "queue:74745886861d0773",
       "source": "execution-queue",
-      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "recordedAt": "2026-05-14T01:35:45.823Z",
       "title": "Stage managed task for \"Replace global execution gating with adapter-specific unlock ladders\"",
       "category": "pending",
       "resolution": "pending",
@@ -117,7 +117,7 @@
     {
       "id": "queue:77aed37251efe128",
       "source": "execution-queue",
-      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "recordedAt": "2026-05-14T01:35:45.823Z",
       "title": "Refresh intelligence around \"Harden shared external feed validation\"",
       "category": "pending",
       "resolution": "pending",
@@ -133,7 +133,7 @@
     {
       "id": "queue:7fd17bcc6a6fcd10",
       "source": "execution-queue",
-      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "recordedAt": "2026-05-14T01:35:45.823Z",
       "title": "Stamp the current top contradiction",
       "category": "pending",
       "resolution": "pending",
@@ -149,7 +149,7 @@
     {
       "id": "queue:b6e8e914897e336c",
       "source": "execution-queue",
-      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "recordedAt": "2026-05-14T01:35:45.823Z",
       "title": "Compile live playbook for \"Replace global execution gating with adapter-specific unlock ladders\"",
       "category": "pending",
       "resolution": "pending",
@@ -167,7 +167,7 @@
     {
       "id": "queue:ca76b427bee57c66",
       "source": "execution-queue",
-      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "recordedAt": "2026-05-14T01:35:45.823Z",
       "title": "Compile live playbook for \"Harden shared external feed validation\"",
       "category": "pending",
       "resolution": "pending",
@@ -185,7 +185,7 @@
     {
       "id": "queue:dd67764975ad3d8e",
       "source": "execution-queue",
-      "recordedAt": "2026-04-25T22:03:23.315Z",
+      "recordedAt": "2026-05-14T01:35:45.823Z",
       "title": "Dry-run external execution lane for git",
       "category": "pending",
       "resolution": "pending",

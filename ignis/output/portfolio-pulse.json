@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.354Z",
+  "generatedAt": "2026-05-14T01:35:45.919Z",
   "currentProject": "Call-Of-Doodie",
-  "totalProjects": 28,
+  "totalProjects": 29,
   "healthDistribution": {
-    "green": 21,
-    "yellow": 7,
+    "green": 20,
+    "yellow": 9,
     "red": 0,
     "unknown": 0
   },
@@ -12,7 +12,10 @@
   "regimeDistribution": {},
   "projectsAtRisk": [],
   "blockedProjects": [
+    "Call-Of-Doodie",
+    "C:\\Users\\p4cka\\documents\\development\\Call-Of-Doodie",
     "C:\\Users\\p4cka\\documents\\development\\Canon",
+    "C:\\Users\\p4cka\\documents\\development\\Hashmark",
     "C:\\Users\\p4cka\\documents\\development\\IdeaForge",
     "C:\\Users\\p4cka\\documents\\development\\mindframe",
     "C:\\Users\\p4cka\\documents\\development\\Orva",
@@ -25,42 +28,43 @@
     "C:\\Users\\p4cka\\documents\\development\\The-Exodus",
     "C:\\Users\\p4cka\\documents\\development\\VaultSpark Football GM",
     "C:\\Users\\p4cka\\documents\\development\\VaultSpark-Forge",
+    "C:\\Users\\p4cka\\documents\\development\\vaultspark-ignis",
     "C:\\Users\\p4cka\\documents\\development\\vaultspark-social-dashboard",
     "C:\\Users\\p4cka\\documents\\development\\vaultspark-studio-hub",
+    "C:\\Users\\p4cka\\documents\\development\\vaultspark-studio-ops",
     "C:\\Users\\p4cka\\documents\\development\\VaultSparkStudios.github.io",
     "C:\\Users\\p4cka\\documents\\development\\Velaxis",
-    "C:\\Users\\p4cka\\documents\\development\\Voidfall",
-    "C:\\Users\\p4cka\\documents\\development\\Vorn"
+    "C:\\Users\\p4cka\\documents\\development\\Voidfall"
   ],
   "stalestProject": {
     "id": "C:\\Users\\p4cka\\documents\\development\\VaultSpark-Forge",
-    "staleDays": 24
+    "staleDays": 43
   },
   "freshestProject": {
-    "id": "C:\\Users\\p4cka\\documents\\development\\Vorn",
+    "id": "C:\\Users\\p4cka\\documents\\development\\VaultSparkStudios.github.io",
     "staleDays": 0
   },
-  "sparklineHealth": "█",
+  "sparklineHealth": "▇",
   "entries": [
     {
       "id": "Call-Of-Doodie",
       "name": "Call-Of-Doodie",
       "health": "green",
       "regime": "",
-      "currentFocus": "Session 54 shipped the remaining high-impact repo-side launch/refinement tranche: session-flow bookkeeping is now extracted out of `App.jsx`, Run History can launch seeded rematches directly, and launch/readiness commands now report raster-asset and telemetry status in-repo. The remaining milestone work is owner-side launch execution plus live measurement, not missing plumbing.",
-      "blockerCount": 0,
-      "lastUpdated": "2026-04-22",
-      "staleDays": 3
+      "currentFocus": "Session 59 implemented the standalone-domain migration repo-side: root Cloudflare Pages build, canonical callofdoodie.wtf metadata/share/PWA surfaces, runtime-scoped service worker, Cloudflare Pages workflow, Pages security headers, reusable Cloudflare/Namecheap cutover automation, and live Pages deploy at https://a660c406.call-of-doodie.pages.dev/. Custom apex remains blocked by Cloudflare zone-create permission and Namecheap NS/allowlist gates.",
+      "blockerCount": 3,
+      "lastUpdated": "2026-05-14",
+      "staleDays": 0
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\Call-Of-Doodie",
       "name": "Call-Of-Doodie",
       "health": "green",
       "regime": "",
-      "currentFocus": "Session 54 shipped the remaining high-impact repo-side launch/refinement tranche: session-flow bookkeeping is now extracted out of `App.jsx`, Run History can launch seeded rematches directly, and launch/readiness commands now report raster-asset and telemetry status in-repo. The remaining milestone work is owner-side launch execution plus live measurement, not missing plumbing.",
-      "blockerCount": 0,
-      "lastUpdated": "2026-04-22",
-      "staleDays": 3
+      "currentFocus": "Session 59 implemented the standalone-domain migration repo-side: root Cloudflare Pages build, canonical callofdoodie.wtf metadata/share/PWA surfaces, runtime-scoped service worker, Cloudflare Pages workflow, Pages security headers, reusable Cloudflare/Namecheap cutover automation, and live Pages deploy at https://a660c406.call-of-doodie.pages.dev/. Custom apex remains blocked by Cloudflare zone-create permission and Namecheap NS/allowlist gates.",
+      "blockerCount": 3,
+      "lastUpdated": "2026-05-14",
+      "staleDays": 0
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\Canon",
@@ -68,9 +72,9 @@
       "health": "yellow",
       "regime": "",
       "vaultStatus": "forge",
-      "currentFocus": "Sessions 31+32 shipped 14 engagement/UX features: Capsule Evolution Report, Canon Drift Score, Streak Ceremony Modal, PWA service worker, streak reminders, Weekly Taste Prompts, Taste Map, Canon Momentum/Stats, library rating badges, and web Taste DNA drift. Remote deploy remains blocked.",
+      "currentFocus": "Session 39 closed out: startup recovery, elevated-secret blocker clearance, all 16 Edge Functions redeployed, CANON Sentry projects created, local proof artifacts refreshed, and Studio OS memory/status surfaces reconciled.",
       "blockerCount": 8,
-      "lastUpdated": "2026-04-24",
+      "lastUpdated": "2026-05-13",
       "staleDays": 1
     },
     {
@@ -81,7 +85,7 @@
       "currentFocus": "Keep the public repository deployable and public-safe.",
       "blockerCount": 0,
       "lastUpdated": "2026-04-03",
-      "staleDays": 22
+      "staleDays": 41
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\gridiron-gm-play",
@@ -91,17 +95,28 @@
       "currentFocus": "Keep the public repository deployable and public-safe.",
       "blockerCount": 0,
       "lastUpdated": "2026-04-03",
-      "staleDays": 22
+      "staleDays": 41
+    },
+    {
+      "id": "C:\\Users\\p4cka\\documents\\development\\Hashmark",
+      "name": "Hashmark",
+      "health": "yellow",
+      "regime": "",
+      "vaultStatus": "forge",
+      "currentFocus": "Phase 1 — monorepo scaffolded, migrations 0001-0003 written (unapplied), @hashmark/madden-parser skeleton in. Blocked on host selection + dep approvals.",
+      "blockerCount": 4,
+      "lastUpdated": "2026-05-13",
+      "staleDays": 1
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\IdeaForge",
       "name": "IdeaForge",
       "health": "green",
       "regime": "",
-      "currentFocus": "Session 50 completed public-unveil follow-through: /demo now has a no-auth adaptive-dimensions/proof-tasks/Dimension Signature tour, validate:claims prevents app/README/website marketing drift, supabase:bootstrap has a focused workspace-upgrade mode for migration 005, and all app + website gates pass.",
-      "blockerCount": 4,
-      "lastUpdated": "2026-04-24",
-      "staleDays": 1
+      "currentFocus": "Migration 006 is now live in shared Supabase, so operational events can persist beyond process memory; next focus is persistent founder XP/achievement events, provider token ledger calibration, and first-cohort readiness after DNS/Redis/Brevo blockers clear.",
+      "blockerCount": 3,
+      "lastUpdated": "2026-05-14",
+      "staleDays": 0
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\mindframe",
@@ -109,10 +124,10 @@
       "health": "yellow",
       "regime": "",
       "vaultStatus": "forge",
-      "currentFocus": "Public-unveil readiness: production build/lint/typecheck/unit tests, focused UX, and dependency audit are green; founder outreach and launch envs remain.",
+      "currentFocus": "S119 CI hardening shipped — S118 Prisma migration deployed to Supabase (9 new models live), RLS CI gate required, title-doubling guard rewritten (25 pages swept), 3 new smoke test suites, 194/194 tests pass. All S118 endpoints now functional in prod.",
       "blockerCount": 3,
-      "lastUpdated": "2026-04-25",
-      "staleDays": 0
+      "lastUpdated": "2026-05-13",
+      "staleDays": 1
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\Orva",
@@ -123,7 +138,7 @@
       "currentFocus": "Session 48: pushed the app-first wedge implementation, resolved the PoC licensing contradiction, and added real local connector execution behind the action fabric.",
       "blockerCount": 2,
       "lastUpdated": "2026-04-14",
-      "staleDays": 11
+      "staleDays": 30
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\PromoGrind",
@@ -131,9 +146,9 @@
       "health": "green",
       "regime": "",
       "vaultStatus": "FORGE",
-      "currentFocus": "S78 launch-hardening refinement — canonical sportsbook CTA link analytics, adaptive ranking telemetry snapshots, evidence-gated launch proof updates, checkout notification seam extraction, and green verify:launch-local gate.",
-      "blockerCount": 3,
-      "lastUpdated": "2026-04-24",
+      "currentFocus": "S86 account-separation hardening: PromoGrind create-account/sign-up is now explicitly separate from Studio membership across auth/profile/app/legal/static trust surfaces, with auth smoke guarding against Vault account/membership and cross-Studio sync copy regressions.",
+      "blockerCount": 4,
+      "lastUpdated": "2026-05-13",
       "staleDays": 1
     },
     {
@@ -141,10 +156,10 @@
       "name": "The Scriptorium",
       "health": "green",
       "regime": "",
-      "currentFocus": "S16 first-run UX repair — empty-Run trap closed (new Run with no chapters now auto-routes to Score → Batch upload with prompt toast instead of empty Triage); workflow-driven NAV reorder with section dividers (PIPELINE / REFERENCE / RELEASE / POWER TOOLS); OnboardingModal rewritten as 5-step run guide aligned to new nav. 580/580 tests, 41 files. Live at scriptorium.vaultsparkstudios.com.",
+      "currentFocus": "S19 Run-aware pipeline fix — Triage now initializes book selector from activeRun.bookNumber (founder's Book 1 batch was hidden behind hardcoded book=2); new GuidedRunStrip surfaces per-stage hints + cross-screen jumps on Score Chapters when run.mode=guided; BatchScore now shows Run-attachment banner and checkpoints stageProgress.SCORE.done/total at four completion sites. 597/597 tests, build green.",
       "blockerCount": 1,
-      "lastUpdated": "2026-04-25",
-      "staleDays": 0
+      "lastUpdated": "2026-05-13",
+      "staleDays": 1
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\Seamline",
@@ -152,10 +167,10 @@
       "health": "yellow",
       "regime": "",
       "vaultStatus": "forge",
-      "currentFocus": "Session 19 closeout — proof/replay/intelligence refinements landed: executable local-proof chain, assertive webhook replay, activation proof targets, dispatch/referral attribution outcomes, and 90-day creator receipt memory. 32 routes live. 88/88 tests green. Typecheck and route budgets green; production build timed out in this shell without diagnostic output.",
-      "blockerCount": 8,
-      "lastUpdated": "2026-04-24",
-      "staleDays": 1
+      "currentFocus": "Session 26 closeout complete and follow-up closeout directive recorded: VaultSpark Studios sample hub, interactive public-hub visitor paths, studio signal cards, trust-first capture interest loop, Hub Preview Lab, token prompt compaction/budget guard, stale S-07 ops cleanup, strict TypeScript cleanup, and primary-domain migration prep to seamline.now. 153/153 tests, focused 17/17 domain-adjacent tests, lint/typecheck/build clean.",
+      "blockerCount": 7,
+      "lastUpdated": "2026-05-14",
+      "staleDays": 0
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\Solara",
@@ -165,7 +180,7 @@
       "currentFocus": "Stabilize the shared-world meta-loop, RPC-first public write path, deterministic chronicle exports, interactive world feedback, First Myth onboarding, and Director-driven Daily Rite planning while keeping the public repository deployable and public-safe.",
       "blockerCount": 1,
       "lastUpdated": "2026-04-17",
-      "staleDays": 8
+      "staleDays": 27
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\SparkFunnel",
@@ -173,9 +188,9 @@
       "health": "yellow",
       "regime": "",
       "vaultStatus": "FORGE",
-      "currentFocus": "Session 21 — growth-intelligence migration 0006 and missing layout migration 0005 applied and verified in shared Supabase; custom-domain CNAME created; Brevo sender DNS authenticated; experiment outcome snapshots shipped. Remaining activation items are missing UptimeRobot and Upstash secrets plus deploy publication from CI/Linux.",
-      "blockerCount": 2,
-      "lastUpdated": "2026-04-25",
+      "currentFocus": "Session 28 — audit improvement pass + live activation. Migration 0007 applied and verified 10/10 live objects; CAPTURE_NONCE_SECRET uploaded to CF Pages production; starter community goals seeded and verified; one high-confidence experiment promoted to running. Added admin cockpit tabs, campaign simulator, learned journey/recommendation signals, attribution repair actions, AI/token budget controls, capture nonce hardening, security headers, and leaderboard DOM hardening. 257/257 tests, typecheck/lint/build clean.",
+      "blockerCount": 3,
+      "lastUpdated": "2026-05-14",
       "staleDays": 0
     },
     {
@@ -184,10 +199,10 @@
       "health": "yellow",
       "regime": "",
       "vaultStatus": "forge",
-      "currentFocus": "The repo-owned Session 75 pass is implemented: backend watchdog and proxy-route audit artifacts now exist, project-ops/public-contract surfaces expose them, cutover doctor consumes them, startup brief generation validates with the required GENIUS HIT LIST block, Beat the Vault season ladder now exposes the rankings-to-evidence-to-card-to-rivalry retention path, and selected backend reads now fail fast with explicit timeouts. Remaining work is still external live backend recovery or Hetzner cutover, live seed capture, provider-key completion, final custom-domain attachment, and migrating the lowest-scoring proxy routes found by the new audit.",
+      "currentFocus": "Session 82 is migrating repo-owned public host truth from the temporary Vercel host to the canonical StatVault domain: statvault.org as primary and getstatvault.com as redirect/commercial backup. Remaining work is Vercel/DNS attachment verification plus durable browser smoke automation, external live backend recovery or Hetzner cutover, live seed capture, provider-key completion, production project-ops redeploy, and large-page consolidation.",
       "blockerCount": 5,
-      "lastUpdated": "2026-04-24",
-      "staleDays": 1
+      "lastUpdated": "2026-05-14",
+      "staleDays": 0
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\The-Exodus",
@@ -197,7 +212,7 @@
       "currentFocus": "S25: Integrity and onboarding follow-through — admin env-health, auth split, async resume inbox, guided First Launch, friction triage, and bundle budget gate",
       "blockerCount": 3,
       "lastUpdated": "2026-04-14",
-      "staleDays": 11
+      "staleDays": 30
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\VaultFront",
@@ -207,7 +222,7 @@
       "currentFocus": "Keep the public repository deployable and public-safe.",
       "blockerCount": 0,
       "lastUpdated": "2026-04-03",
-      "staleDays": 22
+      "staleDays": 41
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\VaultSpark Football GM",
@@ -217,7 +232,7 @@
       "currentFocus": "Test coverage expansion — 35 new tests added (session8-endpoints + session8-contract-edges). Suite now 95 pass, 0 fail.",
       "blockerCount": 2,
       "lastUpdated": "2026-04-13",
-      "staleDays": 12
+      "staleDays": 31
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\VaultSpark-Forge",
@@ -227,7 +242,7 @@
       "currentFocus": "Speaker-aware transcript filtering and draft comparison shipped; awaiting real ElevenLabs credentials for first live creator pass",
       "blockerCount": 3,
       "lastUpdated": "2026-04-01",
-      "staleDays": 24
+      "staleDays": 43
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\vaultspark-ignis",
@@ -235,30 +250,30 @@
       "health": "green",
       "regime": "",
       "vaultStatus": "sparked",
-      "currentFocus": "S100 shipped the full Next bucket (5 items: registry-drift monitor [SIL], contract-checksum alert, template-type-aware initiate, capability-gap triage tier, quarantine calibration suite) + 4 root-cause noise fixes (genius-list TASK_BOARD section regex, innovation-pack capability-gap scanner, brainstorm-orphan matcher, registry-drift --fix flag). TASK_BOARD Next is legitimately empty at closeout.",
-      "blockerCount": 0,
-      "lastUpdated": "2026-04-25",
-      "staleDays": 0
+      "currentFocus": "S106 closeout follow-up — SSH push auth recovered, origin now uses git@github.com:VaultSparkStudios/vaultspark-ignis.git, and recommendation-quality contract commit b34614a is on origin/main.",
+      "blockerCount": 2,
+      "lastUpdated": "2026-05-12",
+      "staleDays": 2
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\vaultspark-social-dashboard",
       "name": "VaultSpark Studios Social Dashboard",
-      "health": "green",
+      "health": "yellow",
       "regime": "",
-      "currentFocus": "Session 61 (compound refinement sprint): shipped 12 test files for previously zero-coverage modules — dashboardTransportShared, performanceScoring, abTestEngine, agentMetricsCalculator, onboardingActions, apiContract, dashboardModel, platformOperationsController, settingsOperationsController, studioData, operationalSignals, runtimeProofController. Test suite advanced from 1771 to 1892. All primary genius list items remain human-blocked on live credentials.",
-      "blockerCount": 3,
-      "lastUpdated": "2026-04-24",
-      "staleDays": 1
+      "currentFocus": "Session 64 shipped the local-unblocked refinement stack: Adaptive Action Graph in Focus Mode, Mission Layer v3 ranks/unlocks, AI token ledger, security posture synthesis, innovation-pack command repair, hosted-smoke proof upload script, and split test buckets. Live gates remain credential/admin-blocked.",
+      "blockerCount": 5,
+      "lastUpdated": "2026-04-30",
+      "staleDays": 14
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\vaultspark-studio-hub",
       "name": "VaultSpark Studio Hub",
       "health": "green",
       "regime": "",
-      "currentFocus": "S84 /go sprint: persisted founder score history + provenance + Δ pills, shipped ceremony noise-floor tuning and constellation node persistence, closed SESSION_PROTOCOL §2.3 expansion gap via new innovation-pack subcommand.",
-      "blockerCount": 5,
-      "lastUpdated": "2026-04-24",
-      "staleDays": 1
+      "currentFocus": "S91 closed real production-console signals + S90b's deploy-gate gap. Shipped 3 fixes (githubstatus URL typo, SW SPA-fallback narrowed to navigation/document requests fixing the manifest false-syntax-error, SVI snapshot session/blockers wired at both call sites) across 2 auto-deployed commits. deploy-hub.yml now auto-deploys on push (was workflow_dispatch-only — caused S88/S89/S90/S90c/S90d silent skip-deploy). SW cache v46 → v47. Tests 860/860 throughout.",
+      "blockerCount": 8,
+      "lastUpdated": "2026-05-14",
+      "staleDays": 0
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\vaultspark-studio-ops",
@@ -266,9 +281,9 @@
       "health": "yellow",
       "regime": "",
       "vaultStatus": "forge",
-      "currentFocus": "S63d aged-escalation blitz — all 3 ≥40-session credentials LIVE: Resend + R2 + CF wildcard DNS. Capability count 17 → 20/39 READY. Founder-pressure 132 → 0.",
-      "blockerCount": 0,
-      "lastUpdated": "2026-04-24",
+      "currentFocus": "S112 — Two-track sprint: (1) Claude/Anthropic feature audit + 8-primitive adoption (compaction + context-editing + mcp_servers + outcomes + worktree.baseRef + autoMode.hard_deny + PostToolUse Read hook); (2) Mini Shai-Hulud npm supply-chain response — portfolio CLEAN, 15-control protection plan + Wave 1 LIVE (pre-push hook Rule 9, closeout autopilot Step 3c2, IR playbook).",
+      "blockerCount": 1,
+      "lastUpdated": "2026-05-13",
       "staleDays": 1
     },
     {
@@ -277,9 +292,9 @@
       "health": "green",
       "regime": "",
       "vaultStatus": "SPARKED",
-      "currentFocus": "S111 structural-gate + compliance-recovery sprint: 3 new drift gates wired into build:check — portfolio-count-drift (press kit + homepage + studio-pulse pins against api/public-intelligence.json for both digit and word-spelled counts), brand-assets-drift (verifies /assets/brand/*.png|.webp byte counts match /brand/assets.json manifest), genius-list freshness suppression (scripts/generate-genius-list.mjs::ensureMinimum now calls isRecentlyDone to suppress default items already closed in TASK_BOARD within 3 sessions — root-cause fix for the Forge Window / Post-push CI re-surfacing pattern). Cross-repo: Vorn + Seamline TRUTH_AUDIT.md \"Overall status\" line stripped of bold markers / emoji prefix → validate-compliance 25/27 → 27/27. Doctor 10/13 (77%) → 12/13 (92%). No blocking advisory failures remain.",
-      "blockerCount": 4,
-      "lastUpdated": "2026-04-25",
+      "currentFocus": "S125 COMPLETE — root-caused 3rd Turnstile login-hang failure mode (interaction-only widget in hidden container can't host interactive challenges → callbacks never fire → button stuck on 'Entering…'). Fix: visible-fallback via `before-interactive-callback` + 12s `getToken()` timeout in `assets/turnstile.js` + `data-vs-turnstile-slot` markers in vault-member auth forms. Plus 'Deep forge' → 'Vault Sealed' copy sweep across 82 pages. Memory updated (Rule 4 added to Turnstile pattern memo).",
+      "blockerCount": 7,
+      "lastUpdated": "2026-05-14",
       "staleDays": 0
     },
     {
@@ -287,9 +302,9 @@
       "name": "Velaxis",
       "health": "green",
       "regime": "",
-      "currentFocus": "Command center, setup ranking, AI portfolio review, prediction review loop, worker typecheck, and Playwright CI path all shipped. Next: scenario compare, outcome scoring, sidebar mini mode, push smoke test.",
+      "currentFocus": "Flight Deck cockpit, Evidence Engine, Scenario Arena, adaptive missions, feedback loop, durable intelligence mirroring, proxy-first AI security, service-worker precache, and push subscribe smoke path shipped. Next: live push delivery validation plus Evidence/Scenario test coverage.",
       "blockerCount": 3,
-      "lastUpdated": "2026-04-24",
+      "lastUpdated": "2026-05-13",
       "staleDays": 1
     },
     {
@@ -300,7 +315,7 @@
       "currentFocus": "Scriptorium v91 — quality-safe mega-sprint (20 items): prompt-cache 3-block split, smart skip cache, cost guardrails, drop-anywhere shell, A+ Gap Analyzer, sentence-level heat overlay, time-travel slider, voice drift detector, WebCrypto key encryption, Worker hardening, dashboard code-split, closeout-lint + cross-repo sync scripts. 383 tests green. Resolves 5 prior SIL items.",
       "blockerCount": 1,
       "lastUpdated": "2026-04-16",
-      "staleDays": 9
+      "staleDays": 28
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\voidfall-build",
@@ -310,7 +325,7 @@
       "currentFocus": "Maintaining scoring accuracy for Book 1 lock",
       "blockerCount": 0,
       "lastUpdated": "2026-04-01",
-      "staleDays": 24
+      "staleDays": 43
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\voidfall-companion",
@@ -320,18 +335,18 @@
       "currentFocus": "Deploy companion app to production",
       "blockerCount": 0,
       "lastUpdated": "2026-04-01",
-      "staleDays": 24
+      "staleDays": 43
     },
     {
       "id": "C:\\Users\\p4cka\\documents\\development\\Vorn",
       "name": "Vorn",
       "health": "green",
       "regime": "",
-      "currentFocus": "Session 110 infra + CI: 6 scripts/lib modules created, render-startup-brief.mjs + blocker-preflight.mjs repaired, claim-flow smoke CI live, axe-core a11y CI live (18 routes). Launch readiness unchanged — VAPID + live validations remain human-gated.",
-      "blockerCount": 1,
-      "lastUpdated": "2026-04-25",
-      "staleDays": 0
+      "currentFocus": "Session 119: SSR fix (apps/new + apps/generate), capability revenue SQL GROUP BY (migration 078 pending prod apply), fiat badge on explore, approve endpoint.",
+      "blockerCount": 0,
+      "lastUpdated": "2026-05-13",
+      "staleDays": 1
     }
   ],
-  "summary": "28 project(s): 21 green · 7 yellow · 0 red · 0 unknown. Avg IQ: 0. No red-health projects."
+  "summary": "29 project(s): 20 green · 9 yellow · 0 red · 0 unknown. Avg IQ: 0. No red-health projects."
 }

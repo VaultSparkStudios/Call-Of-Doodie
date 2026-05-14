@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-25T22:03:23.380Z",
+  "generatedAt": "2026-05-14T01:35:46.081Z",
   "project": "call-of-doodie",
-  "sessionCount": 6,
+  "sessionCount": 8,
   "approvalRate": 0,
   "decisionVelocity": "fast",
   "riskTolerance": "low",
@@ -13,7 +13,7 @@
   ],
   "preferredOutputDepth": "verbose",
   "sessionEnergyPattern": "high-momentum sprints",
-  "founderArcNote": "6 sessions together. Still calibrating trust model; current preference leans verbose.",
+  "founderArcNote": "8 sessions together. Still calibrating trust model; current preference leans verbose.",
   "themeWeights": {
     "pending": 0.1800000000000001,
     "execution": 0.3,
